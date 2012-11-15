@@ -26,7 +26,9 @@ $(function() {
     $('#hint').css({'height':$(document).height()/4+'px'});
 
     $('#word').css({'margin-top':$(document).height()/8+'px'});
-    $('#hint').css({'margin-top':$(document).height()/8+'px'});
+    /*$('#hint').css({'margin-top':$(document).height()/16+'px'});*/
+    // Closer?
+    $('#hint').css({'margin-top':'-'+$(document).height()/32+'px'});
    
     lang = _GET('lang');
     speed = _GET('speed');
