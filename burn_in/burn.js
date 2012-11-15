@@ -1,13 +1,26 @@
 lingqs = null;
 
 function getLingQs(lang, apiKey) {
-    url = 'http://www.lingq.com/api_v2/' + lang + '/lingqs/?apikey=' + apiKey;
+    url = 'http://www.lingq.com/api_v2/' + lang + '/repetition-lingqs/?apikey=' + apiKey;
     $.ajax({ url : url,
              type: 'get',
              dataType: 'jsonp',
              crossDomain: true,
              success: function(data) {
-                 lingqs = data;
+                 // Format: Date : [linqgs]
+                 // Flatten them out
+                 lingqs = [];
+                 $.each(data, function() {
+                     // 'this' is the date
+                     if (this != null) {
+                         $.each(this, function() {
+                             // 'this' is a lingq
+                             if (this != null) {
+                                 lingqs.push(this);
+                             }
+                         });
+                     }
+                 });
              },
              error: function() {
                 alert("Failed to get LingQs");
@@ -48,7 +61,6 @@ $(function() {
             var key = Math.floor(Math.random() * lingqs.length);
             
             lingq = lingqs[key];
-
 
             $('#word span').text(lingq['term']);
             $('#hint span').text(lingq['hint']);
