@@ -58,6 +58,6 @@ $(function() {
 
     window.setInterval(function() { 
         $(document).timer();
-    }, 500);
+    }, speed);
 
 });
