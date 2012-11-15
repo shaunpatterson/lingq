@@ -33,7 +33,7 @@ $(function() {
     apiKey = _GET('apikey');
 
     // Load the LingQs
-    getLingQs(lang, '28eaba4d634cf9d01f36a1ac8ae657f600f4aa94');
+    getLingQs(lang, apiKey);
 	
 
     // Display changer 
