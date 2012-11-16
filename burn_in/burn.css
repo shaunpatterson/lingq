@@ -1,0 +1,53 @@
+html {
+    font-family: helvetica, arial, sans-serif;
+}
+
+#content {
+
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+
+}
+
+#show {
+    font-size: 12px;
+    float: left;
+}
+
+#control {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #E5E5E5;
+    border: 1px solid #DDDDDD;
+}
+
+#control ul {
+    list-style-type: none;
+}
+
+#control ul li {
+    display: block;
+    float: left;
+    margin: 0px 5px 15px 5px;
+}
+
+#word {
+
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#hint {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+

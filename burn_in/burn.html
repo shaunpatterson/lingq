@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+    <head>
+        <script src='http://code.jquery.com/jquery-1.8.2.min.js'></script>
+        <script src='GET.js'></script>
+        <script src='jquery-textfill-0.1.js'></script>
+        <script src='burn.js'></script>
+        <link rel='stylesheet' href='burn.css' type='text/css'/>
+    </head>
+
+<body>
+
+    <div id='content'>
+            <div id='control'>
+            <ul>
+                <li>
+                    <span class='label'>Api Key:</span>
+                    <a href='https://www.lingq.com/accounts/apikey/'>Lookup</a>
+                    <input type='text' id='apikey'/>
+                </li>
+                
+                <li>
+                    <span class='label'>Lang:</span>
+                    <input type='text' id='lang' size='5'/>
+                </li>
+
+                <li>
+                    <span class='label'>Speed (ms):</span>
+                    <input type='text' id='speed' size='5' value='500'></input>
+                </li>
+                
+
+                <li><input type='submit' value='Go!' id='go'></input></li>
+                
+            </ul>
+            
+            <div id='show'>Show</div>
+
+        </div>
+
+        <div id='word' class='jtextfill'><span>Input parameters...</span></div> 
+        
+        <div id='hint' class='jtextfill'><span>Input parameters...</span></div> 
+
+    </div>
+
+</body>
+
+</html>
