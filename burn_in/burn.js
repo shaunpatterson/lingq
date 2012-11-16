@@ -42,10 +42,25 @@ $(function() {
     /*$('#hint').css({'margin-top':$(document).height()/16+'px'});*/
     // Closer?
     $('#hint').css({'margin-top':'-'+$(document).height()/32+'px'});
+
+    $('#go').click(function() {
+        start();
+    });
+
+    $('#show').click(function () {
+        $('#control ul').show();
+        $(this).hide();
+    }).hide();
+});
+
+
+function start() {
    
-    lang = _GET('lang');
-    speed = _GET('speed');
-    apiKey = _GET('apikey');
+    lang = $('#lang').val();
+    speed = $('#speed').val(); 
+    apiKey = $('#apikey').val();
+
+    alert(apiKey + " " + speed + " " + lang);
 
     // Load the LingQs
     getLingQs(lang, apiKey);
@@ -74,4 +89,7 @@ $(function() {
         $(document).timer();
     }, speed);
 
-});
+    $('#control ul').hide();
+    $('#show').show();
+
+}
