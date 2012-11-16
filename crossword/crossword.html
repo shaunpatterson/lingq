@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>JQuery Crossword Puzzle Widget</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="jquery.crossword.js"></script>
+<link type="text/css" rel="stylesheet" href="jquery.crossword.css" />
+<style type="text/css">
+
+	#puzzleContainer {
+		width  :95%;
+		height : 95%;
+		margin :auto;
+		float:left;
+	}
+	
+	#acrossContainer, #downContainer {
+		border : 4px solid black;
+		width: 100%;
+		height : 45%;
+		margin : 0% 2% 2% 2%;
+		float:left;
+		overflow-y:auto;
+		overflow-x:hidden;
+	}
+
+	#wrapper{ width:950px; margin:0% 10%; position : absolute; }
+	#header { width:90%; margin: 5%; height: 80px; font-size:32pt; }
+	#left { margin-left: 5%; height: 465px; width: 465px; position : absolute; float:left; }
+	#right {margin-top:3%;margin-right: 5%; height: 450px; width: 380px; position : relative; float:right; }
+	.button { float : right; width : 80px; margin: 10px;}
+			
+</style>
+
+<script type="text/javascript">
+$(document).ready(
+	
+function () 
+{
+
+    var samplePuzzle = { "row" : [
+        "selbstverständlich__",
+        "o___p________e______",
+        "l___u___e__s_u___w__",
+        "l_zertifizierte__i__",
+        "t_______s__c_s___d__",
+        "e_t__l___r_h_c___e__",
+        "_kaffeeklatsch_k_r__",
+        "f_t__h___t___s_l_s__",
+        "isst_rumgeklettert__",
+        "t_ä__g_a_n_u_u_t_r__",
+        "__c__ä_g___f_d_tief_",
+        "wohnung_vorteile_b__",
+        "__l__g_______u_r_e__",
+        "_eingezogen__m_kind_",
+        "__c_________ä__ü_d__",
+        "sah_bücherschrank___",
+        "____a___r___m__s____",
+        "_weil___s______t____",
+        "____d_fotografiert__",
+        "____________________"
+            ] };
+
+    var samplePuzzle = { "row" : [
+        "__c_________ä__ü_d__",
+        "sah_bücherschrank___",
+        "____a___r___m__s____",
+        "____________________",
+        "____________________",
+        "____________________",
+        "____________________",
+        "____________________",
+        "____________________",
+        "____________________",
+        "____________________",
+        "____________________",
+        ]};
+    
+    
+    var samplePuzzle = { "row" : [
+        "\228_d",
+        "___",
+        "___"
+
+    ]};
+
+    var cellNumbers = 
+    [
+{ x : 0, y : 0, num : 1 },
+{ x : 0, y : 0, num : 1 },
+{ x : 4, y : 0, num : 2 },
+{ x : 2, y : 3, num : 3 },
+{ x : 1, y : 6, num : 4 },
+{ x : 2, y : 5, num : 5 },
+{ x : 0, y : 7, num : 6 },
+{ x : 0, y : 8, num : 7 },
+{ x : 5, y : 5, num : 8 },
+{ x : 8, y : 2, num : 9 },
+{ x : 0, y : 11, num : 10 },
+{ x : 13, y : 0, num : 11 },
+{ x : 5, y : 8, num : 12 },
+{ x : 11, y : 2, num : 13 },
+{ x : 1, y : 13, num : 14 },
+{ x : 9, y : 5, num : 15 },
+{ x : 0, y : 15, num : 16 },
+{ x : 7, y : 8, num : 17 },
+{ x : 1, y : 17, num : 18 },
+{ x : 17, y : 2, num : 19 },
+{ x : 4, y : 15, num : 20 },
+{ x : 8, y : 11, num : 21 },
+{ x : 11, y : 8, num : 22 },
+{ x : 4, y : 15, num : 23 },
+{ x : 15, y : 6, num : 24 },
+{ x : 8, y : 15, num : 25 },
+{ x : 6, y : 18, num : 26 },
+{ x : 15, y : 10, num : 27 },
+{ x : 12, y : 14, num : 28 },
+{ x : 15, y : 13, num : 29 }
+
+    ];
+
+
+
+    var sampleClues = 
+{'down': [{'text': 'should', 'no': 1}, {'text': '(die) track, trail', 'no': 2}, {'text': 'actually', 'no': 5}, {'text': 'fit, suited, suitable', 'no': 6}, {'text': 'paths of studies', 'no': 8}, {'text': '(das Eis) ice', 'no': 9}, {'text': 'German Studies', 'no': 11}, {'text': 'six', 'no': 13}, {'text': 'v.  advise, counsel, offer guidance, instruct; guess, solve', 'no': 15}, {'text': 'want', 'no': 17}, {'text': '1.reluctant', 'no': 19}, {'text': '(die) air', 'no': 22}, {'text': 'soon', 'no':
+    23}, {'text': 'Climbing skills', 'no': 24}, {'text': 'first', 'no': 25}, {'text': 'er; umm', 'no': 28}], 'across': [{'text': 'Of course', 'no': 1}, {'text': 'certified', 'no': 3}, {'text': 'coffee drinking gathering', 'no': 4}, {'text': 'eat', 'no': 7}, {'text': 'apartment', 'no': 10}, {'text': '', 'no': 12}, {'text': 'move in', 'no': 14}, {'text': 'saw, view, looked, watched', 'no': 16}, {'text': 'because', 'no': 18}, {'text': 'Bookcase', 'no': 20}, {'text': 'advantages', 'no': 21}, {'text': 'photographed', 'no': 26}, {'text': 'deep', 'no': 27}, {'text': 'child', 'no': 29}]}
+
+
+
+	$(this).crossword(
+	 { 
+        'puzzle' 			: samplePuzzle, //JSON puzzle structure  				
+        'nums'              : cellNumbers,
+        'clues' 			: sampleClues, //JSON clue structure
+	 	'title'				: "", //A title for the puzzle
+	 	'puzzleContainer'	: "#puzzleContainer", // id of puzzle display DIV 
+	 	'acrossContainer'	: "#acrossContainer", // id of across clues display DIV
+	 	'downContainer'		: "#downContainer", // id of down clues display DIV
+	 	'revealButton'		: "#revealButton", // id of reveal button
+	 	'hideButton'		: "#hideButton", // id of hide button
+	 	'saveButton'		: "#saveButton",  // id of save to cookie button
+	 	'loadButton'		: "#loadButton"  // id of load from cookie  button
+	 } );
+
+}
+
+);
+
+
+</script>
+
+</head>
+<body  style="font-family : Verdana; background-color : #FFFDF0;">
+<div id="wrapper">
+	<div id="header">
+		<span>Sample</span>
+		<button id="revealButton" class="button">Reveal</button>
+		<button id="hideButton" class="button">Hide</button>
+		<button id="saveButton" class="button">Save</button>
+		<button id="loadButton" class="button">Load</button>
+		<hr/>
+		<p style="font-size:11pt">Puzzle borrowed from the Washington Post, January 31, 2012.
+		Use arrow keys or mouse to navigate.</p>
+	</div>
+	<div id="left">
+		<div id="puzzleContainer">
+		<table id="puzzleTable" class="cwTable">
+		  <tr class="cwRow">
+		    <td class="cwCell"><div class="cwNumber">12</div>A</td>
+		    <td class="cwCell">B</td>
+		  </tr>    
+		  <tr class="cwRow">
+		    <td class="cwCell">C</td>
+		    <td class="cwCell">D</td>
+		  </tr>
+		</table>   
+		</div>
+	</div>
+	<div id="right">
+		<div id="acrossContainer">
+		ACROSS
+		</div>
+		<div id="downContainer" >
+		DOWN
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
+
