@@ -26,7 +26,6 @@ var  _cwo =  { };
 	
 	// adjust these as desired to control starting position and direction, and current cell color 
 	
-	_cwo.currentCellColor	= "lightgreen";
 	_cwo.currCell 			= "#C0302";
 	_cwo.currRow			= "3";
 	_cwo.currCol			= "2";
@@ -182,6 +181,7 @@ function insertSymbol(symbol)
 function cellClick( event )
 {
 	moveToCell( "#" + event.currentTarget.id );
+
 	alignClue(  "A", _cwo.clues["across"]  );  
 	alignClue(  "D", _cwo.clues["down"]  );  
 };
@@ -244,12 +244,72 @@ function paintCell( id, selector ) // display either the answer or the player's 
 
 function moveToCell( id )  // put the cursor in the given cell 
 {
- 	$( _cwo.currCell).css( 'background-color', 'white');
- 	$( id).css( 'background-color', _cwo.currentCellColor );
+    // Remove the class from the previously selected cell and
+    //  and it to the new one
+ 	$(_cwo.currCell).removeClass('cwCurrentCell');
+ 	$(id).addClass('cwCurrentCell');
+
+    // Remove the highlight from the previous word selection
+    $(".cwCurrentWord").removeClass('cwCurrentWord');
+
  	_cwo.currRow = $(id).data('row');
  	_cwo.currCol = $(id).data('col');
  	_cwo.currCell = "#"  + cellID( _cwo.currRow, _cwo.currCol );
  	$(_cwo.currCell).focus();
+
+    // Highlight the currently selected word spaces
+    if (_cwo.direction == "across") {
+        
+        // Color left of cursor
+	    for ( cIndex = _cwo.currCol - 1; cIndex >= 0; cIndex--)
+        {
+ 			if (answer( _cwo.currRow, cIndex) == _cwo.BLACKCELL) {
+                break;
+            }
+
+ 	        currCellId = "#"  + cellID(_cwo.currRow, cIndex);
+            $(currCellId).addClass('cwCurrentWord');
+        }
+
+        // Color right of cursor
+        for (cIndex = _cwo.currCol + 1; cIndex < _cwo.nSize; cIndex++) 
+        {
+ 			if (answer( _cwo.currRow, cIndex) == _cwo.BLACKCELL) {
+                break;
+            }
+
+ 	        currCellId = "#"  + cellID(_cwo.currRow, cIndex);
+            $(currCellId).addClass('cwCurrentWord');
+        }
+
+    } else {
+
+        // Color above the cursor
+        for (rIndex = _cwo.currRow - 1; rIndex >= 0; rIndex--) 
+        {
+ 			if (answer(rIndex, _cwo.currCol) == _cwo.BLACKCELL) {
+                break;
+            }
+ 	        currCellId = "#"  + cellID(rIndex, _cwo.currCol);
+            $(currCellId).addClass('cwCurrentWord');
+        }
+        
+        // Color below the cursor
+        for (rIndex = _cwo.currRow + 1; rIndex < _cwo.nSize; rIndex++) 
+        {
+ 			if (answer(rIndex, _cwo.currCol) == _cwo.BLACKCELL) {
+                break;
+            }
+
+ 	        currCellId = "#"  + cellID(rIndex, _cwo.currCol);
+            $(currCellId).addClass('cwCurrentWord');
+        }
+
+
+
+
+    }
+
 }; 	
 
 
@@ -299,6 +359,12 @@ function alignClue ( direction, clues )
 function goAcross( bLeft )
 {
 	var currVal = _cwo.currCol;
+
+    if (_cwo.direction == 'down') {
+        // Switching directions.  Redraw word cursor in the new position and DONT move.
+        _cwo.direction = 'across';
+        return;
+    }
 	_cwo.direction = 'across'
  	while( 0 < 1 )
 	{	
@@ -311,6 +377,13 @@ function goAcross( bLeft )
 function goDown( bUp )
 {
 	var currVal = _cwo.currRow;
+
+    if (_cwo.direction == 'across') {
+        // Switching directions.  Redraw word cursor in the new position and DONT move.
+        _cwo.direction = 'down';
+        return;
+    }
+
 	_cwo.direction = 'down'
  	while( 0 < 1 )
 	{	

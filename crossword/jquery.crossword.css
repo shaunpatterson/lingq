@@ -12,11 +12,18 @@
 .cwBlackCell {margin : 0%; text-align : center; height : 42px; width : 42px; background-color : black; }
 .cwNumber { xmargin-top: -12px; margin-bottom: -12px; float :left; font-size: .5em; font-weight : bold; color : black; }
 
+.cwCurrentCell {
+    background-color: yellow;
+}
+
+.cwCurrentWord {
+    background-color: lightgreen;
+}
+
 #accents {
-    margin-left: 10px;
     float: left;
     width: 100%;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
 #accents ul {
@@ -31,9 +38,3 @@
     border: 1px solid black;
 }
 
-.accent {
-    float: left;
-    margin: 5px;
-    border: 1px solid black;
-}
- 
