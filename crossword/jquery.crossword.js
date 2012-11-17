@@ -26,9 +26,9 @@ var  _cwo =  { };
 	
 	// adjust these as desired to control starting position and direction, and current cell color 
 	
-	_cwo.currCell 			= "#C0302";
-	_cwo.currRow			= "3";
-	_cwo.currCol			= "2";
+	_cwo.currCell 			= "#C0101";
+	_cwo.currRow			= "1";
+	_cwo.currCol			= "1";
 	_cwo.direction 			= "across";
 
     // Add in the accent buttons
@@ -131,8 +131,9 @@ var  _cwo =  { };
 
 	$(_cwo.revealButton ).bind('click',function( event, ui ){ paintPuzzle( 'answer') } );
 	$(_cwo.hideButton ).bind('click',function( event, ui ){ paintPuzzle( 'player' ) } );
-	$(_cwo.saveButton ).bind('click',function( event, ui ){ savePuzzle() } );
-	$(_cwo.loadButton ).bind('click',function( event, ui ){ loadPuzzle() } );
+	$(_cwo.clearButton ).bind('click',function( event, ui ){ clearPuzzle() } );
+	$(_cwo.checkButton ).bind('click',function( event, ui ){ checkPuzzle() } );
+    $(_cwo.hintButton ).bind('click',function( event, ui ) { giveHint() } );
 
   };
 })( jQuery );
@@ -145,6 +146,25 @@ var  _cwo =  { };
 
 function cellID ( row, col )  {  return "C" + (row*1000  + col) };
 function answer( row, col ) { return $("#" + cellID( row,col ) ).data("answer") }; 
+function isNumber(row, col) { return ($("#" + cellID( row,col ) ).data("number") != ''); };
+
+function isCellLeftValid(row, col) {
+    if (col <= 0) return false;
+    return answer(row, col - 1) != _cwo.BLACKCELL;
+}
+function isCellRightValid(row, col) {
+    if (col >= _cwo.nSize) return false;
+    return answer(row, col + 1) != _cwo.BLACKCELL;
+}
+function isCellAboveValid(row, col) {
+    if (row <= 0) return false;
+    return answer(row - 1, col) != _cwo.BLACKCELL;
+}
+function isCellBelowValid(row, col) {
+    if (row >= _cwo.nSize) return false;
+    return answer(row + 1, col) != _cwo.BLACKCELL;
+}
+
 
 function keyUp( event )
 {
@@ -180,6 +200,48 @@ function insertSymbol(symbol)
 
 function cellClick( event )
 {
+    id = "#" + event.currentTarget.id;
+
+    row = $(id).data('row');
+ 	col = $(id).data('col');
+
+    // If direction is across but user clicks on a cell with no 
+    //  left or right cells AND the cell is a number, the user
+    //  probably wants to go DOWN and finish the word.  
+    // Same with the vertical
+    if (_cwo.direction == "across" &&
+        isCellLeftValid(row, col) == false &&
+        isCellRightValid(row, col) == false &&
+        isNumber(row, col))
+    {
+        _cwo.direction = 'down';
+    } else if
+       (_cwo.direction == "down" &&
+        isCellAboveValid(row, col) == false &&
+        isCellBelowValid(row, col) == false &&
+        isNumber(row, col))
+    {
+        _cwo.direction = 'across';
+    } 
+    /*
+       * BUGGY?
+    else if (_cwo.currRow == row && _cwo.currCol == col) 
+    {
+        // User clicked the same cell as the current selection.  Perhaps
+        //  they want to change direction
+        if (_cwo.direction == "across") {
+            if (isCellAboveValid(row, col) || isCellBelowValid(row, col)) {
+                _cwo.direction = "down";
+            }
+        } else {
+            if (isCellLeftValid(row, col) || isCellRightValid(row, col)) {
+                _cwo.direction = "across";
+            }
+        }
+
+    }
+    */
+
 	moveToCell( "#" + event.currentTarget.id );
 
 	alignClue(  "A", _cwo.clues["across"]  );  
@@ -247,16 +309,18 @@ function moveToCell( id )  // put the cursor in the given cell
     // Remove the class from the previously selected cell and
     //  and it to the new one
  	$(_cwo.currCell).removeClass('cwCurrentCell');
- 	$(id).addClass('cwCurrentCell');
+ 	$(id).addClass('cwCurrentCell').removeClass('cwWrong').removeClass('cwCorrect');
 
     // Remove the highlight from the previous word selection
-    $(".cwCurrentWord").removeClass('cwCurrentWord');
+    $(".cwCurrentWord").removeClass('cwCurrentWord').removeClass('cwWrong').removeClass('cwCorrect');
 
  	_cwo.currRow = $(id).data('row');
  	_cwo.currCol = $(id).data('col');
  	_cwo.currCell = "#"  + cellID( _cwo.currRow, _cwo.currCol );
  	$(_cwo.currCell).focus();
 
+
+    
     // Highlight the currently selected word spaces
     if (_cwo.direction == "across") {
         
@@ -268,7 +332,7 @@ function moveToCell( id )  // put the cursor in the given cell
             }
 
  	        currCellId = "#"  + cellID(_cwo.currRow, cIndex);
-            $(currCellId).addClass('cwCurrentWord');
+            $(currCellId).addClass('cwCurrentWord').removeClass('cwWrong').removeClass('cwCorrect');
         }
 
         // Color right of cursor
@@ -279,7 +343,7 @@ function moveToCell( id )  // put the cursor in the given cell
             }
 
  	        currCellId = "#"  + cellID(_cwo.currRow, cIndex);
-            $(currCellId).addClass('cwCurrentWord');
+            $(currCellId).addClass('cwCurrentWord').removeClass('cwWrong').removeClass('cwCorrect');
         }
 
     } else {
@@ -291,7 +355,7 @@ function moveToCell( id )  // put the cursor in the given cell
                 break;
             }
  	        currCellId = "#"  + cellID(rIndex, _cwo.currCol);
-            $(currCellId).addClass('cwCurrentWord');
+            $(currCellId).addClass('cwCurrentWord').removeClass('cwWrong').removeClass('cwCorrect');
         }
         
         // Color below the cursor
@@ -302,14 +366,9 @@ function moveToCell( id )  // put the cursor in the given cell
             }
 
  	        currCellId = "#"  + cellID(rIndex, _cwo.currCol);
-            $(currCellId).addClass('cwCurrentWord');
+            $(currCellId).addClass('cwCurrentWord').removeClass('cwWrong').removeClass('cwCorrect');
         }
-
-
-
-
     }
-
 }; 	
 
 
@@ -319,7 +378,7 @@ function alignClue ( direction, clues )
 	clueNo = 1;
 	
 	if ( direction == "A" ) 
-	{
+    {
 	    for ( cIndex = _cwo.currCol; cIndex > -1; cIndex--)
  		{   
  			if ( ( cIndex == 0 ) || ( cIndex > 0 && ( answer( _cwo.currRow, cIndex-1 ) == _cwo.BLACKCELL )) )
@@ -439,58 +498,46 @@ function paintPuzzle( key )
 	 
 };	 
 
-function savePuzzle()
-{
-	cookieValue = "";
-
-	for ( rowIndex  = 0; rowIndex < _cwo.nSize; rowIndex++ )
-	{
- 		for ( cIndex = 0; cIndex < _cwo.nSize; cIndex++ )
-		{
-			var id = "#" + cellID( rowIndex,  cIndex );
-			cookieValue = cookieValue + $(id).data("player");
-		}	 
-
-	}
-
-	exdate=new Date();
-	exdate.setDate(exdate.getDate() + 10);
-	c_value=escape(cookieValue) + "; expires="+exdate.toUTCString()  +  ";path=/";
-	document.cookie= escape( _cwo.title ) + "=" + c_value;
-
-
-}
- 
-function loadPuzzle()
-{
-
-	cookieValue= "";
-	var cookies = document.cookie.split('; ');
-    for( index=0; index < cookies.length; index++ ) 
+function giveHint() {
+    
+    if (_cwo.currCol < 0 || _cwo.currCol >= _cwo.nSize ||
+        _cwo.currRow < 0 || _cwo.currRow >= _cwo.nSize)
     {
-    	c = cookies[index]
-    	name = c.split('=')[0];
-    	v  = c.split('=')[1];
-    	if ( _cwo.title == unescape(name)  )
-    		cookieValue = unescape( v );	
-	}    	
+        return;
+    }
 
-	if ( cookieValue.length < 1 ) return;
+    insertSymbol($(_cwo.currCell).data('answer'));
+}
 
-	charIndex = 0;
+function clearPuzzle() {
 	for ( rowIndex  = 0; rowIndex < _cwo.nSize; rowIndex++ )
 	{
  		for ( cIndex = 0; cIndex < _cwo.nSize; cIndex++ )
 		{
 			var id = "#" + cellID( rowIndex,  cIndex );
-			$(id).data("player", cookieValue.slice(  charIndex, charIndex+1 ) );
-			charIndex++;
-			paintCell( id, "player");
+            $(id).data('player', '');
+            $(id).removeClass('cwCorrect').removeClass('cwWrong');
+            paintCell(id, 'player');
 		}	 
-
 	}
-
 }
 
+function checkPuzzle() {
+	for ( rowIndex  = 0; rowIndex < _cwo.nSize; rowIndex++ )
+	{
+ 		for ( cIndex = 0; cIndex < _cwo.nSize; cIndex++ )
+		{
+			var id = "#" + cellID( rowIndex,  cIndex );
+            var a = $(id).data('answer');
+            if (a == _cwo.BLACKCELL) continue;
+
+            if ($(id).data('player') == a) {
+                $(id).removeClass('cwWrong').addClass('cwCorrect');
+            } else {
+                $(id).removeClass('cwCorrect').addClass('cwWrong');
+            }
+		}	 
+	}
+}
 
 

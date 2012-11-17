@@ -110,9 +110,10 @@ function ()
 	 	'acrossContainer'	: "#acrossContainer", // id of across clues display DIV
 	 	'downContainer'		: "#downContainer", // id of down clues display DIV
 	 	'revealButton'		: "#revealButton", // id of reveal button
-	 	'hideButton'		: "#hideButton", // id of hide button
-	 	'saveButton'		: "#saveButton",  // id of save to cookie button
-	 	'loadButton'		: "#loadButton"  // id of load from cookie  button
+        'hideButton'		: "#hideButton", // id of hide button
+        'hintButton'        : "#hintButton", // id of the hint button
+	 	'checkButton'		: "#checkButton",  // id of the check button
+	 	'clearButton'		: "#clearButton"  // id of the clear button
 	 } );
 
 }
@@ -127,10 +128,11 @@ function ()
 <div id="wrapper">
 	<div id="header">
 		<span>Sample</span>
+		<button id="hintButton" class="button">Hint</button>
 		<button id="revealButton" class="button">Reveal</button>
 		<button id="hideButton" class="button">Hide</button>
-		<button id="saveButton" class="button">Save</button>
-		<button id="loadButton" class="button">Load</button>
+		<button id="clearButton" class="button">Clear</button>
+		<button id="checkButton" class="button">Check</button>
 		<hr/>
 		<p style="font-size:11pt">Just a static sample with some of my LingQs.
         Based on <a href='http://www.david-sherman.com'>David Sherman's</a> crossword puzzle.  Used with permission</p>
