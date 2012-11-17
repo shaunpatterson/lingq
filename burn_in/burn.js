@@ -60,6 +60,11 @@ function start() {
     speed = $('#speed').val(); 
     apiKey = $('#apikey').val();
 
+<<<<<<< HEAD
+=======
+    alert(apiKey + " " + speed + " " + lang);
+
+>>>>>>> master
     // Load the LingQs
     getLingQs(lang, apiKey);
 	

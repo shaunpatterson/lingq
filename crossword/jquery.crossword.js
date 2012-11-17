@@ -32,7 +32,22 @@ var  _cwo =  { };
 	_cwo.currCol			= "2";
 	_cwo.direction 			= "across";
 
- 
+    // Add in the accent buttons
+    var accents = "ÄÉÖÜß";
+    for (var i = 0; i < accents.length; i++) {
+        var accent = accents[i];
+
+        var accentList = $("#accents ul");
+
+        var newAccentButton = $("<li>" + accent + "</li>");
+        newAccentButton.click((function(a) { 
+                return function() { insertSymbol(a); }
+            })(accent));
+
+
+        accentList.append(newAccentButton);
+    }
+
 	/*=================================================================================== 
 	   Build the puzzle inside a standard HTML table.  Each <td> in the table is assigned
 	   a unique id attribute.  After the table is constructed, replace the HTML of the 
@@ -49,8 +64,6 @@ var  _cwo =  { };
 		for ( cIndex = 0; cIndex < _cwo.nSize; cIndex++ )
 		{
 			c = _cwo.puzzle.row[rowIndex].substring( cIndex, cIndex + 1 )
-			alert(String.fromCharCode(_cwo.puzzle.row[rowIndex].charCodeAt(cIndex)));
-
 			id = cellID( rowIndex,  cIndex );
  			div  = makeElement( "div", ( c == _cwo.BLACKCELL ? "cwBlackCell" : "cwCell"), id, " "  );
  			numDiv =  makeElement( "div", "cwNumber", "N" + id,  "" )		
@@ -158,6 +171,13 @@ function keyUp( event )
 
 };
 
+function insertSymbol(symbol) 
+{
+	$( _cwo.currCell).data( 'player', symbol );
+	paintCell( _cwo.currCell, 'player');
+	if ( _cwo.direction == 'across') { goAcross( false ) } else goDown()
+	$("#" + cellID( _cwo.currRow, _cwo.currCol )).click();
+}
 
 function cellClick( event )
 {

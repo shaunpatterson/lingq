@@ -2,8 +2,9 @@
 <head>
 <title>JQuery Crossword Puzzle Widget</title>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="jquery.crossword.js"></script>
+<script type="text/javascript" src="jquery.crossword.js" charset='utf-8'></script>
 <link type="text/css" rel="stylesheet" href="jquery.crossword.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <style type="text/css">
 
 	#puzzleContainer {
@@ -38,50 +39,26 @@ function ()
 {
 
     var samplePuzzle = { "row" : [
-        "selbstverständlich__",
-        "o___p________e______",
-        "l___u___e__s_u___w__",
-        "l_zertifizierte__i__",
-        "t_______s__c_s___d__",
-        "e_t__l___r_h_c___e__",
-        "_kaffeeklatsch_k_r__",
-        "f_t__h___t___s_l_s__",
-        "isst_rumgeklettert__",
-        "t_ä__g_a_n_u_u_t_r__",
-        "__c__ä_g___f_d_tief_",
-        "wohnung_vorteile_b__",
-        "__l__g_______u_r_e__",
-        "_eingezogen__m_kind_",
-        "__c_________ä__ü_d__",
-        "sah_bücherschrank___",
-        "____a___r___m__s____",
-        "_weil___s______t____",
-        "____d_fotografiert__",
-        "____________________"
+        "SELBSTVERSTÄNDLICH__",
+        "O___P________E______",
+        "L___U___E__S_U___W__",
+        "L_ZERTIFIZIERTE__I__",
+        "T_______S__C_S___D__",
+        "E_T__L___R_H_C___E__",
+        "_KAFFEEKLATSCH_K_R__",
+        "F_T__H___T___S_L_S__",
+        "ISST_RUMGEKLETTERT__",
+        "T_Ä__G_A_N_U_U_T_R__",
+        "__C__Ä_G___F_D_TIEF_",
+        "WOHNUNG_VORTEILE_B__",
+        "__L__G_______U_R_E__",
+        "_EINGEZOGEN__M_KIND_",
+        "__C_________Ä__Ü_D__",
+        "SAH_BÜCHERSCHRANK___",
+        "____A___R___M__S____",
+        "_WEIL___S______T____",
+        "____D_FOTOGRAFIERT__"
             ] };
-
-    var samplePuzzle = { "row" : [
-        "__c_________ä__ü_d__",
-        "sah_bücherschrank___",
-        "____a___r___m__s____",
-        "____________________",
-        "____________________",
-        "____________________",
-        "____________________",
-        "____________________",
-        "____________________",
-        "____________________",
-        "____________________",
-        "____________________",
-        ]};
-    
-    
-    var samplePuzzle = { "row" : [
-        "\228_d",
-        "___",
-        "___"
-
-    ]};
 
     var cellNumbers = 
     [
@@ -114,10 +91,7 @@ function ()
 { x : 6, y : 18, num : 26 },
 { x : 15, y : 10, num : 27 },
 { x : 12, y : 14, num : 28 },
-{ x : 15, y : 13, num : 29 }
-
-    ];
-
+{ x : 15, y : 13, num : 29 } ];
 
 
     var sampleClues = 
@@ -158,8 +132,8 @@ function ()
 		<button id="saveButton" class="button">Save</button>
 		<button id="loadButton" class="button">Load</button>
 		<hr/>
-		<p style="font-size:11pt">Puzzle borrowed from the Washington Post, January 31, 2012.
-		Use arrow keys or mouse to navigate.</p>
+		<p style="font-size:11pt">Just a static sample with some of my LingQs.
+        Based on <a href='http://www.david-sherman.com'>David Sherman's</a> crossword puzzle.  Used with permission</p>
 	</div>
 	<div id="left">
 		<div id="puzzleContainer">
@@ -181,9 +155,13 @@ function ()
 		</div>
 		<div id="downContainer" >
 		DOWN
-		</div>
+        </div>
+        <div id='accents'>
+            <ul></ul>
+        </div>
 	</div>
 
+    
 </div>
 </body>
 </html>
