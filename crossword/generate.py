@@ -67,6 +67,7 @@ class Crossword(object):
                 self.current_word_list = copy.current_word_list
                 self.grid = copy.grid
             count += 1
+            break
         return
  
     def suggest_coord(self, word):
@@ -86,12 +87,16 @@ class Crossword(object):
                             if rowc - glc > 0: # make sure we're not suggesting a starting point off the grid
                                 if ((rowc - glc) + word.length) <= self.rows: # make sure word doesn't go off of grid
                                     coordlist.append([colc, rowc - glc, 1, colc + (rowc - glc), 0])
-                        except: pass
+                        except: 
+                            print "exception 1"
+                            pass
                         try: # suggest horizontal placement 
                             if colc - glc > 0: # make sure we're not suggesting a starting point off the grid
                                 if ((colc - glc) + word.length) <= self.cols: # make sure word doesn't go off of grid
                                     coordlist.append([colc - glc, rowc, 0, rowc + (colc - glc), 0])
-                        except: pass
+                        except: 
+                            print "exception 2"
+                            pass
         # example: coordlist[0] = [col, row, vertical, col + row, score]
         #print word.word
         #print coordlist
@@ -132,6 +137,8 @@ class Crossword(object):
                 col = random.randrange(1, self.cols + 1)
                 row = random.randrange(1, self.rows + 1)
                 '''
+
+                print "Fit and add %s %s,%s" % (word, col, row)
  
                 if self.check_fit_score(col, row, vertical, word): 
                     fit = True
@@ -139,7 +146,9 @@ class Crossword(object):
             else: # a subsquent words have scores calculated
                 try: 
                     col, row, vertical = coordlist[count][0], coordlist[count][1], coordlist[count][2]
-                except IndexError: return # no more cordinates, stop trying to fit
+                except IndexError: 
+                    print "Exception 3"
+                    return # no more cordinates, stop trying to fit
  
                 if coordlist[count][4]: # already filtered these out, but double check
                     fit = True 
@@ -162,6 +171,7 @@ class Crossword(object):
             try:
                 active_cell = self.get_cell(col, row)
             except IndexError:
+                print "exception 4"
                 return 0
  
             if active_cell == self.empty or active_cell == letter:
@@ -234,14 +244,22 @@ class Crossword(object):
         self.grid[row-1][col-1] = value
  
     def get_cell(self, col, row):
+        print "get_cell %s,%s" % (col, row)
+
+        result = self.grid[row-1][col-1];
+        print "result %s" % (result)
+        
+
         return self.grid[row-1][col-1]
  
     def check_if_cell_clear(self, col, row):
+        print "Check if cell clear: %s,%s" % (col, row)
         try:
             cell = self.get_cell(col, row)
             if cell == self.empty: 
                 return True
         except IndexError:
+            print "check_if_cell_clear failure %s,%s" % (col, row)
             pass
         return False
  
@@ -309,7 +327,6 @@ class Word(object):
             pass
         self.clue = clue
         self.length = len(self.word)
-        print "word: %s  Length: %s" % (self.word, self.length)
         # the below are set when placed on board
         self.row = None
         self.col = None
@@ -332,16 +349,19 @@ class Word(object):
 API_KEY = '28eaba4d634cf9d01f36a1ac8ae657f600f4aa94'
 URL = 'http://www.lingq.com/api_v2/de/repetition-lingqs/?apikey=%s' % API_KEY
 
-response = urlopen(URL).read()
-lingqs = simplejson.loads(response)
-word_list = []
-for day in lingqs.keys():
-    [word_list.append([word['term'].encode('utf-8'),
-                       word['hint'].encode('utf-8')])
-     for word in lingqs[day]]
+#response = urlopen(URL).read()
+#lingqs = simplejson.loads(response)
+#word_list = []
+#for day in lingqs.keys():
+    #[word_list.append([word['term'].encode('utf-8'),
+                       #word['hint'].encode('utf-8')])
+     #for word in lingqs[day]]
 
-a = Crossword(20, 20, '_', 5000, word_list)
-a.compute_crossword(5)
+
+word_list = [['blah', 'clue'], ['bla', 'clu']];
+
+a = Crossword(10, 10, '_', 1, word_list)
+a.compute_crossword(1)
 print a.solution()
 print a.display()
 print a.legend()

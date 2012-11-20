@@ -3,12 +3,16 @@
   *
   * Bryan Helmig
   * bryanhelmig.com
+  *
+  * Used and modified with permission
   */
 
 $(function() {
 
-    cw = new Crossword(10, 10, 10, [['blah', 'clue'], ['bla', 'clu']]);
-    cw.compute_crossword(1 * 1000, 2);
+    cw = new Crossword(10, 10, 5000, [['blah', 'clue'], ['bxyz', 'clu']]);
+    cw.compute_crossword(5 * 1000, 2);
+
+    console.log(cw.display());
 
 });
 
@@ -41,6 +45,7 @@ function Crossword(cols, rows, maxloops, available_words) {
     this.available_words = available_words;
 
     this.randomize_word_list();
+    this.current_word_list = [];
     this.clear_grid();
 
 }
@@ -94,20 +99,23 @@ Crossword.prototype.compute_crossword = function(time_permitted, spins)
             for (var i = 0; i < copy.available_words.length; i++) 
             {
                 var word = copy.available_words[i];
-                if ($.inArray(word, copy.available_words) == false) {
-                    copy.fit_and_word(word);
+                if ($.inArray(word, copy.current_word_list) < 0) {
+                    copy.fit_and_add(word);
                 }
             }
             x++;
             
         }
-            
-        if (copy.current_word_list.length > this.current_word_list) {
-            this.current_word_list = copy.current_word_list;
-            this.grid = copy.grid;
+
+        if (copy.current_word_list.length > this.current_word_list.length) {
+            this.current_word_list = copy.current_word_list.slice(0);
+            this.grid = copy.grid.slice(0);
         }
 
+
         count++;
+
+        if (count == 2) break;
     }
 
     console.log("Computed");
@@ -151,7 +159,11 @@ Crossword.prototype.suggest_coord = function(word) {
         }
     }
 
+    console.log("Unsorted: " + coordlist);
+
     var new_coordlist = this.sort_coordlist(coordlist, word);
+    
+    console.log("Sorted: " + new_coordlist);
     return new_coordlist;
 }
 
@@ -164,8 +176,13 @@ Crossword.prototype.sort_coordlist = function(coordlist, word) {
         var col = coord[0];
         var row = coord[1];
         var vertical = coord[2];
+
+        console.log(col + " " + row + " " + vertical);
+
+        console.log(this.grid[0]);
         
         var fit_score = this.check_fit_score(col, row, vertical, word);
+        console.log("fit score: " + fit_score);
         coord.push(fit_score);
 
         if (fit_score) {
@@ -175,20 +192,25 @@ Crossword.prototype.sort_coordlist = function(coordlist, word) {
 
     new_coordlist.shuffle();
 
+    console.log("after shuffle: " + new_coordlist);
+
     // Put best scores first
-    new_coordlist.sort(function (a,b) { return a[4] > b[4] });
+    new_coordlist.sort(function (a,b) { return a[3] > b[3] });
     return new_coordlist;
 }
 
-Crossword.prototype.fit_and_word = function(word) {
+Crossword.prototype.fit_and_add = function(word) {
     var fit = false;
     var count = 0;
     var coordlist = this.suggest_coord(word);
 
+    console.log(coordlist);
+
     while (!fit && count < this.maxloops) {
         if (this.current_word_list.length == 0) {
             // This is the first word.  THe seed
-            var vertical = Math.floor(Math.random() * 2);
+            /*var vertical = Math.floor(Math.random() * 2);*/
+            var vertical = 1;
             var col = 1;
             var row = 1;
 
@@ -202,7 +224,7 @@ Crossword.prototype.fit_and_word = function(word) {
             var row = coordlist[count][1];
             var vertical = cooldlist[count][2];
 
-            if (coordlist[count][4]) {
+            if (coordlist[count][3]) {
                 fit = true;
                 this.set_word(col, row, vertical, word, true);
             }
@@ -299,7 +321,7 @@ Crossword.prototype.check_fit_score = function(col, row, vertical, word) {
     return score;
 }
 
-Crossword.prototype.set_word = function(col, row, value, force) {
+Crossword.prototype.set_word = function(col, row, vertical, word, force) {
     if (force) {
         word.col = col;
         word.row = row;
@@ -328,12 +350,23 @@ Crossword.prototype.set_cell = function(col, row, value) {
 }
 
 Crossword.prototype.get_cell = function(col, row) {
-    return this.grid[row-1][col-1];
+
+    var wrappedRow = row - 1;
+    if (wrappedRow < 0) {
+        wrappedRow = this.grid.length - 1;
+    }
+
+    var wrappedCol = col - 1;
+    if (wrappedCol < 0) {
+        wrappedCol = this.grid[wrappedRow].length - 1;
+    }
+
+    return this.grid[wrappedRow][wrappedCol];
 }
 
 Crossword.prototype.check_if_cell_clear = function(col, row) {
 
-    if (col <= 0 || row <= 0) {
+    if (col < 0 || row < 0) {
         return false;
     }
 
@@ -366,6 +399,19 @@ Crossword.prototype.order_number_words = function() {
 
         icount++;
     }
+}
+
+Crossword.prototype.display = function() {
+    var output = [];
+    this.order_number_words();
+
+    for (var i = 0; i < this.current_word_list.length; i++) {
+        var word = this.current_word_list[i];
+        output.push({ x : word.col - 1, y : word.row - 1, num : word.number });
+        this.set_cell(word.col, word.row, word.number);
+    }
+        
+    return output;
 }
 
 
