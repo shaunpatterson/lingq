@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+#  Bryan Helmig
+# bryanhelmig.com
+
 from urllib2 import urlopen
 from random import choice
 import simplejson
