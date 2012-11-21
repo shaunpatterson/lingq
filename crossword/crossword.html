@@ -55,6 +55,8 @@ function ()
             var sampleClues = cw.legend();
             
             $('#crossword').show();
+            
+            $('#debug span').text('Num lings pulled: ' + lingqs.length);
 
             $(this).crossword(
              { 
@@ -71,7 +73,8 @@ function ()
                 'checkButton'		: "#checkButton",  // id of the check button
                 'clearButton'		: "#clearButton"  // id of the clear button
             } );
-            
+
+                    
         });
     
     });
@@ -123,6 +126,10 @@ function ()
         <div id='accents'>
             <ul></ul>
         </div>
+    </div>
+
+    <div id='debug'>
+        <span>Debug output goes here</span>
     </div>
 
     <div id='generate'>
