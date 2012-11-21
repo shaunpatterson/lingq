@@ -30,6 +30,10 @@
     background-color: red;
 }
 
+#crossword {
+    display: hidden;
+}
+
 #accents {
     float: left;
     width: 100%;
@@ -48,3 +52,22 @@
     border: 1px solid black;
 }
 
+#generate {
+    float: left;
+    width: 100%;
+    background: #EEEEEE;
+}
+
+#generate ul {
+    list-style-type: none;
+}
+
+#generate ul li {
+    display: block;
+    float: left;
+    margin: 0px 5px 15px 5px;
+}
+
+#about {
+    float: left;
+}

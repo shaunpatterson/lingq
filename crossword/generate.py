@@ -86,14 +86,16 @@ class Crossword(object):
                         try: # suggest vertical placement 
                             if rowc - glc > 0: # make sure we're not suggesting a starting point off the grid
                                 if ((rowc - glc) + word.length) <= self.rows: # make sure word doesn't go off of grid
-                                    coordlist.append([colc, rowc - glc, 1, colc + (rowc - glc), 0])
+                                    coordlist.append([colc, rowc - glc, 1, colc + (rowc - glc)])
+                                    #coordlist.append([colc, rowc - glc, 1, colc + (rowc - glc), 0])
                         except: 
                             print "exception 1"
                             pass
                         try: # suggest horizontal placement 
                             if colc - glc > 0: # make sure we're not suggesting a starting point off the grid
                                 if ((colc - glc) + word.length) <= self.cols: # make sure word doesn't go off of grid
-                                    coordlist.append([colc - glc, rowc, 0, rowc + (colc - glc), 0])
+                                    coordlist.append([colc - glc, rowc, 0, rowc + (colc - glc)])
+                                    #coordlist.append([colc - glc, rowc, 0, rowc + (colc - glc), 0])
                         except: 
                             print "exception 2"
                             pass
@@ -108,11 +110,15 @@ class Crossword(object):
         new_coordlist = []
         for coord in coordlist:
             col, row, vertical = coord[0], coord[1], coord[2]
-            coord[4] = self.check_fit_score(col, row, vertical, word) # checking scores
+
+            fit_score = self.check_fit_score(col, row, vertical, word) # checking scores
+            coord.append(fit_score);
+
             if coord[4]: # 0 scores are filtered
                 new_coordlist.append(coord)
-        random.shuffle(new_coordlist) # randomize coord list; why not?
+        #random.shuffle(new_coordlist) # randomize coord list; why not?
         new_coordlist.sort(key=lambda i: i[4], reverse=True) # put the best scores first
+        print "New coordlist count: %s " % (len(new_coordlist))
         return new_coordlist
  
     def fit_and_add(self, word): # doesn't really check fit except for the first word; otherwise just adds if score is good
@@ -145,6 +151,8 @@ class Crossword(object):
                     self.set_word(col, row, vertical, word, force=True)
             else: # a subsquent words have scores calculated
                 try: 
+                    if count >= len(coordlist):
+                        return;
                     col, row, vertical = coordlist[count][0], coordlist[count][1], coordlist[count][2]
                 except IndexError: 
                     print "Exception 3"
@@ -244,16 +252,9 @@ class Crossword(object):
         self.grid[row-1][col-1] = value
  
     def get_cell(self, col, row):
-        print "get_cell %s,%s" % (col, row)
-
-        result = self.grid[row-1][col-1];
-        print "result %s" % (result)
-        
-
         return self.grid[row-1][col-1]
  
     def check_if_cell_clear(self, col, row):
-        print "Check if cell clear: %s,%s" % (col, row)
         try:
             cell = self.get_cell(col, row)
             if cell == self.empty: 
@@ -346,19 +347,20 @@ class Word(object):
  
 #start_full = float(time.time())
 
-API_KEY = '28eaba4d634cf9d01f36a1ac8ae657f600f4aa94'
 URL = 'http://www.lingq.com/api_v2/de/repetition-lingqs/?apikey=%s' % API_KEY
 
-#response = urlopen(URL).read()
-#lingqs = simplejson.loads(response)
-#word_list = []
-#for day in lingqs.keys():
-    #[word_list.append([word['term'].encode('utf-8'),
-                       #word['hint'].encode('utf-8')])
-     #for word in lingqs[day]]
+response = urlopen(URL).read()
+lingqs = simplejson.loads(response)
+word_list = []
+for day in lingqs.keys():
+    [word_list.append([word['term'].encode('utf-8'),
+                       word['hint'].encode('utf-8')])
+     for word in lingqs[day]]
+
+print len(word_list)
 
 
-word_list = [['blah', 'clue'], ['bla', 'clu']];
+#word_list = [['blah', 'clue'], ['bla', 'clu']];
 
 a = Crossword(10, 10, '_', 1, word_list)
 a.compute_crossword(1)

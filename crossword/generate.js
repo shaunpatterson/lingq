@@ -7,32 +7,23 @@
   * Used and modified with permission
   */
 
-$(function() {
-
-    cw = new Crossword(10, 10, 5000, [['blah', 'clue'], ['bxyz', 'clu']]);
-    cw.compute_crossword(5 * 1000, 2);
-
-    console.log(cw.display());
-
-});
-
 /** Word object */
 function Word(word, clue) {
 
-    this.word = word.replace(/\s/g).toLowerCase();
+    this.word = word.replace(/\s/g).toUpperCase();
     this.clue = clue;
     this.length = word.length;
     this.row = undefined;
     this.col = undefined;
     this.vertical = undefined;
     this.number = undefined;
+}
 
-    function down_across() {
-        if (this.vertical) {
-            return "down";
-        } else {
-            return "across";
-        }
+Word.prototype.down_across = function() {
+    if (this.vertical) {
+        return "down";
+    } else {
+        return "across";
     }
 }
 
@@ -61,7 +52,7 @@ Crossword.prototype.randomize_word_list = function() {
         }
     }
     temp_list.shuffle();
-    temp_list.sort(function (a,b) { return a.length < b.length });
+    temp_list.sort(function (a,b) { return (a.length - b.length) });
 
     this.available_words = temp_list;
 
@@ -108,17 +99,45 @@ Crossword.prototype.compute_crossword = function(time_permitted, spins)
         }
 
         if (copy.current_word_list.length > this.current_word_list.length) {
-            this.current_word_list = copy.current_word_list.slice(0);
-            this.grid = copy.grid.slice(0);
+            this.current_word_list = copy.current_word_list;
+            this.grid = copy.grid;
         }
 
-
         count++;
-
-        if (count == 2) break;
     }
 
     console.log("Computed");
+
+    /** 
+      * Okay, so there's a weird bug in the generation code.  TODO: Explain
+     */
+    downs = {};
+    acrosses = {};
+    pruned_word_list = [];
+    
+    this.current_word_list.sort(function (a,b) { return ((a.col + a.row) - (b.col + b.row)); });
+   
+    // Very inefficient way of doing this.  TODO: Change 
+    for (var i = 0; i < this.current_word_list.length; i++) {
+        var word = this.current_word_list[i];
+
+        for (var j = i + 1; j < this.current_word_list.length; j++) {
+            var word_to_test = this.current_word_list[j];
+
+            if ($.inArray(word_to_test, pruned_word_list) >= 0) {
+                // Skip this word
+                continue;
+            }
+
+            if (word.col == word_to_test.col && word.row == word_to_test.row && word.vertical == word_to_test.vertical && word.length < word_to_test.length) {
+                word = word_to_test;
+                i = j + 1;
+            }
+        }
+        pruned_word_list.push(word);
+    }
+
+    this.current_word_list = pruned_word_list;
 
     return;
 }
@@ -143,9 +162,10 @@ Crossword.prototype.suggest_coord = function(word) {
                 colc++;
 
                 if (given_letter == cell) {
-                    if (row - glc > 0) {
-                        if ((rowc - glc) + word.length <= this.rows) {
-                            coordlist.push([colc, rowc - glc, 1, colc + (rowc - glc)]);
+                    
+                    if (rowc - glc > 0) {
+                        if (((rowc - glc) + word.word.length) <= this.rows) {
+                            coordlist.push([colc, rowc - glc, 1, colc + (rowc - glc)])
                         }
                     }
 
@@ -159,11 +179,7 @@ Crossword.prototype.suggest_coord = function(word) {
         }
     }
 
-    console.log("Unsorted: " + coordlist);
-
     var new_coordlist = this.sort_coordlist(coordlist, word);
-    
-    console.log("Sorted: " + new_coordlist);
     return new_coordlist;
 }
 
@@ -177,12 +193,7 @@ Crossword.prototype.sort_coordlist = function(coordlist, word) {
         var row = coord[1];
         var vertical = coord[2];
 
-        console.log(col + " " + row + " " + vertical);
-
-        console.log(this.grid[0]);
-        
         var fit_score = this.check_fit_score(col, row, vertical, word);
-        console.log("fit score: " + fit_score);
         coord.push(fit_score);
 
         if (fit_score) {
@@ -190,12 +201,8 @@ Crossword.prototype.sort_coordlist = function(coordlist, word) {
         }
     }
 
-    new_coordlist.shuffle();
-
-    console.log("after shuffle: " + new_coordlist);
-
     // Put best scores first
-    new_coordlist.sort(function (a,b) { return a[3] > b[3] });
+    new_coordlist.sort(function (a,b) { return (a[4] - b[4]) });
     return new_coordlist;
 }
 
@@ -204,13 +211,10 @@ Crossword.prototype.fit_and_add = function(word) {
     var count = 0;
     var coordlist = this.suggest_coord(word);
 
-    console.log(coordlist);
-
     while (!fit && count < this.maxloops) {
         if (this.current_word_list.length == 0) {
             // This is the first word.  THe seed
-            /*var vertical = Math.floor(Math.random() * 2);*/
-            var vertical = 1;
+            var vertical = Math.floor(Math.random() * 2);
             var col = 1;
             var row = 1;
 
@@ -222,9 +226,9 @@ Crossword.prototype.fit_and_add = function(word) {
             if (count >= coordlist.length) return;
             var col = coordlist[count][0];
             var row = coordlist[count][1];
-            var vertical = cooldlist[count][2];
+            var vertical = coordlist[count][2];
 
-            if (coordlist[count][3]) {
+            if (coordlist[count][4]) {
                 fit = true;
                 this.set_word(col, row, vertical, word, true);
             }
@@ -238,7 +242,7 @@ Crossword.prototype.fit_and_add = function(word) {
 }
 
 Crossword.prototype.check_fit_score = function(col, row, vertical, word) {
-
+    
     if (col < 1 || row < 1) {
         return 0;
     }
@@ -247,8 +251,12 @@ Crossword.prototype.check_fit_score = function(col, row, vertical, word) {
     var score = 1;
 
     for (var i = 0; i < word.length; i++) {
-        var letter = word[i];
+        var letter = word.word[i];
 
+        if (col >= this.cols || row >= this.rows) {
+            return 0;
+        }
+            
         var active_cell = this.get_cell(col, row);
 
         if (active_cell == this.empty || active_cell == letter) {
@@ -327,7 +335,6 @@ Crossword.prototype.set_word = function(col, row, vertical, word, force) {
         word.row = row;
         word.vertical = vertical;
 
-        this.current_word_list.push(word);
 
         for (var i = 0; i < word.word.length; i++) {
             var letter = word.word[i];
@@ -339,6 +346,8 @@ Crossword.prototype.set_word = function(col, row, vertical, word, force) {
                 col++;
             }
         }
+        
+        this.current_word_list.push(word);
 
     } else {
         // Do nothing??
@@ -361,6 +370,19 @@ Crossword.prototype.get_cell = function(col, row) {
         wrappedCol = this.grid[wrappedRow].length - 1;
     }
 
+    if (this.grid == undefined) {
+        alert('undefined grid');
+    }
+    
+    if (wrappedRow >= this.grid.length) {
+        alert('greater than grid length: row' + row + " wr" + wrappedRow + " grid: " + this.grid.length);
+    }
+
+    if (wrappedCol >= this.grid[0].length) {
+        alert("greater than col length");
+    }
+
+
     return this.grid[wrappedRow][wrappedCol];
 }
 
@@ -379,7 +401,7 @@ Crossword.prototype.check_if_cell_clear = function(col, row) {
 }
 
 Crossword.prototype.order_number_words = function() {
-    this.current_word_list.sort(function (a,b) { return (a.col + a.row) < (b.col + b.row); });
+    this.current_word_list.sort(function (a,b) { return ((a.col + a.row) - (b.col + b.row)); });
     var count = 1;
     var icount = 1;
 
@@ -412,6 +434,37 @@ Crossword.prototype.display = function() {
     }
         
     return output;
+}
+
+Crossword.prototype.solution = function() {
+    rows = [];
+    for (var r = 0; r < this.rows; r++) {
+        var row = this.grid[r];
+        var rowOutput = "";
+        for (var c = 0; c < row.length; c++) {
+            rowOutput += row[c];
+        }
+        rows.push(rowOutput)
+    }
+
+    return { "row" : rows };
+}
+
+Crossword.prototype.legend = function() {
+    var across = [];
+    var down = [];
+
+    for (var i = 0; i < this.current_word_list.length; i++) {
+        var word = this.current_word_list[i];
+
+        if (word.down_across() == "across") {
+            across.push({ "no" : word.number, "text" : word.clue});
+        } else {
+            down.push({ "no" : word.number, "text" : word.clue});
+        }
+    }
+
+    return { "down" : down, "across" : across };
 }
 
 

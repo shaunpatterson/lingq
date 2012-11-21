@@ -1,9 +1,10 @@
 <html>
 <head>
 <title>JQuery Crossword Puzzle Widget</title>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="jquery.crossword.js" charset='utf-8'></script>
 <script type="text/javascript" src="generate.js" charset='utf-8'></script>
+<script type="text/javascript" src="lingq.js" charset='utf-8'></script>
 <link type="text/css" rel="stylesheet" href="jquery.crossword.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <style type="text/css">
@@ -38,86 +39,45 @@ $(document).ready(
 	
 function () 
 {
+    $('#build').click(function() {
 
-    var samplePuzzle = { "row" : [
-        "SELBSTVERSTÄNDLICH__",
-        "O___P________E______",
-        "L___U___E__S_U___W__",
-        "L_ZERTIFIZIERTE__I__",
-        "T_______S__C_S___D__",
-        "E_T__L___R_H_C___E__",
-        "_KAFFEEKLATSCH_K_R__",
-        "F_T__H___T___S_L_S__",
-        "ISST_RUMGEKLETTERT__",
-        "T_Ä__G_A_N_U_U_T_R__",
-        "__C__Ä_G___F_D_TIEF_",
-        "WOHNUNG_VORTEILE_B__",
-        "__L__G_______U_R_E__",
-        "_EINGEZOGEN__M_KIND_",
-        "__C_________Ä__Ü_D__",
-        "SAH_BÜCHERSCHRANK___",
-        "____A___R___M__S____",
-        "_WEIL___S______T____",
-        "____D_FOTOGRAFIERT__"
-            ] };
+        lang = $('#lang').val();
+        apiKey = $('#apikey').val();
 
-    var cellNumbers = 
-    [
-{ x : 0, y : 0, num : 1 },
-{ x : 0, y : 0, num : 1 },
-{ x : 4, y : 0, num : 2 },
-{ x : 2, y : 3, num : 3 },
-{ x : 1, y : 6, num : 4 },
-{ x : 2, y : 5, num : 5 },
-{ x : 0, y : 7, num : 6 },
-{ x : 0, y : 8, num : 7 },
-{ x : 5, y : 5, num : 8 },
-{ x : 8, y : 2, num : 9 },
-{ x : 0, y : 11, num : 10 },
-{ x : 13, y : 0, num : 11 },
-{ x : 5, y : 8, num : 12 },
-{ x : 11, y : 2, num : 13 },
-{ x : 1, y : 13, num : 14 },
-{ x : 9, y : 5, num : 15 },
-{ x : 0, y : 15, num : 16 },
-{ x : 7, y : 8, num : 17 },
-{ x : 1, y : 17, num : 18 },
-{ x : 17, y : 2, num : 19 },
-{ x : 4, y : 15, num : 20 },
-{ x : 8, y : 11, num : 21 },
-{ x : 11, y : 8, num : 22 },
-{ x : 4, y : 15, num : 23 },
-{ x : 15, y : 6, num : 24 },
-{ x : 8, y : 15, num : 25 },
-{ x : 6, y : 18, num : 26 },
-{ x : 15, y : 10, num : 27 },
-{ x : 12, y : 14, num : 28 },
-{ x : 15, y : 13, num : 29 } ];
+        getLingQs(lang, apiKey, function(pulledLingqs) {
+            var lingqs = pulledLingqs; 
 
+            cw = new Crossword(20, 20, 500, lingqs);
+            cw.compute_crossword(1 * 1000, 2);
 
-    var sampleClues = 
-{'down': [{'text': 'should', 'no': 1}, {'text': '(die) track, trail', 'no': 2}, {'text': 'actually', 'no': 5}, {'text': 'fit, suited, suitable', 'no': 6}, {'text': 'paths of studies', 'no': 8}, {'text': '(das Eis) ice', 'no': 9}, {'text': 'German Studies', 'no': 11}, {'text': 'six', 'no': 13}, {'text': 'v.  advise, counsel, offer guidance, instruct; guess, solve', 'no': 15}, {'text': 'want', 'no': 17}, {'text': '1.reluctant', 'no': 19}, {'text': '(die) air', 'no': 22}, {'text': 'soon', 'no':
-    23}, {'text': 'Climbing skills', 'no': 24}, {'text': 'first', 'no': 25}, {'text': 'er; umm', 'no': 28}], 'across': [{'text': 'Of course', 'no': 1}, {'text': 'certified', 'no': 3}, {'text': 'coffee drinking gathering', 'no': 4}, {'text': 'eat', 'no': 7}, {'text': 'apartment', 'no': 10}, {'text': '', 'no': 12}, {'text': 'move in', 'no': 14}, {'text': 'saw, view, looked, watched', 'no': 16}, {'text': 'because', 'no': 18}, {'text': 'Bookcase', 'no': 20}, {'text': 'advantages', 'no': 21}, {'text': 'photographed', 'no': 26}, {'text': 'deep', 'no': 27}, {'text': 'child', 'no': 29}]}
+            var samplePuzzle = cw.solution();
+            var cellNumbers = cw.display();
+            var sampleClues = cw.legend();
+            
+            $('#crossword').show();
 
+            $(this).crossword(
+             { 
+                'puzzle' 			: samplePuzzle, //JSON puzzle structure  				
+                'nums'              : cellNumbers,
+                'clues' 			: sampleClues, //JSON clue structure
+                'title'				: "", //A title for the puzzle
+                'puzzleContainer'	: "#puzzleContainer", // id of puzzle display DIV 
+                'acrossContainer'	: "#acrossContainer", // id of across clues display DIV
+                'downContainer'		: "#downContainer", // id of down clues display DIV
+                'revealButton'		: "#revealButton", // id of reveal button
+                'hideButton'		: "#hideButton", // id of hide button
+                'hintButton'        : "#hintButton", // id of the hint button
+                'checkButton'		: "#checkButton",  // id of the check button
+                'clearButton'		: "#clearButton"  // id of the clear button
+            } );
+            
+        });
+    
+    });
 
-
-	$(this).crossword(
-	 { 
-        'puzzle' 			: samplePuzzle, //JSON puzzle structure  				
-        'nums'              : cellNumbers,
-        'clues' 			: sampleClues, //JSON clue structure
-	 	'title'				: "", //A title for the puzzle
-	 	'puzzleContainer'	: "#puzzleContainer", // id of puzzle display DIV 
-	 	'acrossContainer'	: "#acrossContainer", // id of across clues display DIV
-	 	'downContainer'		: "#downContainer", // id of down clues display DIV
-	 	'revealButton'		: "#revealButton", // id of reveal button
-        'hideButton'		: "#hideButton", // id of hide button
-        'hintButton'        : "#hintButton", // id of the hint button
-	 	'checkButton'		: "#checkButton",  // id of the check button
-	 	'clearButton'		: "#clearButton"  // id of the clear button
-	 } );
-
-}
+    $('#crossword').hide();
+} 
 
 );
 
@@ -127,6 +87,7 @@ function ()
 </head>
 <body  style="font-family : Verdana; background-color : #FFFDF0;">
 <div id="wrapper">
+    
 	<div id="header">
 		<span>Sample</span>
 		<button id="hintButton" class="button">Hint</button>
@@ -135,37 +96,64 @@ function ()
 		<button id="clearButton" class="button">Clear</button>
 		<button id="checkButton" class="button">Check</button>
 		<hr/>
-		<p style="font-size:11pt">Just a static sample with some of my LingQs.
-        Based on <a href='http://www.david-sherman.com'>David Sherman's</a> crossword puzzle.  Used with permission</p>
-	</div>
-	<div id="left">
-		<div id="puzzleContainer">
-		<table id="puzzleTable" class="cwTable">
-		  <tr class="cwRow">
-		    <td class="cwCell"><div class="cwNumber">12</div>A</td>
-		    <td class="cwCell">B</td>
-		  </tr>    
-		  <tr class="cwRow">
-		    <td class="cwCell">C</td>
-		    <td class="cwCell">D</td>
-		  </tr>
-		</table>   
-		</div>
-	</div>
-	<div id="right">
-		<div id="acrossContainer">
-		ACROSS
-		</div>
-		<div id="downContainer" >
-		DOWN
+    </div>
+    <div id='crossword'>
+        <div id="left">
+            <div id="puzzleContainer">
+            <table id="puzzleTable" class="cwTable">
+              <tr class="cwRow">
+                <td class="cwCell"><div class="cwNumber">12</div>A</td>
+                <td class="cwCell">B</td>
+              </tr>    
+              <tr class="cwRow">
+                <td class="cwCell">C</td>
+                <td class="cwCell">D</td>
+              </tr>
+            </table>   
+            </div>
         </div>
-	</div>
-    <div id='accents'>
-        <ul></ul>
+        <div id="right">
+            <div id="acrossContainer">
+            ACROSS
+            </div>
+            <div id="downContainer" >
+            DOWN
+            </div>
+        </div>
+        <div id='accents'>
+            <ul></ul>
+        </div>
+    </div>
+
+    <div id='generate'>
+            <ul>
+                <li>
+                    <span class='label'>Api Key:</span>
+                    <a href='https://www.lingq.com/accounts/apikey/'>Lookup</a>
+                    <input type='text' id='apikey'/>
+                </li>
+                
+                <li>
+                    <span class='label'>Lang:</span>
+                    <input type='text' id='lang' size='5' value='de'/>
+                </li>
+
+                <li><input type='submit' value='Build!' id='build'></input></li>
+                
+            </ul>
+
+    </div>
+    
+    <div id='about'>
+        <p style="font-size:11pt">Just a static sample with some of my LingQs.<br>
+        Based on <a href='http://www.david-sherman.com'>David Sherman's</a> crossword puzzle.  Used with permission<br>
+    Based on <a href='http://www.bryanhelmig.com'>Bryan Helmig's</a> crossword generator.  Used with permission<br>
+    Thrown together and modified by Shaun Patterson
     </div>
 
     
 </div>
+
 </body>
 </html>
 
