@@ -107,38 +107,6 @@ Crossword.prototype.compute_crossword = function(time_permitted, spins)
     }
 
     console.log("Computed");
-
-    /** 
-      * Okay, so there's a weird bug in the generation code.  TODO: Explain
-     */
-    downs = {};
-    acrosses = {};
-    pruned_word_list = [];
-    
-    this.current_word_list.sort(function (a,b) { return ((a.col + a.row) - (b.col + b.row)); });
-   
-    // Very inefficient way of doing this.  TODO: Change 
-    for (var i = 0; i < this.current_word_list.length; i++) {
-        var word = this.current_word_list[i];
-
-        for (var j = i + 1; j < this.current_word_list.length; j++) {
-            var word_to_test = this.current_word_list[j];
-
-            if ($.inArray(word_to_test, pruned_word_list) >= 0) {
-                // Skip this word
-                continue;
-            }
-
-            if (word.col == word_to_test.col && word.row == word_to_test.row && word.vertical == word_to_test.vertical && word.length < word_to_test.length) {
-                word = word_to_test;
-                i = j + 1;
-            }
-        }
-        pruned_word_list.push(word);
-    }
-
-    this.current_word_list = pruned_word_list;
-
     return;
 }
 
@@ -347,7 +315,20 @@ Crossword.prototype.set_word = function(col, row, vertical, word, force) {
             }
         }
         
-        this.current_word_list.push(word);
+        pruned = [];
+        for(var i = 0; i < this.current_word_list.length; i++) {
+            var existing_word = this.current_word_list[i];
+
+            if (existing_word.col == word.col && existing_word.row == word.row && existing_word.vertical == word.vertical) {
+                // Don't add -- essentially we found a word that's LONGER and fits 
+            } else {
+                pruned.push(existing_word);
+            }
+        }
+
+        pruned.push(word);
+
+        this.current_word_list = pruned;
 
     } else {
         // Do nothing??
@@ -369,19 +350,6 @@ Crossword.prototype.get_cell = function(col, row) {
     if (wrappedCol < 0) {
         wrappedCol = this.grid[wrappedRow].length - 1;
     }
-
-    if (this.grid == undefined) {
-        alert('undefined grid');
-    }
-    
-    if (wrappedRow >= this.grid.length) {
-        alert('greater than grid length: row' + row + " wr" + wrappedRow + " grid: " + this.grid.length);
-    }
-
-    if (wrappedCol >= this.grid[0].length) {
-        alert("greater than col length");
-    }
-
 
     return this.grid[wrappedRow][wrappedCol];
 }
