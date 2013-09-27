@@ -102,7 +102,7 @@ Frau,Mrs., Ms.
 die Frau, -en,the woman, the wife
 heute,today
 die Zeit, -en,the time (period of time)
-dein,your (inf.)
+dein,your (informal, singular)
 
 
 
@@ -147,7 +147,7 @@ selbst,self
 dort,there
 das Paar, -e,the pair, the couple
 weiter,further
-die Ordnung, -en,the order (not a command)
+die Ordnung, -en,the order, the organisation, the regularity
 geben,to give
 der Herr, -n, -en,the gentleman
 Herr,Mr.
@@ -566,7 +566,7 @@ der Brief, -e,the letter
 zahlen,to pay (the bill)
 welcher, welches, welche,which (three forms)
 gewinnen,to win
-laut,loud
+laut,1. loud (adj.). 2. according to (prep.)
 verkaufen,to sell
 fangen,to catch
 bezahlen,to pay (for)
@@ -863,7 +863,7 @@ verantwortlich,responsible
 das Dach, -"er,the roof
 der Lehrer, -,the teacher
 steigen,to climb, to rise, to ascend
-das Bad, -"er,the bath, the bathroom
+das Bad, -"er,1. the bath. 2. the bathroom
 die Katze, -n,the cat
 das Tier, -e,the animal
 rennen,to run, to race
@@ -998,7 +998,7 @@ der Kuss, -"e,the kiss
 schwimmen,to swim
 das Knie, -,the knee
 der Priester, -,the priest
-die Form, -en,the shape
+die Form, -en,the shape, the form
 beruhigen,to calm
 blind,blind
 der Kurs, -e,1. the course. 2. the exchange rate
@@ -1024,7 +1024,7 @@ der Sonntag, -e,the Sunday
 schulden,to owe
 der Stern, -e,the star
 dunkel,dark
-scheinen,to shine
+scheinen,1. to shine. 2 . to appear, to seem
 der Blödsinn,the nonsense (1) (no plural)
 der Freitag, -e,the Friday
 der Zufall, -"e,the chance
@@ -1368,7 +1368,7 @@ der Sand,the sand (no plural)
 anstatt,instead of (1)
 die Stellung, -en,the job position
 fürchten,to fear
-geraten,to turn out
+geraten,1. to get (into a situation) 2. to turn out
 deutlich,distinct, distinctly
 brav,well-behaved (2)
 aufwachen,to wake up
@@ -1545,7 +1545,7 @@ der Regisseur, -e,the film director
 der Stress,the stress (no plural)
 die Farbe, -n,the colour
 das Konto, die Konten,the account
-zugeben,to admit
+zugeben,to admit, to acknowledge, to concede, to confess
 das Modell, -e,the model
 der Charakter, -e,the character
 jener,that
@@ -1594,7 +1594,7 @@ die Technik, -en,1. the technique 2. the technology
 
 
 Level 31
-die Entfernung, -en,the distance
+die Entfernung, -en,1. the distance (used for long distances) 2. the removal
 grausam,gruesome, cruel
 die Werbung, -en,the advertising
 der Empfang, -"e,the greeting, the reception
@@ -1610,7 +1610,7 @@ studieren,to study
 einzig,single, only
 schmutzig,dirty
 der Einfluss, -"e,the influence
-der Verdienst, -e,the wages, the pay
+der Verdienst, -e,the income, the earnings
 das Verdienst, -e,the merit
 der Satz, -"e,the sentence
 das Dutzend, -e,the dozen
@@ -1643,7 +1643,7 @@ sozusagen,so to speak
 die Gemeinde, -n,1. the municipality, the township.  2. the congregation.
 abgeben,to hand in
 der Verkehr,the traffic (no plural)
-das Badezimmer, -,the bathroom
+das Badezimmer, -,the bathroom, the shower room
 deutsch,German (adj.)
 Deutsch,German language
 
@@ -1722,7 +1722,7 @@ die Heirat, -en,the wedding (1)
 der Zuschauer, -,the viewers
 die Gegenwart,the present time (no plural)
 der Juni,the June (no plural)
-der Lohn, -"e,the wages, the pay
+der Lohn, -"e,the wages, the pay, the salary
 der Bär, -en,the bear
 schämen,to shame
 das Tal, -"er,the valley
@@ -1856,7 +1856,7 @@ die Tragödie, -n,the tragedy
 der Vergleich, -e,the comparison
 ansonsten,otherwise
 der Saal, die Säle,the hall (big room)
-die Strecke, -n,the distance
+die Strecke, -n,1. the distance 2. the route
 widerlich,revolting
 angeln,to fish (1)
 das Gedicht, -e,the poem
@@ -1986,7 +1986,7 @@ der Nachbar, -n, -n,the male neighbour
 vollständig,complete
 frech,cheeky
 anlegen,to invest
-der Abstand, -"e,the distance, gap
+der Abstand, -"e,the distance (used for short distances)
 die Jury, -s,the jury
 vorhaben,to plan (2)
 die Welle, -n,the wave
@@ -2116,7 +2116,7 @@ der Bach, -"e,the stream
 der Hahn, -"e,the rooster
 der Sänger, -,the male singer
 der Verwandte, -n,the male relative
-die Rente, -n,the pension (2)
+die Rente, -n,1. the pension (e.g., old-age, disability). 2. the annuity (finance)
 der Stall, -"e,the stable
 die Verwandte, -n,the female relative
 die Länge, -n,the length
@@ -2127,7 +2127,7 @@ die Frisur, -en,the hairstyle
 die Zeugin, -nen,the female witness
 die Eifersucht,the jealousy (no plural)
 der Honig,the honey (no plural)
-empfinden,to feel
+empfinden,to feel (emotionally)
 der Irre, -n,the male lunatic (colloquial)
 der Detektiv, -e,the detective
 harmlos,harmless
@@ -2143,7 +2143,7 @@ fremd,foreign
 das Werkzeug, -e,the tool
 zurückziehen,to withdraw
 der Tabak, -e,the tobacco
-die Gestalt, -en,the form, the shape
+die Gestalt, -en,1. the form, the shape. 2. the stature, the build. 3. the figure (literature)
 der Kredit, -e,the credit
 umgekehrt,reversed
 wertvoll,valuable
@@ -2179,7 +2179,7 @@ insgesamt,altogether
 Israel,Israel
 exakt,exact
 die Qualität, -en,the quality
-die Hinsicht, -en,the respect
+die Hinsicht, -en,the respect, the aspect, the regard
 der Autounfall, -"e,the car accident
 binden,to tie
 vorlesen,to read aloud
@@ -2202,7 +2202,7 @@ der Aufenthalt, -e,the stop, the stay, the residence
 heilig,holy
 organisieren,to organise
 endgültig,final
-erweisen,to turn out
+erweisen,to prove (e.g., true or false)
 die Praxis, die Praxen,the practice (medical, etc.)
 braun,brown
 das Silber,the silver, (no plural)
@@ -2329,13 +2329,13 @@ spinnen,to be crazy (colloquial)
 das Schaf, -e,the sheep
 die Alternative, -n,the alternative
 Griechenland,greece
-leuchten,to shine
+leuchten,to shine, to glow
 der Löwe, -n, -n,the lion
 die Zeitschrift, -en,the journal, the periodical, the magazine
 der Hamburger, -,the hamburger
 Schottland,Scotland
 ober,upper
-der Anschlag, -"e,the attack
+der Anschlag, -"e,1. the (terrorist) attack 2. the placard 3. the arrestor
 feucht,humid (1)
 der Ober, -,the (head) waiter
 zeichnen,1. to draw. 2. to sign
@@ -2347,7 +2347,7 @@ arbeitslos,unemployed
 beruflich,professionally
 verursachen,to cause
 der Abschnitt, -e,the part
-die Bezahlung, -en,the pay, wages, payment
+die Bezahlung, -en,the payment
 
 
 
@@ -2405,7 +2405,7 @@ der Abfall, -"e,the waste
 
 
 Level 46
-die Ausgabe, -n,the edition
+die Ausgabe, -n,1. the expense. 2. the edition, the version
 hupen,to hoot
 gemäß,according to
 entsprechend,in accordance
@@ -2441,7 +2441,7 @@ die Schrift, -en,the writing
 die Kassette, -n,the cassette
 der Zins, -en,the bank interest
 die Soße, -n,the sauce
-die Pension, -en,the pension (1)
+die Pension, -en,1. the (old-age) pension (for civil servants). 2. the boarding house, small hotel
 der Beamte, -n,the civil servant
 der Kasten, -",the case, the box
 das Geschlecht, -er,the gender
@@ -2531,7 +2531,7 @@ die Zusammenarbeit,the cooperation (no plural)
 online,online
 die Unterkunft, -"e,the accommodation
 die Vorschrift, -en,the instruction
-die Reinigung, -en,the dry cleaning
+die Reinigung, -en,1. the cleaning, the purification. 2. the dry cleaner's (shop)
 scheitern,to fail
 der Vorname, -ns, -n,the given name
 der Mechaniker, -,the mechanic
@@ -2558,7 +2558,7 @@ der Rucksack, -"e,the backpack
 erraten,to guess
 stumm,mute, silent
 das Drama, die Dramen,the drama
-der Umgang,the handling (no plural)
+der Umgang,1. the social intercourse, contact. (no plural) 2. the handling (no plural)
 ursprünglich,originally
 die Vase, -n,the vase
 der Schal, -e or -s,the scarf
@@ -3096,7 +3096,7 @@ vergrößern,to enlarge
 das Shampoo, -s,the shampoo
 der Pfeffer,the pepper (no plural)
 die Waschmaschine, -n,the washing machine
-die Speisekarte, -n,the menu
+die Speisekarte, -n,the (restaurant) menu
 der Einwanderer, -,the immigrant (1)
 vorziehen,to prefer
 aufführen,to perform
@@ -3343,7 +3343,7 @@ der Regenmantel, -",the raincoat
 heimkommen,to come home
 ausrasten,to go ballistic (to lose one's temper)
 das Erdgeschoss, -e,the ground floor
-das Gasthaus, -"er,the inn
+das Gasthaus, -"er,the inn, the (traditional) restaurant
 die Tomate, -n,the tomato
 campen,to camp
 gültig,valid
@@ -3385,7 +3385,7 @@ wegfliegen,to fly away
 Luxemburg,Luxembourg
 das Hotdog, -s,the hot dog
 die Statistik, -en,the statistic
-die Fläche, -n,the area
+die Fläche, -n,1. the area, the space. 2. the surface
 der Holzfäller, -,the lumberjack
 die Festplatte, -n,the hard disk
 elektrisch,electric
@@ -3657,7 +3657,7 @@ das Stadtzentrum, die Stadtzentren,the city or town center
 die Staatssicherheit,the Stasi (no plural)
 die Spalte, -n,the fissure, the crevice, the crack in the wall, (typography) the space between two columns
 selbstständig,independent
-der Gasthof, -"e,the inn
+der Gasthof, -"e,the inn (usually in the country side)
 die Untertasse, -n,the saucer
 duzen,to call du (instead of Sie)
 das Bewerbungsgespräch, -e,the job interview (1)
@@ -3768,7 +3768,7 @@ befriedigend,satisfactory
 die Kantate, -n,the cantata
 der Nachttisch, -e,the night table
 der Krimi, -s,the detective story
-die Auswirkung, -en,the effect
+die Auswirkung, -en,the consequence, the effect
 der Bizeps, -e,the biceps
 die Metzgerei, -en,the butcher shop
 abtrocknen,to dry up
@@ -3921,7 +3921,7 @@ Level 74
 die Ode, -n,the ode
 lebenswichtig,essential
 das Sozialamt, -"er,the welfare office
-die Einnahme, -n,the income
+die Einnahme, -n,1. the income. 2. the intake (e.g., medicine)
 vorwiegend,mainly
 die Erfrischung, -en,the refreshments
 das Reiseziel, -e,the destination
@@ -4289,7 +4289,7 @@ der Reisebegleiter, -,the travel companion (person)
 räumlich,three-dimensional
 das Oktoberfest, -e,the Octoberfest
 der Arbeitnehmer, -,the employee (1)
-kariert,plaid
+kariert,chequered, plaid
 die Sandale, -n,the sandals
 das Notebook, -s,the notebook (computer)
 der Reisebus, -se,the tour bus
@@ -4302,7 +4302,7 @@ das Pfingsten, -,the Pentecost
 recyceln,to recycle (1)
 die Haarbürste, -n,the hairbrush
 das Kännchen, -,the little pot
-der Grenzübergang, -"e,the checkpoint
+der Grenzübergang, -"e,the border crossing, the checkpoint
 der Bodensee,Lake Constance
 die Eselsbrücke, -n,the mnemonic device
 väterlicherseits,paternal
@@ -4351,10 +4351,10 @@ der Arbeitsraum, -"e,the study (1)
 
 
 Level 82
-der Zeichentrickfilm, -e,the cartoon
+der Zeichentrickfilm, -e,the cartoon, the animated film
 das Spülmittel, -,the dishwashing liquid
 zusammenbinden,to tie together
-der Informatiker, -,the computer specialist
+der Informatiker, -,the computer scientist
 das Stofftier, -e,the stuffed animal
 das Modegeschäft, -e,the clothes shop
 das Radiergummi, -s,the eraser
@@ -4374,7 +4374,7 @@ die Spülmaschine, -n,the dishwasher (2)
 die Ungleichheit, -en,the inequality
 die Hauptschule, -n,the junior high school
 der Immigrant, -en, -en,the immigrant (2)
-die Verwandtschaft, -en,the relatives (as a group)
+die Verwandtschaft, -en,the relatives (as a group), the kinship
 die Weihnachtsferien,the Christmas vacation (plural only)
 die Jugendherberge, -n,the youth hostel
 gesamt,whole
@@ -4423,7 +4423,7 @@ der Klapptisch, -e,the folding table
 das Knäckebrot, -e,the crispbread
 das Umland,the surrounding area (no plural)
 die Damenabteilung, -en,the women's department
-die Informatik,the I.T. (no plural)
+die Informatik,the I.T., the computer science (no plural)
 die Freizeitbeschäftigung, -en,the leisure activity
 der Kreisverkehr,the traffic cirlce (no plural)
 der Rotzlümmel, -,the snotty-nosed brat
@@ -4480,7 +4480,7 @@ die Morgentoilette, -n,the morning rituals
 das Feinkostgeschäft, -e,the fine foods store
 glatzköpfig,bald
 die Radtour, -en,the bicycle trip
-die Märchenwelt, -en,the wonderland
+die Märchenwelt, -en,the fairy-tale world
 zurückbezahlen,to pay back
 der Personenwagen, -,the private car
 schlüpfrig,lewd, slippery
@@ -4505,7 +4505,7 @@ zusammenwohnen,to live together
 die Platzkarte, -n,the ticket (for a seat)
 das Sauwetter,the rotten weather (2) (no plural)
 der Wochenmarkt, -"e,the open air market
-ehemalig,former
+ehemalig,erstwhile, former
 beträufeln,to drizzle
 multikulturell,multicultural
 aufrunden,to round up
