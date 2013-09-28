@@ -65,13 +65,34 @@ def scrapeLevel(level):
     return foundWords
     
 def main():
-    for i in range(1, 100): 
+    englishWords = []
+    twice = []
+
+    for i in range(1, 102):
         words = scrapeLevel(i)
         print "Level %d" % (i)
         for w in words:
+            g = w[0]
+            e = w[1]
             print "%s,%s" % (w[0], w[1])
 
+            twice.append((i, g, e))
+
+            if e in englishWords:
+                englishWords.append(e)
+            
+
+
         print "\n\n"
+
+    for e in englishWords:
+        print e
+
+        for t in twice:
+            (level, german, english) = t
+            if english == e:
+                print "Level %s: %s=%s" % (level, german, english)
+
 
 
 if __name__ == "__main__":

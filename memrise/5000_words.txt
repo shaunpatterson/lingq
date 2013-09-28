@@ -236,7 +236,7 @@ eins,one
 die Frage, -n,the question
 egal,no matter, regardless
 die Familie, -n,the family
-weit,far, distant
+weit,wide, far
 die Musik, -en,the music (plural rarely used)
 sterben,to die
 die Hilfe,the help (no plural)
@@ -310,7 +310,7 @@ suchen,to search, to look for
 die Schwester, -n,the sister
 bestimmt,definite
 die Tochter, -",the daughter
-der Grund, -"e,the reason
+der Grund, -"e,1. the ground (no plural).  2. the reason
 zeigen,to show
 das Herz, -en,the heart
 das Bett, -en,the bed
@@ -334,7 +334,7 @@ eben,1. just (adv.). 2. level (adj.), even
 trinken,to drink
 das Gesicht, -er,the face
 verlassen,to leave (verb), deserted/desolate (adj.)
-der Mensch, -en,the human being, the person
+der Mensch, -en, -en,the human being, the person
 der Film, -e,the film
 ziemlich,quite, fairly
 schlafen,to sleep
@@ -363,7 +363,7 @@ einige,a few
 die Schule, -n,the school
 das Feuer, -,the fire, the lustre
 entschuldigen,to excuse
-erzählen,to tell
+erzählen,to tell, to recount
 bloß,just, only, merely
 der Pass, -"e,the passport (identity document, not necessarily a travel passport)
 der Platz, -"e,the place, the city square
@@ -417,7 +417,7 @@ heiraten,to marry
 ehrlich,honest
 der Kaffee, -s,the coffee
 der Arzt, -"e,the medical doctor
-das Büro, -s,the office
+das Büro, -s,the bureau, the office (a physical room/building)
 groß,big, tall
 der Fehler, -,the mistake, the error
 das Stück, -e,the piece
@@ -559,7 +559,7 @@ müde,tired
 liegen,to lie down, to be lying down
 die Reise, -n,the (long) journey
 die Sicherheit, -en,the security, the safety
-das Team, -s,the team
+das Team, -s,the team (anglicism)
 sobald,as soon as
 der Finger, -,the finger
 der Brief, -e,the letter
@@ -859,7 +859,7 @@ leisten,to achieve
 das Tor, -e,1. the gate, 2. the goal (sport)
 der Glückwunsch, -"e,the best wishes
 der Soldat, -en, -en,the soldier
-verantwortlich,responsible
+verantwortlich,responsible, accountable
 das Dach, -"er,the roof
 der Lehrer, -,the teacher
 steigen,to climb, to rise, to ascend
@@ -1155,7 +1155,7 @@ eifersüchtig,jealous
 die Decke, -n,1. the blanket. 2. the ceiling
 drücken,to press
 der Deutsche, -n, -n,the German person
-außerhalb,outside
+außerhalb,outside, beyond (prep., as in outside our control)
 der Montag, -e,the Monday
 peinlich,embarrassing
 schlau,crafty, clever
@@ -1360,7 +1360,7 @@ die Leitung, -en,the cable, the wiring, the pipes
 irren,to err
 meistens,mostly, usually
 der Start, -s,the start, the launch, the takeoff
-die Ursache, -n,the reason
+die Ursache, -n,the reason, the cause
 äußerst,extremely
 die Figur,the figure, physique (no plural)
 der Rauch,the smoke (no plural)
@@ -1698,7 +1698,7 @@ reißen,to rip, to tear
 das Tagebuch, -"er,the diary
 die Sekretärin, -nen,the female secretary
 derselbe, dieselbe, dasselbe,the same (three forms)
-außen,outside
+außen,outside, external (adj.)
 
 
 
@@ -1824,7 +1824,7 @@ fabelhaft,fabulous
 aufmerksam,attentive
 die Kultur, -en,the culture
 die Tradition, -en,the tradition
-die Mannschaft, -en,the team
+die Mannschaft, -en,the team, the crew
 das Bewusstsein,the consciousness (no plural)
 auftauchen,to surface
 die Rettung, -en,the rescue
@@ -1832,7 +1832,7 @@ ordentlich,tidy
 der Alptraum, -"e,the nightmare
 allzu,all too
 das Objekt, -e,the object
-ausrichten,to tell
+ausrichten,1. to align. 2. to tell
 die Stirn, -en,the forehead
 die Technologie, -n,the technology (2)
 genial,brilliant
@@ -1911,7 +1911,7 @@ höflich,polite
 eröffnen,to open (in the sense of a grand opening), to disclose
 ausgeben,to spend (money)
 lediglich,merely
-das Amt, -"er,the office
+das Amt, -"er,1. the agency, the bureau. 2. the office (as in "to run for office")
 der Schnaps, -"e,the schnapps, the hard liquor
 das Blatt, -"er,the leaf, the piece of paper
 das Golf,the golf (no plural)
@@ -1963,7 +1963,7 @@ die Sammlung, -en,the collection
 der Stamm, -"e,the tree trunk
 die Ansicht, -en,the opinion
 die Tankstelle, -n,the petrol station
-zuständig,responsible
+zuständig,responsible, competent
 der Akt, -e,1. the act (of an opera, etc.) 2. the nude (in art)
 der Zahn, -"e,the tooth
 der Brand, -"e,the fire (2)
@@ -2424,7 +2424,7 @@ die Lehre, -n,the apprenticeship
 der Kamm, -"e,the comb
 vergleichen,to compare
 lahm,lame
-angemessen,appropriate
+angemessen,appropriate (1)
 international,international
 der Hörer, -,the (telephone) receiver
 die Verletzung, -en,the injury
@@ -2435,7 +2435,7 @@ männlich,male (adj.)
 die Abkürzung, -en (Abk.),the abbreviation (abbr.)
 die Bestimmung, -en,the regulation
 ausprobieren,to try out
-der Effekt, -e,the effect
+der Effekt, -e,the effect (exact cognate with English)
 der Wechsel, -,the change
 die Schrift, -en,the writing
 die Kassette, -n,the cassette
@@ -2752,7 +2752,7 @@ der Briefkasten, -",the mailbox
 teilweise,partially
 vierzig,forty
 vergiften,to poison
-passend,appropriate
+passend,appropriate (2)
 dreizehn,thirteen
 kopieren,to copy
 die Industrie, -n,the industry
@@ -5311,6 +5311,109 @@ Tag der Fahne,Flag Day
 geblümt,flowered
 bestreuen,to sprinkle, to strew
 Guten Tag!,Good day!
+
+
+
+Level 100
+im Ausland,abroad
+meiner Meinung nach,in my opinion
+der Maschinenbaumechaniker, -,the machinist
+etwas Passendes,something suitable
+heute Nachmittag,this afternoon
+in der Öffentlichkeit,publicly
+viertel vor elf,quarter to eleven
+ein Glas Orangensaft,a glass of orange juice
+das Rockfest, -e,the rock festival
+letztes Jahr,last year
+zum Nachtisch,for dessert
+Los geht's!,Off we go!
+die U-Bahn, -en,the underground tube, the metro
+sich beeilen,to be in a hurry
+die Gartenterrasse, -n,the patio
+die Alltagszene, -n,the everyday scene
+der Klassenkamarad, -"e,the classmate
+nach etwas duften,to smell of something (dative)
+das Schwyzerdütsch,the Swiss German (no plural)
+morgen früh,early tomorrow morning
+Er irrt sich nie!,He never makes mistakes!
+vierzehn Tage,fortnight
+die Autofähre, -n,the car ferry
+sonstig,other
+das Kassler Rippchen, -,the smoked pork chop
+das Weltkulturerbe,the world cultural heritage (no plural)
+Wenn ich mich nicht irre, ...,If I'm not mistaken, ...
+der Reisescheck, -s,the traveller's cheque
+am Ende,at the end
+die Aktie, -n,the share (financial only)
+Diese Jacke gefällt mir.,I like this jacket.
+das Internetcafé, -s,the internetcafé
+die Nase zu tief ins Glas stecken,to drink too much (idiom)
+Was für Sport machst du?,What sports do you do?
+von ... bis,from ... to
+besser als,better than
+Prost!,Cheers!
+nicht mehr,no longer
+den Abwasch machen,to do the dishes
+das Bierglas, -"er,the beer glass
+ausverkaufen,to sell out
+Es tut mir leid.,I'm sorry.
+sowohl ... als auch,both ... and
+nach links,to the left
+nach Mitternacht,after midnight
+Prima!,Great! Cool! (1)
+in Fahrt sein,to be on a roll (talking non-stop)
+so viel wie möglich,as much as possible (2)
+das Altenheim, -e,the old people's home
+die Stehlampe, -n,the floor lamp
+
+
+
+Level 101
+sich ausruhen,to have a rest
+zum Beispiel (z.B.),for example (e.g.)
+die Übersetzung, -en,the translation
+die Kanzlerin, -nen,the female chancellor
+sich anziehen,to get dressed
+dort drüben,over there
+mit einem Mal,all of a sudden
+neidisch sein auf,to be envious of (+ acc.)
+die soziale Mobilität, -en,the social mobility
+den Haushalt machen,to do household chores
+sich irren,to be mistaken, to err, to be wrong
+Es hat keine Eile.,There's no rush.
+das Badewetter,the swimming weather (no plural)
+Einen guten Rutsch ins neue Jahr!,Happy New Year!
+fensterlos,windowless
+in letzter Zeit,lately, of late
+der CD-Spieler, -,the CD-player
+der Bürokaufmann, die Bürokaufleute,the office clerk
+Angst haben,to be afraid
+restlich,residual, remaining
+die Betriebswirtschaft, -en,the business studies (education)
+vorbei sein,to be over
+sich wohl fühlen,to feel well
+von selbst,by itself
+das heißt (d.h.),that is (i.e.)
+bisherig,previous
+Er tut dir nichts.,He won't hurt you.
+in Ohnmacht fallen,to faint
+der Ärmel, -,the sleeve
+sich unterhalten,to converse, to talk
+das Niederdeutsch,Lower German (North Germany) (no plural)
+das Landschaftsbild, -er,the scenery (not theatre)
+die Elternzeit, -en,the parental leave
+Welche Farbe hat Marks Hemd?,What colour is Mark's shirt?
+die Einbauküche, -n,the built-in kitchen
+schon wieder,already again
+per Anhalter fahren,to hitch-hike (2) (idiom)
+die Schwarzwälder Kirschtorte, -n,the Black Forest cake
+Das ist nicht mein Bier!,That's not my problem!
+fertig schreiben,to finish writing
+arbeiten an,to work on (+ dat)
+die globale Erwärmung,the global warming (no plural)
+warten auf,to wait for (+ acc.)
+so bald wie möglich,as soon as possible
+die Wäsche waschen,to do the laundry
 
 
 
