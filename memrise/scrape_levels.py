@@ -74,7 +74,7 @@ def main():
         for w in words:
             g = w[0]
             e = w[1]
-            print "%s,%s" % (w[0], w[1])
+            print "%s|%s" % (w[0], w[1])
 
             twice.append((i, g, e))
 
