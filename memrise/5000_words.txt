@@ -133,7 +133,7 @@ das Geld, -er|the money
 durch|through
 wohl|well
 schön|beautiful
-der Glaube, des Glaubens|the faith, of faith
+der Glaube, des Glaubens|the faith, of faith (nominative and genitive; no plural)
 klar|clear
 die Mutter, -"|the mother
 die Nacht, -"e|the night
@@ -183,14 +183,14 @@ helfen|to help
 sollen|should
 unser|our
 wegen|because of
-andere|other
+andere|1. other (pronoun). 2. other (adjective), different
 wieso|why (3)
 schnell|fast
 genug|enough
 sonst|else, otherwise
 gegen|1. against. 2. around (time)
 zusammen|together
-erst|not until, only
+erst|first, not until, only
 die Scheiße|the feces (no plural) (a vulgarity)
 der Moment, -e|the moment
 glauben|to believe
@@ -234,7 +234,7 @@ das Problem, -e|the problem
 der Dank|the thanks (no plural)
 eins|one
 die Frage, -n|the question
-egal|no matter, regardless
+egal|no matter, regardless, all the same
 die Familie, -n|the family
 weit|wide, far
 die Musik, -en|the music (plural rarely used)
@@ -522,7 +522,7 @@ das Vertrauen|the trust (no plural)
 vertrauen|to trust
 wenigstens|at least (2)
 lustig|funny, humourous
-dumm|dumb
+dumm|dumb, stupid
 arm|poor
 der Arm, -e|the arm
 plötzlich|suddenly
@@ -618,7 +618,7 @@ das Beispiel, -e|the example
 der Chef, -s|the male boss
 die Nase, -n|the nose
 sowieso|anyway (2)
-rücken|to move over
+rücken|1. to move over. 2. to push along
 der Rücken, -|the back
 reich|rich
 das Flugzeug, -e|the airplane
@@ -656,7 +656,7 @@ fernsehen|to watch TV
 das Fernsehen|the television (as a phenomenon) (no plural)
 das Gesetz, -e|the law (countable noun)
 neben|next to, beside
-dahin|(to) there
+dahin|(to) there (1)
 die Freiheit, -en|the freedom
 das Gold|the gold (no plural)
 das Weihnachten, -|the Christmas
@@ -804,7 +804,7 @@ der Agent, -en, -en|the Agent
 die Position, -en|the position
 die Küche, -n|the kitchen
 der Ring, -e|the ring
-die Gegend, -en|the district
+die Gegend, -en|the (geographical) area (with no well-defined boundaries)
 nah|near
 die Verbindung, -en|the connection, the link
 das Kleid, -er|the dress (generally worn by women)
@@ -812,7 +812,7 @@ die Ecke, -n|the corner
 das Radio, -s|the radio
 das Eis|the ice (no plural)
 witzig|witty, funny
-das Fräulein, -|the miss
+das Fräulein, -|the miss (young lady)
 der Flug, -"e|the flight
 halb|half
 England|England
@@ -875,12 +875,12 @@ blöd|stupid (1)
 die City|the city centre, downtown (no plural)
 küssen|to kiss
 der Baum, -"e|the tree
-davor|beforehand
+davor|1. beforehand, before that. 2. in front of
 verdienen|to earn
 das System, -e|the system
 das Lächeln|the smile (no plural)
 lächeln|to smile
-das Abendessen, -|the supper
+das Abendessen, -|the dinner, the supper
 die Flasche, -n|the bottle
 schützen|to protect
 leer|empty
@@ -889,7 +889,7 @@ rauchen|to smoke
 das Rauchen|the smoking (no plural)
 der Vogel, -"|the bird
 vermutlich|presumably, probably
-kosten|to cost
+kosten|1. to cost. 2. to taste (something), to sample (food), to savour
 der Haufen, -|the pile
 die Wand, -"e|the wall (part of a building)
 brechen|to break (into pieces)
@@ -917,7 +917,7 @@ der Auftrag, -"e|the order (command), the mandate, the mission
 der Regen, -|the rain
 einverstanden|agreed
 gemeinsam|collective, together
-dorthin|to there
+dorthin|(to) there (2)
 bedeuten|to mean
 schwarz|black
 die Lüge, -n|the lie
@@ -937,7 +937,7 @@ fern|far, distant
 geschlossen|closed
 der Mond, -e|the moon
 unternehmen|to undertake
-die Hose, -n|the pants
+die Hose, -n|the pants, the trousers
 der Rock, -"e|the skirt, or any kind of kilt-like attire
 der Rock|the rock music (no plural)
 das Pfund, -e|1. the pound (weight). 2. the pound (currency, no plural)
@@ -979,7 +979,7 @@ das Grab, -"er|the grave
 das Restaurant, -s|the restaurant
 rot|red
 der Schatten, -|1. the shade. 2. the shadow
-der Gang, -"e|1. the course. 1. the passage
+der Gang, -"e|1. the course. 2. the passage. 3. the corridor. 4. the gait
 das Lager, -|the warehouse, the storage area
 aufstehen|1. to stand up. 2. to get up (from bed)
 der Sieg, -e|the victory
@@ -987,7 +987,7 @@ nerven|to get on one's nerves
 die Kugel, -n|the ball, the scoop
 die Milch|the milk (no plural)
 schwanger|pregnant
-die Gewalt|the violence (no plural)
+die Gewalt, -en|1. the violence, the force (no plural). 2. the authority
 Frankreich|France
 das Reich, -e|the realm (in the sense of kingdom, empire, etc.)
 die Schönheit, -en|the beauty
@@ -1008,7 +1008,7 @@ der Großvater, -"|the grandfather
 
 
 Level 20
-entkommen|to escape (2)
+entkommen|to escape (as in to run away from, e.g., prison)
 der Fahrer, -|the male driver
 die Million, -en|the million
 das Risiko, die Risiken|the risk
@@ -1053,7 +1053,7 @@ normalerweise|normally
 aufgeben|to give up (a bad habit)
 der Ton, -"e|the tone, the sound, the note
 der Ton, -e|the clay
-das Gebiet, -e|the region (1)
+das Gebiet, -e|1. the region. 2. the field of knowledge, the area of expertise
 der Westen|the west (no plural)
 der Zweifel, -|the doubt
 
@@ -1114,7 +1114,7 @@ die Rechnung, -en|1. the bill, the invoice. 2. the calculation
 
 Level 22
 schwach|weak
-der Winter, -|the Winter,
+der Winter, -|the winter
 entlassen|to dismiss, to fire (from a job)
 handeln|to deal, to trade, to haggle, to act
 die Brust, -"e|the breast, the chest
@@ -1169,7 +1169,7 @@ frisch|fresh
 der Inspektor, -en|the inspector
 mehrere|several
 aufmachen|to open (1)
-die Bahn, -en|the railway
+die Bahn, -en|1. the railway. 2. the track, the path
 das Papier, -e|the paper, the document
 zurückkommen|to return, to come back
 landen|to land
@@ -1179,7 +1179,7 @@ das Talent, -e|the talent
 der Geschmack, -"e|the taste
 das Labor, -s|the laboratory
 zwölf|twelve
-ausgehen|to go out (1)
+ausgehen|1. to go outside. 2. to run out (e.g., money). 3. to burn out (e.g., a candle, fire). 4. to go out (as in to date). 5. to assume. 6. to die down.
 der Griff, -e|the grip, (mus.) the fingering
 das Ei, -er|the egg
 wählen|to choose, to vote
@@ -1206,7 +1206,7 @@ der Fernseher, -|the television set
 die Erlaubnis, -se|the permission, the permit
 die Bedeutung, -en|the meaning
 kontrollieren|to check, to control
-auseinander|apart
+auseinander|apart, asunder
 Kalifornien|California
 der Cent, -(s)|the cent
 gebrauchen|to use (2)
@@ -1214,7 +1214,7 @@ der Schnee|the snow (no plural)
 verfolgen|to pursue
 die Zahl, -en|the number, the figure (e.g., the unemployment figure)
 jederzeit|(at) any time
-das Pech, -e|1. bad luck. 2. the residue of coal tar.
+das Pech, -e|1. bad luck (no plural). 2. the residue of coal tar.
 
 
 
@@ -1223,7 +1223,7 @@ die Botschaft, -en|1. the message. 2. the embassy
 der Stoff, -e|1. the material, the substance. 2 the fabric
 die Mitternacht, -"e|the midnight
 Mexiko|Mexico
-die Sendung, -en|the TV programme
+die Sendung, -en|the broadcast, the programme (TV and radio)
 packen|to pack (2)
 die Heimat, -en|the home country, the home town
 hingehen|to go (there)
@@ -1280,14 +1280,14 @@ heutzutage|nowadays
 dahinter|behind it
 der Wissenschaftler, -|the academic
 genießen|to enjoy
-fliehen|to flee
+fliehen|to flee (1)
 festhalten|to seize, to adhere, cling to, hold on tight
 streng|stringent, rigourous, harsh
 das Fett, -e|the fat
 starten|to take off, to set off, to start off
 erleben|to experience
 klopfen|to knock
-das Benzin|the petrol (no plural)
+das Benzin, -e|the petrol
 Deutschland|Germany
 zuhören|to listen to
 der Bürger, -|the citizen
@@ -1309,7 +1309,7 @@ das Universum, die Universen|the universe (U-)
 die Politik|the politics (no plural)
 der Müll|the rubbish (no plural)
 riskieren|to risk
-anfassen|to touch
+anfassen|1. to touch. 2. to grab, to catch hold of
 der Staub|the dust (no plural)
 der Narr, -en, -en|the fool, the jester
 der Vorschlag, -"e|the suggestion
@@ -1370,7 +1370,7 @@ die Stellung, -en|the job position
 fürchten|to fear (2)
 geraten|1. to get (into a situation) 2. to turn out
 deutlich|distinct, distinctly
-brav|well-behaved (2)
+brav|1. well-behaved (of children). 2. honest, dowdy
 aufwachen|to wake up
 die Theorie, -n|the theory
 möglicherweise|possibly (2)
@@ -1413,7 +1413,7 @@ gründen|to found smth.
 der Text, -e|the text
 taub|deaf
 die Jugend|the youth (no plural)
-berichten|to report
+berichten|to report, to relate, to give account
 der Hubschrauber, -|the helicopter
 die Realität, -en|the reality
 der Zeuge, -n, -n|the male witness
@@ -1496,7 +1496,7 @@ rauskommen|to come out (2)
 offiziell|official
 Spanisch|Spanish (language)
 spanisch|Spanish (adj.)
-der Kreis, -e|the circle
+der Kreis, -e|1. the circle. 2. the county (e.g., Los Angeles county)
 überfallen|to mug, to attack
 die Mauer, -n|the (stand-alone) wall
 verabschieden|to say goodbye
@@ -1617,7 +1617,7 @@ liefern|to deliver
 der Zorn|the anger (no plural)
 extrem|extreme
 der Antrag, -"e|the proposal, the application
-der Bau, -ten|the construction
+der Bau, -ten|1. the construction (physical; of, e.g., a house; no plural). 2. the structure, the organisation (e.g., of a play; no plural). 3. the build (of a body; no plural). 4. the building
 der Bau, -e|the den (of animals)
 freiwillig|voluntary
 einladen|to invite
@@ -1689,14 +1689,14 @@ der Jäger, -|the hunter
 die Aussicht, -en|the view
 vermeiden|to avoid
 gewöhnlich|usually
-der Oktober|the October
+der Oktober|the October (no plural)
 die Kutsche, -n|the horse carriage
 stürzen|to fall, to plunge
 der Hai, -e|the shark
 reißen|to rip, to tear
 das Tagebuch, -"er|the diary
 die Sekretärin, -nen|the female secretary
-derselbe, dieselbe, dasselbe|the same (three forms)
+derselbe, dasselbe, dieselbe|the same (three forms)
 außen|outside, external (adj.)
 
 
@@ -1718,7 +1718,7 @@ die Wolle|the wool (no plural)
 die Cola, -s|the cola
 die Platte, -n|the plate, the platter, the panel
 die Heirat, -en|the wedding (1)
-der Zuschauer, -|the viewers
+der Zuschauer, -|the viewer
 die Gegenwart|the present time (no plural)
 der Juni|the June (no plural)
 der Lohn, -"e|the wages, the pay, the salary
@@ -1872,8 +1872,8 @@ der Zettel, -|the piece of paper, the docket
 das Verständnis, -se|the understanding
 der Experte, -n, -n|the male expert
 rechnen|to calculate (2)
-das Kostüm, -e|the (women's) suit
-faul|lazy
+das Kostüm, -e|1.the costume 2. the (women's) suit
+faul|1. foul, rotten 2. lazy
 das Motiv, -e|the motif
 Chinesisch|Chinese
 unterbrechen|to interrupt
@@ -1883,9 +1883,9 @@ Kanada|Canada
 die Prüfung, -en|the exam
 breit|wide, broad
 grüßen|to greet, to say hello
-rausgehen|to go out (2)
+rausgehen|to pop outside (colloquial)
 das Ereignis, -se|the event, the occurrence, the incidence
-der Kater, -|the hangover
+der Kater, -|1. the male cat 2. the hangover
 der Kofferraum, -"e|the luggage trunk, the boot
 das Futter, -|the animal feed
 der Kellner, -|the waiter
@@ -1896,7 +1896,6 @@ hinauf|up
 der Reis|the rice (no plural)
 das Brett, -er|the board, the plank
 das Internet|the internet (no plural)
-März|March
 beherrschen|to control
 sichern|to secure
 der März|the March (no plural)
@@ -2009,13 +2008,12 @@ die Versammlung, -en|the assembly, the meeting
 geschieden|divorced
 der Pfad, -e|the path
 klagen|to moan, to complain
-das Ausland, -"er|the foreign land
+das Ausland|the foreign land (no plural)
 das Datum, die Daten|the date
 das Magazin, -e|the magazine
 das Kompliment, -e|the compliment
 der Januar|the January (no plural)
 die Fähigkeit, -en|the ability
-Januar|January
 der Spaziergang, -"e|the walk
 mitteilen|to convey (+dat.)
 der Japaner, -|the Japanese (person)
@@ -2053,7 +2051,7 @@ die Ente, -n|the duck
 füttern|to feed pets
 der Weltkrieg, -e|the world war
 der Wurm, -"er|the worm
-die Mütze, -n|the ugly yarn winter head cover cap
+die Mütze, -n|the beanie, the winter cap
 befragen|to question (e.g., a suspect), to interrogate, to consult
 bremsen|to brake
 der Neffe, -n, -n|the nephew
@@ -2135,7 +2133,7 @@ Polen|Poland
 
 
 Level 41
-hilfreich|helpful (1)
+hilfreich|helpful
 empfehlen|to recommend
 fremd|foreign, strange, unfamiliar
 das Werkzeug, -e|the tool
@@ -2228,7 +2226,7 @@ die Burg, -en|the castle (B-)
 der Wohnwagen, -|the caravan
 der Buchhalter, -|the bookkeeper
 angesichts|in view of
-gelten|to be considered
+gelten|to apply, to be valid, to be considered
 Februar|February
 der Dampf, -"e|the steam
 der Euro, -s|the euro
@@ -2303,7 +2301,7 @@ die Analyse, -n|the analysis
 beachten|to take into account
 der Student, -en, -en|the student
 die Autobahn, -en|the motorway
-entgehen|to escape (1)
+entgehen|to escape (e.g., notice, punishment), to avoid, to evade
 die Masse, -n|the crowd
 ausführen|to carry out, implement, do
 ausschalten|to switch off
@@ -2387,7 +2385,7 @@ flach|flat
 das Lebensmittel, -|the groceries, the foodstuffs
 der Seemann, -"er|the seaman
 bescheiden|modest
-produzieren|to produce
+produzieren|1. to produce (physical production, such as manufacturing). 2. to make, to generate (e.g., noises; colloquial)
 unabhängig|independent, impartial
 blond|blonde
 der Klub, -s|the club (exact cognate with English)
@@ -2424,7 +2422,7 @@ vergleichen|to compare
 lahm|lame
 angemessen|appropriate
 international|international
-der Hörer, -|the (telephone) receiver
+der Hörer, -|1. the (telephone) receiver. 2. the listener (as in a person who listens)
 die Verletzung, -en|the injury
 der Verband, -"e|the association
 die Kommunikation, -en|the communication
@@ -2447,7 +2445,7 @@ versichern|to insure
 der Passagier, -e|the passenger (2)
 das Feuerwerk, -e|the fireworks
 die Kurve, -n|the curve
-der Journalist, -en|the journalist
+der Journalist, -en, -en|the journalist
 seither|since then
 der Bräutigam, -e|the bridegroom
 das Picknick, -s|the picnic
@@ -2501,7 +2499,7 @@ der BH, -s|the bra
 das Obst|the fruit (no plural)
 der Hase, -n, -n|the hare
 national|national
-anzeigen|to report
+anzeigen|1. to report (a crime). 2. to notify, to announce, to advertise. 3. to show
 behindert|handicapped, disabled
 der Notruf, -e|the emergency phone call
 der Feierabend, -e|the end of the work day
@@ -2514,7 +2512,7 @@ die Kritik, -en|the criticism
 der Senf, -e|the mustard
 anderthalb|one and a half (1)
 wegwerfen|to throw away
-erzeugen|to produce
+erzeugen|1. to produce (physical, as in manufacturing; abstract, as in producing a feeling). 2. to engender
 der Weltraum|outer space (no plural)
 der Supermarkt, -"e|the supermarket
 arrogant|arrogant
@@ -2611,7 +2609,7 @@ befürchten|to fear (1)
 der Gruß, -"e|the salutation (singular), the regards (plural)
 die Jahreszeit, -en|the season (as in spring, summer, autumn and winter)
 die Mathematik|the mathematics (no plural)
-die Höflichkeit, -en|the courtesy
+die Höflichkeit, -en|the courtesy, the politeness
 wiederum|in turn, then again, on the other hand
 
 
@@ -2622,7 +2620,7 @@ untergehen|to sink, to go under (figurative)
 die Alliierten|the Allies (WWII) (plural only)
 der Anrufbeantworter, -|the answering machine
 der Mitbewohner, -|the housemate, the roommate
-angeben|to boast
+angeben|1. to state, to declare. 2. to boast (colloquial)
 die Wurst, -"e|the sausage
 sofern|provided that
 das Argument, -e|the argument, the point, the case
@@ -2644,7 +2642,7 @@ der Geiger, -|the male violinist
 das Geschwister, -|the sibling
 der Kritiker, -|the male critic
 der Haushalt, -e|the household
-die Nachfrage, -n|the demand
+die Nachfrage, -n|1. the inquiry. 2. the demand (economics)
 der Terrorist, -en, -en|the terrorist
 die Notiz, -en|the note
 der Gipfel, -|the summit, the top
@@ -2662,7 +2660,7 @@ verbieten|to forbid
 der Gärtner, -|the male gardner
 ermitteln|to investigate
 die Galerie, -n|the gallery
-zukommen|to correspond (to)
+zukommen|1. to approach. 2. to be bestowed (on). 3. to be due to
 der Pfennig, -e|the penny
 das Tennis|the tennis (no plural)
 global|global
@@ -2679,7 +2677,7 @@ vermieten|to rent out (as an owner)
 das Formular, -e|the blank form
 das Instrument, -e|the instrument
 einrichten|to establish
-einschlagen|to wrap
+einschlagen|1. to wrap. 2. to smash
 das Brötchen, -|the (bread)roll
 das Lama, -s|the llama
 der Lama, -s|the lama (Tibetan buddhist monk)
@@ -2704,7 +2702,7 @@ das Telefonbuch, -"er|the telephone directory
 die Reihenfolge, -n|the sequence
 die Fernbedienung, -en|the remote control
 die Abfahrt, -en|the departure (bus)
-durchmachen|to go through
+durchmachen|to go through, to undergo
 der Sessel, -|the armchair
 das Kondom, -e|the condom
 schütteln|to shake
@@ -2755,7 +2753,7 @@ die Industrie, -n|the industry
 der Wohlstand|the affluence (no plural)
 der Knoblauch|the garlic (no plural)
 der Ski, -er|the ski
-die Region, -en|the region (2)
+die Region, -en|the region (exact cognate with English)
 der Slip, -s|the panties, the briefs
 anmachen|to put on, to turn on
 investieren|to invest (exact cognate with English)
@@ -2776,7 +2774,7 @@ das Arbeitszimmer, -|the study (2)
 verstärken|to strengthen
 auslösen|to trigger, provoke
 der Vetter, -n|the male cousin
-flüchten|to escape
+flüchten|to flee (2)
 
 
 
@@ -2819,7 +2817,7 @@ die Schwägerin, -nen|the sister-in-law
 die Verwendung, -en|the usage, use, appropriation
 der Tierarzt, -"e|the vet
 Brasilien|Brazil
-frieren|to be cold
+frieren|1. to be cold. 2. to freeze
 falten|to fold
 die Nuss, -"e|the nut
 letztlich|in the end
@@ -2827,7 +2825,7 @@ jüdisch|Jewish
 der Architekt, -en, -en|the architect
 bislang|up to now
 der Verein, -e|the club, the association
-die Tonne, -n|the bin, the ton
+die Tonne, -n|1. the ton (unit of measurement). 2. the barrel (e.g., of crude oil)
 das Einkaufszentrum, die Einkaufszentren|the shopping centre
 das Weihnachtsgeschenk, -e|the Christmas present
 der Lumpen, -|the rag
@@ -2871,7 +2869,7 @@ der Designer, -|the designer
 schriftlich|in writing
 der Heimweg, -e|the way home
 der Fußboden, -"|the floor
-unerhört|outrageous
+unerhört|outrageous, unheard-of
 die Verwaltung, -en|the administration
 tätig|active
 der Arbeitgeber, -|the employer
@@ -2943,7 +2941,7 @@ Level 56
 die Software, -s|the software
 die Polizistin, -nen|the female police officer
 auswählen|to choose
-der Gummi, -s|the rubber (ambiguous meaning)
+der Gummi, -s|1. the rubber, the gum. 2. the condom (colloquial). 3. the eraser (short form)
 der Sekt, -e|the sparkling wine
 die Sekte, -n|the sect
 Belgien|Belgium
@@ -2954,7 +2952,7 @@ das Einhorn, -"er|the unicorn
 der Feiertag, -e|the public holiday (1)
 die Tablette, -n|the pill, the tablet
 das Parlament, -e|the parliament
-der Schiedsrichter, -|the referee
+der Schiedsrichter, -|the referee (sport)
 trocknen|to dry
 die Auskunft, -"e|the information (1)
 belasten|to burden
@@ -2970,7 +2968,6 @@ berechnen|to calculate (1)
 die Architektur, -en|the architecture
 die Mathe|the math (no plural)
 das Lenkrad, -"er|the steering wheel (1)
-Ostern|Easter
 das Bündel, -|the bundle
 das Ostern|the Easter (no plural)
 ausschließlich|exclusive
@@ -2983,7 +2980,7 @@ die Beleuchtung, -en|the lighting
 Dänemark|Denmark
 eigen|own
 zurückzahlen|to pay back (2)
-das Abendbrot, -e|the supper
+das Abendbrot, -e|the light evening meal (usually with bread)
 der Dachboden, -"|the attic
 das Seminar, -e|the seminar
 religiös|religious
@@ -3029,7 +3026,7 @@ flicken|to mend
 primitiv|primitive
 die Jüdin, -nen|the female Jew
 der Campus, -|the campus
-unterschiedlich|different (1)
+unterschiedlich|different
 der Ellbogen, -|the elbow
 glänzend|shiny
 die Schwiegermutter, -"|the mother-in-law
@@ -3055,7 +3052,7 @@ die Ausfahrt, -en|the exit of a highway
 weitergeben|to pass along
 grunzen|to grunt
 die Lippe, -n|the lip
-anschnallen|to fasten seat belt
+anschnallen|to fasten (seat belt)
 züchten|to cultivate
 bedeutungslos|meaningless
 die Alarmanlage, -n|the alarm system
@@ -3132,7 +3129,7 @@ umkommen|to die (2)
 vereinbaren|to agree
 der Ablauf, -"e|the procedure
 heiter|bright weather
-artig|well-behaved (1)
+artig|1. well-behaved. 2. polite, gallant
 ausüben|to practise (a profession)
 die Quote, -n|1. the portion 2. the rate
 das Porträt, -s|the portrait
@@ -3180,7 +3177,7 @@ das Konsulat, -e|the consulate
 die Kartoffel, -n|the potato
 das Treppenhaus, -"er|the staircase
 die Hochschule, -n|the college, the university
-der Schnabel, -"|the mouth (slang)
+der Schnabel, -"|1. the mouth (slang). 2. the beak (of a bird). 3. the spout (of a teapot)
 der Toaster, -|the toaster
 das Gymnasium, die Gymnasien|the nine-year school prior to higher education
 das Taschengeld, -er|the pocket money
@@ -3220,7 +3217,7 @@ miserabel|miserable
 die Bäckerei, -en|the bakery
 der Staubsauger, -|the vacuum cleaner
 die Pfanne, -n|the pan
-der Aufbau, -ten|the construction
+der Aufbau, -ten|1. the construction (physical and abstract; no plural). 2. the structure, the organisation (e.g., of a story, of society; no plural). 3. the superstructure (as in something built on top of something else)
 der Zugführer, -|the train conductor
 Peru|Peru
 anschließend|subsequently, afterwards
@@ -3320,7 +3317,7 @@ der Klumpen, -|the lump
 Level 63
 das Lagerfeuer, -|the campfire
 das Zimmermädchen, -|the maid
-die Schminke, -n|the cosmetics
+die Schminke, -n|the make-up (especially the theatrical sort)
 vorlegen|to submit, to present
 ungesund|unhealthy
 der Teddybär, -en, -en|the teddy bear
@@ -3496,7 +3493,7 @@ zusammenpassen|to match up, to fit together
 fromm|pious
 realisieren|to realize
 die Monarchie, -n|the monarchy
-hinausgehen|to go out (3)
+hinausgehen|to go outside
 wöchentlich|weekly
 die Gebühr, -en|the fee
 dienstags|on Tuesdays
@@ -3527,7 +3524,7 @@ der Sonnenbrand, -"e|the sunburn
 der Vorort, -e|the suburb
 die Aussprache, -n|the pronunciation
 überholen|to overtake
-hilfsbereit|helpful (2)
+hilfsbereit|ready to help
 
 
 
@@ -3698,7 +3695,7 @@ die Friseuse, -n|the female hairdresser
 Level 70
 künstlerisch|artistic
 der Hamster, -|the hamster
-die Sterblichkeit, -en|the mortality rate
+die Sterblichkeit, -en|the mortality
 der Stadtteil, -e|the district, the part of the city
 der Pfosten, -|the post (as in wooden post, etc.)
 die Enzyklopädie, -n|the encyclopedia (E-)
@@ -3763,7 +3760,8 @@ der Nachttisch, -e|the night table
 der Krimi, -s|the detective story
 die Auswirkung, -en|the consequence, the effect
 der Bizeps, -e|the biceps
-die Metzgerei, -en|the butcher shop
+die Metzgerei, -en|the butcher shop (2)
+die Schlachterei, -en|the butcher shop (3)
 abtrocknen|to dry up
 die Pflaume, -n|the plum
 das Motorboot, -e|the motorboat
@@ -3828,7 +3826,7 @@ zeitlich|time-wise
 verweisen|to refer
 widerwillig|reluctant
 der Volleyball, -"e|the volleyball
-kennzeichnen|to characterise
+kennzeichnen|1. to mark, to label. 2. to characterise
 voraussehen|to foresee, to anticipate
 zentral|central
 die Klausur, -en|the written examination
@@ -3860,7 +3858,7 @@ Level 73
 der Taschenrechner, -|the calculator
 violett|violet
 die Krippe, -n|the crib
-Christlich|Christian
+christlich|Christian (adj.)
 mitsingen|to sing along
 der Hagel|the hail (no plural)
 die Sprechstunde, -n|the office hour
@@ -3942,7 +3940,7 @@ der Igel, -|the hedgehog
 das Schimpfwort, -"er|the profane word, the profanity
 die Klarinette, -n|the clarinet
 das Büfett, -s|the buffet
-preiswert|reasonably priced
+preiswert|worth the money, good value for money
 insofern|insofar
 geschmackvoll|tasteful
 die Akzeptanz, -en|the acceptance
@@ -3954,7 +3952,7 @@ das Ferienhaus, -"er|the summer cottage
 der Waschsalon, -s|the laundromat
 Serbien|Serbia
 das Zwischenspiel, -e|the interlude
-das Fernsehprogramm, -e|the TV show
+das Fernsehprogramm, -e|the TV programme
 der Osterhase, -n, -n|the Easter Bunny
 eisig|icy
 der Hausarzt, -"e|the male family doctor
@@ -4021,7 +4019,7 @@ einschränken|to restrict
 
 Level 76
 integrieren|to integrate
-der Geldschein, -e|the banknote (G-)
+der Geldschein, -e|the banknote (2)
 lauwarm|lukewarm
 die Zehe, -n|the toe
 der Föhn, -e|the blow dryer
@@ -4120,7 +4118,7 @@ das Verkehrsmittel, -|the public transport
 die Halsschmerzen|the sore throat (plural only)
 der Sprudel, -|the fizzy water
 die Ansichtskarte, -n|the picture postcard
-der Zebrastreifen, -|the crosswalk
+der Zebrastreifen, -|the zebra crossing, the crosswalk
 der Festtag, -e|the public holiday (2)
 vegetarisch|vegetarian (adj.)
 der Personalchef, -s|the personnel manager
@@ -4238,7 +4236,7 @@ Level 80
 das Menschenrecht, -e|the human right
 der Radfahrer, -|the cyclist
 begießen|to douse, to shower
-die Banknote, -n|the banknote (2)
+die Banknote, -n|the banknote (1)
 hineinfahren|to drive in
 die Anrichte, -n|the sideboard
 einheitlich|common, uniform, consistent
@@ -4301,7 +4299,7 @@ väterlicherseits|paternal
 dänisch|Danish (adj.)
 die Bockwurst, -"e|the smoked sausage
 australisch|Australian (adj.)
-charakterisieren|to characterise
+charakterisieren|to characterise (exact cognate with English)
 der Turnschuh, -e|the gym shoe, the sneaker
 der Buchenwald, -"er|the beech forest
 der Fußweg, -e|the footpath
@@ -4349,7 +4347,7 @@ zusammenbinden|to tie together
 der Informatiker, -|the computer scientist
 das Stofftier, -e|the stuffed animal
 das Modegeschäft, -e|the clothes shop
-das Radiergummi, -s|the eraser
+der Radiergummi, -s|the eraser
 die Geschwindigkeitsbegrenzung, -en|the speed limit
 der Luftschutzkeller, -|the air-raid shelter
 der Auswanderer, -|the emigrant (1)
@@ -4443,7 +4441,7 @@ das Einzelbett, -en|the single bed
 die Gulaschsuppe, -n|the goulash soup
 der Traumberuf, -e|the job of one's dreams
 väterlich|fatherly
-die Semesterferien|the vacation (plural only)
+die Semesterferien|the (university) semester break (plural only)
 die Steppdecke, -n|the comforter, the quilt
 der Couchtisch, -e|the coffee table
 die Vanillesoße, -n|the vanilla sauce
@@ -4493,7 +4491,7 @@ das Junkfood|the junk food (no plural)
 undefinierbar|indefinable
 der Azubi, -s|the (abbr. of Auszubildende)
 zusammenwohnen|to live together
-überschnappen|to go crazy, to snap
+überschnappen|to go bonkers, to snap (colloquial)
 die Platzkarte, -n|the ticket (for a seat)
 das Sauwetter|the rotten weather (2) (no plural)
 der Wochenmarkt, -"e|the open air market
@@ -4561,7 +4559,7 @@ preisgünstig|inexpensive
 der Fußgängerüberweg, -e|the crosswalk (1)
 die Querflöte, -n|the transverse flute
 das Sportprogramm, -e|the sports program
-die Fleischerei, -en|the butcher shop
+die Fleischerei, -en|the butcher shop (1)
 hügelig|hilly
 belgisch|Belgian (adj.)
 das Kleidergeschäft, -e|the clothing store
@@ -4670,7 +4668,7 @@ die guten Vorsätze|good resolutions (plural only)
 Ich habe Hunger.|I'm hungry.
 Es donnert.|It's thundering.
 der Mittelklassewagen, -|the mid-sized car
-Das ist mir egal.|It makes no difference to me.
+Das ist mir egal.|That makes no difference to me.
 der Märchenkönig, -e|the fairy-tale king
 pleite sein|to be broke
 bei Nacht|at night (1)
@@ -4793,7 +4791,7 @@ nützlich|useful
 das gekochte Ei, -er|the boiled egg
 von Montag ab|from Monday on
 Das stimmt.|That's right.
-die Bermudashorts|the Bermuda shorts (no plural)
+die Bermudashorts|the Bermuda shorts (plural only)
 Recht haben|to be right (1)
 das Rote Kreuz|the Red Cross (no plural)
 Das ist mir wurscht.|I couldn't care less.
@@ -5091,7 +5089,7 @@ Wir sind zu zweit.|There are two of us.
 
 
 Level 96
-übergeschnappt|crazy (2)
+übergeschnappt|bonkers, crazy (colloquial)
 Sport treiben|to do sports
 Neuseeland|New Zealand
 verfügen über|to be in charge of, to have at one's disposal
@@ -5260,14 +5258,14 @@ das Einfamilienhaus, -"er|the single-family house, a 'monoplex'
 an Bord|on board
 hin und zurück|there and back
 die Glückwunschanzeige, -n|the congratulatory ad
-die Überraschung, -en|the suprise
+die Überraschung, -en|the surprise
 Wie heißen Sie?|What is your name? (polite)
 der Studiengang, -"e|the course of study
 danklos|thankless
 einen Bärenhunger haben|to be famished
 Kein Problem!|No problem!
 jemanden anrufen|to call someone
-die Arbeitserfahrung, -en|the work experience (1)
+die Arbeitserfahrung, -en|the work experience
 Wie geht's?|How's it going?
 sich entschuldigen|to apologise
 vor dem Fernseher|in front of the TV
@@ -5327,7 +5325,7 @@ morgen früh|early tomorrow morning
 Er irrt sich nie!|He never makes mistakes!
 vierzehn Tage|fortnight
 die Autofähre, -n|the car ferry
-sonstig|other
+sonstig|other, miscellaneous
 das Kassler Rippchen, -|the smoked pork chop
 das Weltkulturerbe|the world cultural heritage (no plural)
 Wenn ich mich nicht irre, ...|If I'm not mistaken, ...
