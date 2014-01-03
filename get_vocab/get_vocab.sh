@@ -17,7 +17,7 @@ def main():
             term = l['term']
             hint = l['hints'][0]['text']
 
-            print "%s,%s" % (term, hint)
+            print "%s|%s" % (term, hint)
         except:
             pass
 
