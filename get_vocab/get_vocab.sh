@@ -8,18 +8,21 @@ python << EOL
 import json, sys
 
 def main():
-	with open('out') as f:
-		content = f.read()
+    with open('out') as f:
+        content = f.read()
 
-	lingqs = json.loads(content)
-	for l in lingqs:
-		term = l['term']
-		hint = l['hints'][0]['text']
+    lingqs = json.loads(content)
+    for l in lingqs:
+        try:
+            term = l['term']
+            hint = l['hints'][0]['text']
 
-		print "%s,%s" % (term, hint)
+            print "%s,%s" % (term, hint)
+        except:
+            pass
 
 if __name__ == "__main__":
-	main()
+    main()
 
 EOL
 
