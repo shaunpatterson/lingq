@@ -2,12 +2,15 @@
 # -*- coding: utf-8 -*-
 
 import simplejson as json
-import sys
 from urllib2 import Request, URLError, HTTPError, urlopen
-from urlparse import urlparse, urlunparse
 from urllib import quote
+from urlparse import urlparse, urlunparse
 from string import replace
+import time
+import sys
 import os
+import threading
+import errno
 
 
 url_base = 'https://www.lingq.com/api/languages'
@@ -30,7 +33,6 @@ if lesson_id=all then all recently opened lessons (30 pieces)\
 def lingq_getter(url_tail):
     headers = {'Authorization': 'Token {}'.format(API_KEY)}
     url = "%s/%s" % (url_base, url_tail)
-    #sys.stderr.write("url: %s\n" % url)
     try:
         request = Request(url, headers=headers)
     except URLError:
@@ -81,7 +83,7 @@ def fetch_lesson(lesson_id, lessons):
         try:
             with open(audio_path, 'wb') as f:
                 f.write(urlopen(audio_url).read())
-        except HTTPError:
+        except HTTPError or URLError:
             sys.stderr.write("Error fetching %s\n" % audio_url)
 
     text = lesson['text']
@@ -94,16 +96,39 @@ def fetch_lesson(lesson_id, lessons):
         f.write(text.encode('utf-8'))
 
 
+class FuncThread(threading.Thread):
+    def __init__(self, target, *args):
+        self._target = target
+        self._args = args
+        threading.Thread.__init__(self)
+
+    def run(self):
+        self._target(*self._args)
+
+
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as exc:  # Python >2.5
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise
+
+
 def main():
     global API_KEY, LANGUAGE, TOP_DIR
     (LANGUAGE, lesson_id, API_KEY) = read_args([1, 2, 3])
     TOP_DIR = 'fetched_lessons'
-    os.mkdir(TOP_DIR)
+    mkdir_p(TOP_DIR)
+
     lessons = lingq_getter('%s/lessons/' % LANGUAGE)
-    #How to start each in their own thread ??
     if lesson_id == 'all':
         for lesson in lessons:
-            fetch_lesson(lesson['id'], lessons)
+            t = FuncThread(fetch_lesson, lesson['id'], lessons)
+            t.start()
+        while threading.activeCount() > 1:
+            time.sleep(1)
     else:
         fetch_lesson(lesson_id, lessons)
     return 0
