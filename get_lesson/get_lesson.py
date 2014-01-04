@@ -87,7 +87,9 @@ def fetch_lesson(lesson_id, lessons):
             sys.stderr.write("Error fetching %s\n" % audio_url)
 
     text = lesson['text']
-    for s in ['<b>', '</b>', '<p>', '</p>', '<br>', '</br>']:
+    for s in ['<p>', '</p>', '<br>', '</br>']:
+        text = replace(text, s, '\n')
+    for s in ['<b>', '</b>', '<i>', '</i>']:
         text = replace(text, s, '')
 
     text_path = os.path.join(lesson_dir,
