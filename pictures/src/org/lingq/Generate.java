@@ -33,6 +33,8 @@ import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.core.util.MultivaluedMapImpl;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
 
 public class Generate extends JFrame {
 
@@ -43,10 +45,15 @@ public class Generate extends JFrame {
 	private JToggleButton statusButton2; 
 	private JToggleButton statusButton3; 
 	private JToggleButton statusButton4;
+	private JComboBox imageTypeComboBox;
 	
 	private static final int WIDTH = 600;
 	private static final int HEIGHT = 400;
 	private JTextField langField;
+	
+	private static final int IMAGE_TYPE_GIF = 0;
+	private static final int IMAGE_TYPE_PNG = 1;
+	
 
 	/**
 	 * Launch the application.
@@ -125,12 +132,20 @@ public class Generate extends JFrame {
 		JOptionPane.showMessageDialog(this, "Successfully pulled " + desiredLingQs.size() + " LingQs. Now we'll generate the images.  \n\nThis could take several minutes.  \n\nYou'll see another popup message when processing is finished");
 		
 		setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+	
+		String extension = "";
+		if (imageTypeComboBox.getSelectedIndex() == IMAGE_TYPE_GIF) {
+			extension = ".gif";
+		} else {
+			extension = ".png";
+		}
+		
 		
 		int i = 0;
 		for (LingQ l : desiredLingQs) {
 			String fileName = outputField.getText() +
-							  System.getProperty("file.separator") + i + ".png";
-			generatePicture(fileName, l);
+							  System.getProperty("file.separator") + i + extension;
+			generatePicture(fileName, l, imageTypeComboBox.getSelectedIndex());
 			i++;
 		}
 
@@ -167,7 +182,7 @@ public class Generate extends JFrame {
 		return font;
 	}
 	
-	private void generatePicture(final String fileName, final LingQ lingq) {
+	private void generatePicture(final String fileName, final LingQ lingq, final int type) {
 		BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_ARGB);  
 		Graphics2D g = image.createGraphics();
 		
@@ -217,8 +232,15 @@ public class Generate extends JFrame {
 		
 		
 		try {
-			ImageIO.write(image, "PNG", new File(fileName));
-		} catch (Exception e) { }
+			if (type == IMAGE_TYPE_GIF) {
+				ImageIO.write(image, "GIF", new File(fileName));
+			} else {
+				ImageIO.write(image, "PNG", new File(fileName));
+			}
+		} catch (Exception e) {
+			System.out.println(e);
+			System.exit(1);
+		}
 	}
 	
 	private void chooseOutputButtonClicked() {
@@ -238,7 +260,7 @@ public class Generate extends JFrame {
 	 */
 	public Generate() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 514, 395);
+		setBounds(100, 100, 514, 433);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -301,11 +323,11 @@ public class Generate extends JFrame {
 				generate();
 			}
 		});
-		btnGenerate.setBounds(12, 186, 116, 25);
+		btnGenerate.setBounds(12, 222, 116, 25);
 		contentPane.add(btnGenerate);
 		
 		JLabel lblSourceAtGithubcomspattersonlingq = new JLabel("Source at: github.com/spatterson/lingq");
-		lblSourceAtGithubcomspattersonlingq.setBounds(12, 223, 294, 15);
+		lblSourceAtGithubcomspattersonlingq.setBounds(12, 259, 294, 15);
 		contentPane.add(lblSourceAtGithubcomspattersonlingq);
 		
 		JLabel lblLanguageCode = new JLabel("Language Code");
@@ -318,19 +340,29 @@ public class Generate extends JFrame {
 		contentPane.add(langField);
 		
 		JLabel lblUseAtYour = new JLabel("Use at your own risk!");
-		lblUseAtYour.setBounds(12, 340, 227, 15);
+		lblUseAtYour.setBounds(12, 376, 227, 15);
 		contentPane.add(lblUseAtYour);
 		
 		JLabel lblIWouldntOutput = new JLabel("I wouldn't output directly to a memory card.  ");
-		lblIWouldntOutput.setBounds(12, 250, 420, 15);
+		lblIWouldntOutput.setBounds(12, 286, 420, 15);
 		contentPane.add(lblIWouldntOutput);
 		
 		JLabel lblTheyCanBe = new JLabel("They can be very slow.");
-		lblTheyCanBe.setBounds(12, 266, 420, 15);
+		lblTheyCanBe.setBounds(12, 302, 420, 15);
 		contentPane.add(lblTheyCanBe);
 		
 		JLabel lblNewLabel_1 = new JLabel("Output to local machine and manually copy the files to the card.");
-		lblNewLabel_1.setBounds(12, 286, 485, 15);
+		lblNewLabel_1.setBounds(12, 322, 485, 15);
 		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblImageType = new JLabel("Image type");
+		lblImageType.setBounds(12, 169, 176, 15);
+		contentPane.add(lblImageType);
+		
+		imageTypeComboBox = new JComboBox();
+		imageTypeComboBox.setModel(new DefaultComboBoxModel(new String[] {"GIF", "PNG"}));
+		imageTypeComboBox.setSelectedIndex(0);
+		imageTypeComboBox.setBounds(12, 186, 208, 24);
+		contentPane.add(imageTypeComboBox);
 	}
 }
