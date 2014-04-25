@@ -73,6 +73,7 @@ def main(username, password, lang, collectionId, zipFilename):
         with open(path) as f:
             lessonTextList = f.readlines()
             lessonText = '<br/>'.join([ x.strip() for x in lessonTextList ])
+            lessonText = lessonText.replace("'", r"\'")
             lessonName = os.path.splitext(lessonFilename)[0]
             lessons[lessonName] = lessonText
 
