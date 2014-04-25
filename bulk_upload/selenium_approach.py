@@ -64,6 +64,8 @@ def main(username, password, lang, collectionId, zipFilename):
     lessonFilenames = sorted(os.listdir(folderName))
     
     # Not the best way... but it's the way I'm doing it
+    # You should be able to just read the files out of the zip without extracting to
+    #  a temp directory.  Maybe in version 2...
     # LessonName(filename) -> Lesson Text
     lessons = OrderedDict()
     for lessonFilename in lessonFilenames:
@@ -79,11 +81,6 @@ def main(username, password, lang, collectionId, zipFilename):
     shutil.rmtree(folderName)
 
     profile = webdriver.FirefoxProfile()
-    profile.set_preference("browser.download.folderList",2)
-    profile.set_preference("browser.download.manager.showWhenStarting",False)
-    profile.set_preference("browser.download.dir", os.getcwd())
-    profile.set_preference("browser.helperApps.neverAsk.saveToDisk","application/octet-stream; charset=utf-8")
-   
     fox = webdriver.Firefox(profile)
     
     print "Logging in"
