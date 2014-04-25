@@ -71,7 +71,7 @@ bei (+ dat)|at
 immer|always
 los|going on
 der Mann, -"er|the man, the husband
-vor|in front of
+vor|1. in front of 2. before 3. (some time) ago 4. forward
 sehr|very
 sehen|to see
 sagen|to say
@@ -1278,7 +1278,7 @@ dienen|to serve
 zuletzt|1. last (as in at the end of a series of things/events). 2. in the end, ultimately
 heutzutage|nowadays
 dahinter|behind it
-der Wissenschaftler, -|the academic, the scholar
+der Wissenschaftler, -|the academic, the scholar, the scientist
 der Akademiker, -|the university graduate
 genießen|to enjoy
 fliehen|to flee (1)
@@ -1363,9 +1363,9 @@ meistens|mostly, usually
 der Start, -s|the start, the launch, the takeoff
 die Ursache, -n|the reason, the cause
 äußerst|extremely
-die Figur|the figure, physique (no plural)
-der Rauch|the smoke (no plural)
-der Sand|the sand (no plural)
+die Figur, -en|1. the figure 2. the physique
+der Rauch|the smoke (plural rare)
+der Sand|the sand (plural rare)
 anstatt|instead of (1)
 die Stellung, -en|1. the job position. 2. the (bodily) position, the posture. 3. the rank (no plural). 4. the stance
 fürchten|to fear (2)
@@ -3823,7 +3823,7 @@ der Leim, -e|the glue
 der Abfalleimer, -|the rubbish bin (1)
 die Rolltreppe, -n|the escalator
 das Taschenmesser, -|the pocket knife
-zeitlich|time-wise
+zeitlich|temporal, chronological
 verweisen|to refer
 widerwillig|reluctant
 der Volleyball, -"e|the volleyball
