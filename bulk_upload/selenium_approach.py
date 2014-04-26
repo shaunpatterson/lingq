@@ -70,6 +70,9 @@ def main(username, password, lang, collectionId, zipFilename):
     lessons = OrderedDict()
     for lessonFilename in lessonFilenames:
         path = os.path.join(folderName, lessonFilename)
+        if not os.path.isfile(path):
+            continue
+
         with open(path) as f:
             lessonTextList = f.readlines()
             lessonText = '<br/>'.join([ x.strip() for x in lessonTextList ])
