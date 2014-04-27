@@ -1,5 +1,9 @@
 #!/usr/bin/env python
-
+#
+# Authors:
+#  Shaun Patterson
+#  Colin Johnson
+#
 #
 # To run headless:
 #
@@ -53,12 +57,13 @@ def createLesson(fox, lang, collectionId, lessonName, lessonText):
     # Cry me a river
     time.sleep(10)
 
-def main(username, password, lang, collectionId, zipFilename):
+ 
+def loadFromZip(zipFileName):
     # Extract the zip into a tmp directory in the current path
     folderName = str(uuid.uuid1())
     print folderName
 
-    with zipfile.ZipFile(zipFilename) as zf:
+    with zipfile.ZipFile(zipFileName) as zf:
         zf.extractall(folderName)
     
     lessonFilenames = sorted(os.listdir(folderName))
@@ -83,7 +88,71 @@ def main(username, password, lang, collectionId, zipFilename):
     #print lessons
     # Clean up the zip
     shutil.rmtree(folderName)
+    return lessons
+    
 
+# Book file contains ALL the text for the book.  Each lesson break is signaled with a 
+#  NEW_CHAPTER line.
+# Exceptionally long chapters can be broken up using BREAK_CHAPTER
+# The header file contains a list of the names of each chapter
+# There must be N header lines and N-2 NEW_CHAPTERs for this to work correctly
+#  (First chapter does not need an initial NEW_CHAPTER. Last chapter does not need
+#   trailing NEW_CHAPTER)
+def loadFromFileAndHeader(bookFileName, headerFileName):
+    with open(bookFileName) as f:
+        lessonTextList = f.readlines()
+        lessonText = '<br/>'.join([ x.strip() for x in lessonTextList ])
+        lessonText = lessonText.replace("'", r"\'")
+        lessonTexts = lessonText.split("NEW_CHAPTER")
+     
+    with open(headerFileName) as f:
+        lessonTitleList = f.readlines()
+     
+    lessons = OrderedDict()
+             
+    counter = 0
+    for lessonText in lessonTexts:
+        lessonWords = lessonText.split()
+        lessonTitle = lessonTitleList[counter].strip()
+         
+        if any("BREAK_CHAPTER" in s for s in lessonWords):     
+            # Chapter is broken up into smaller chapters
+            lessonTexts2 = lessonText.split("BREAK_CHAPTER")
+             
+            counter2 = 1
+            for lessonText2 in lessonTexts2:
+                lessonTitle2 = "%s_%s" % (lessonTitle, counter2)
+                lessons[lessonTitle2] = lessonText2
+                counter2+=1
+                 
+                lessonWords = lessonText2.split()
+                print "Make lesson %s with nwords %d" % (lessonTitle2, len(lessonWords))
+
+        else:
+            # Full chapter 
+            lessons[lessonTitle] = lessonText
+            print "Make lesson %s with nwords %d" % (lessonTitle, len(lessonWords))
+ 
+        counter+=1
+
+    #print lessons
+    return lessons
+
+
+def main():
+    (username, password, lang, collectionId) = sys.argv[:4]
+
+    if len(sys.argv) == 6:
+        # zip file name
+        zipFileName = sys.argv[5]
+        lessons = loadFromZip(zipFileName)
+    elif len(sys.argv) == 7:
+        (bookFileName, headerFileName) = (sys.argv[5:])
+        lessons = loadFromFileAndHeader(bookFileName, headerFileName)
+    else:
+        print "Usage"
+        return
+    
     profile = webdriver.FirefoxProfile()
     fox = webdriver.Firefox(profile)
     
@@ -98,5 +167,4 @@ def main(username, password, lang, collectionId, zipFilename):
     fox.quit()
 
 if __name__ == "__main__":
-    # Username, password, lang, collection
-    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+    main()
