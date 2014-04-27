@@ -140,7 +140,7 @@ def loadFromFileAndHeader(bookFileName, headerFileName):
 
 
 def main():
-    (username, password, lang, collectionId) = sys.argv[:4]
+    (blank, username, password, lang, collectionId) = sys.argv[:5]
 
     if len(sys.argv) == 6:
         # zip file name
