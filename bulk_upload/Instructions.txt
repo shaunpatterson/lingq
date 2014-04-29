@@ -1,0 +1,109 @@
+Mac OSX & Linux
+-------------------------------------
+1 - Start a new terminal window.  
+    Click Spotlight (that magnifying glass top-right) and type Terminal.  Press Enter 
+
+2 - Type in these instructions EXACTLY
+
+mkdir ~/LingQ-Bulk-Upload
+cd ~/LingQ-Bulk-Upload
+curl https://raw.githubusercontent.com/spattersongt/lingq/master/bulk_upload/selenium_approach.py -o selenium_approach.py
+chmod +x selenium_approach.py
+sudo easy_install pip
+sudo pip install selenium
+
+Both sudo commands will ask for your password.  Just type it in and press enter both times
+
+If you don't have easy_install, find the install instructions on the Internet.
+
+Windows
+------------------------------------
+You're on your own. 
+
+
+Create a Course in LingQ
+--------------------------
+I'll assume you know how to do this.  You need to get the course id.  You'll find this in the URL address when you're 
+ viewing/edting your course.  
+
+Example: http://www.lingq.com/learn/de/import/collections/152834/
+
+152834 is the course id. 
+
+
+Bulk Upload of *MULTIPLE FILES*
+--------------------------------
+This is useful if you have lots of lessons and want to upload them all at once.  
+
+Zip up the files using your favorite zip program and move in into the LingQ-Bulk-Upload directory.  Then run:
+
+./selenium_approach.py UserName Password Lang CourseId ZipFileName.zip
+
+Example:
+
+./selenium_approach.py spatterson NotMyRealPassword de 152834 StarTrekDS9.zip
+
+Sit back and don't touch the FireFox window that does the magic.  Go grab a cup of coffee.
+
+
+
+Bulk Upload of a Book
+--------------------------------
+Create 2 Text Files.  1 Text File has the entire book.  Each chapter is separated by the single line
+
+NEW_CHAPTER
+
+Especially long chapters should be broken up with the line
+
+BREAK_CHAPTER
+
+Then create another file (let's call it TOC.txt). Each line of the file should be the name of your lesson / chapter.
+
+Example:
+
+Chapter1
+Chapter2 
+Chapter3
+
+Full example:
+
+Book.txt Contents:
+This is lesson 1
+NEW_CHAPTER
+This is lesson 2
+And
+it's
+BREAK_CHAPTER 
+a 
+long 
+chapter
+NEW_CHAPTER
+THis is lesson 3
+
+TOC.txt Contents:
+Chapter1
+Chapter2
+Chapter3
+
+Finally run the command:
+
+./selenium_approach.py UserName Password Lang CourseId BookTextFile.txt TOC.txt
+
+Example:
+
+./selenium_approach.py spatterson NotMyRealPassword de 152834 Book.txt TOC.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

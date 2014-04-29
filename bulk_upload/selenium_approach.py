@@ -47,7 +47,7 @@ def createLesson(fox, lang, collectionId, lessonName, lessonText):
     # Back to the original frame
     fox.switch_to_default_content()
 
-    saveButton = fox.find_element_by_class_name('save_and_open-button')
+    saveButton = fox.find_element_by_class_name('save-button')
     saveButton.click()
 
     # Cry me a river
