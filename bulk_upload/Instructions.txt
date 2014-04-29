@@ -49,6 +49,8 @@ Sit back and don't touch the FireFox window that does the magic.  Go grab a cup 
 
 Bulk Upload of a Book
 --------------------------------
+*Note: This assumes you've converted your book to a text file.  Use some other software to do this*
+
 Create 2 Text Files.  1 Text File has the entire book.  Each chapter is separated by the single line
 
 NEW_CHAPTER
