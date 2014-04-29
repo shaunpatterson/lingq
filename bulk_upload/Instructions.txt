@@ -14,6 +14,10 @@ sudo pip install selenium
 
 Both sudo commands will ask for your password.  Just type it in and press enter both times
 
+If sudo pip install selenium fails try:
+
+sudo -E pip install selenium
+
 If you don't have easy_install, find the install instructions on the Internet.
 
 Windows
