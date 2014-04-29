@@ -23,11 +23,7 @@ import sys, time
 from datetime import date, timedelta
 import datetime
 import shutil
-
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
 import traceback
-
 from collections import OrderedDict
 
 def login(fox, username, password):
