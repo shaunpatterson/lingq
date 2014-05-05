@@ -2,7 +2,7 @@
 #
 # Authors:
 #  Shaun Patterson
-#  Colin Johnson
+#  Colin Johnstone
 #
 #
 # To run headless:
@@ -110,24 +110,25 @@ def loadFromFileAndHeader(bookFileName, headerFileName):
     for lessonText in lessonTexts:
         lessonWords = lessonText.split()
         lessonTitle = lessonTitleList[counter].strip()
-         
-        if any("BREAK_CHAPTER" in s for s in lessonWords):     
-            # Chapter is broken up into smaller chapters
-            lessonTexts2 = lessonText.split("BREAK_CHAPTER")
-             
-            counter2 = 1
-            for lessonText2 in lessonTexts2:
-                lessonTitle2 = "%s_%s" % (lessonTitle, counter2)
-                lessons[lessonTitle2] = lessonText2
-                counter2+=1
-                 
-                lessonWords = lessonText2.split()
-                print "Make lesson %s with nwords %d" % (lessonTitle2, len(lessonWords))
-
-        else:
-            # Full chapter 
-            lessons[lessonTitle] = lessonText
-            print "Make lesson %s with nwords %d" % (lessonTitle, len(lessonWords))
+        
+        if lessonTitle[0] != '-':
+			if any("BREAK_CHAPTER" in s for s in lessonWords):
+				# Chapter is broken up into smaller chapters
+				lessonTexts2 = lessonText.split("BREAK_CHAPTER")
+							 
+				counter2 = 1
+				for lessonText2 in lessonTexts2:
+					lessonTitle2 = "%s_%s" % (lessonTitle, counter2)
+					lessons[lessonTitle2] = lessonText2
+					counter2+=1
+					 
+					lessonWords = lessonText2.split()
+					print "Make lesson %s with nwords %d" % (lessonTitle2, len(lessonWords))
+					
+			else:
+				# Full chapter
+				lessons[lessonTitle] = lessonText
+				print "Make lesson %s with nwords %d" % (lessonTitle, len(lessonWords))
  
         counter+=1
 
