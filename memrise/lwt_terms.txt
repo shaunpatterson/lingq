@@ -1,0 +1,4547 @@
+ich	I
+sie	she
+das	that, this (pronoun)
+du	you (familiar, singular)
+nicht	not
+die	the (feminine)
+und	and
+es	it
+der	the (masculine)
+was	what
+wir	we
+er	he
+zu	1. too (as in excessive; adv.). 2. to, towards (prep., + dat). 3. shut, closed (adj.)
+ein	one, a
+in	in, into
+mit	with 
+wie	how
+ja	yes
+auf	up, on (a horizontal surface)
+so	so
+aber	but
+hier	here
+für	for  (+ acc)
+von	from, of 
+haben	to have
+dass	that (conjunction)
+wenn	when, if (conditional)
+an	on (a vertical surface)
+nein	no
+da	there, then
+noch	still
+nur	only
+Ihr	your (polite)
+ihr	her, their
+uns	us
+aus	1. out. 2. from
+gut	good
+Gut	the estate, property or possession
+schon	already
+auch	also
+sein	to be
+sein	his, its (two forms)
+jetzt	now
+mal	time, instance (as in once, twice, thrice, etc.)
+Mal	the time (occurrence)
+dann	then
+als	than, as, when
+um	around  (+ acc)
+mein	my
+doch	1. (disagreeing with a negative statement or question) 2. (grammatical particle, emphatic marker)
+nach	after, to
+alles	everything
+man	one (3rd person, as in he/she/it)
+oder	or
+nichts	nothing
+Nichts	the nothingness (no plural)
+wo	where
+weiß	white
+werden	1. to become.  2. will (in the future sense)
+mehr	more
+warum	why (1)
+etwas	something
+Bitte	the request, the appeal
+bitte	please
+bei	at
+immer	always
+los	going on
+Mann	the man, the husband
+vor	1. in front of 2. before 3. (some time) ago 4. forward
+sehr	very
+sehen	to see
+sagen	to say
+wieder	again
+alle	all, everybody
+gehen	to go
+wer	who
+also	well then, therefore
+können	can, to be able to
+machen	to make, do
+denn	because (formal), for
+tun	to do
+nie	never (1)
+über	over
+kein	no, not any
+vielleicht	maybe
+weg	away
+Weg	the way, the path or route
+wissen	to know (information)
+am	1. on the (e.g., wall). 2. at the (e.g., table). 3. upon the (as in, e.g., Newcastle-upon-Tyne). 4. in the (e.g., evening).  (two forms)
+kommen	to come
+Leben	the life
+leben	to live (existentially)
+müssen	to have to
+viel	a lot, much
+wirklich	really
+Frau	Mrs., Ms.
+Frau	the woman, the wife
+heute	today
+Zeit	the time (period of time)
+dein	your (informal, singular)
+bis	until
+ganz	whole, complete
+wollen	to want
+Gott	God
+einfach	easy, simple
+zurück	back
+weil	because
+dieser	this (three forms)
+damit	so that
+zwei	two
+meinen	to opine
+sicher	1. sure. 2. safe, secure
+Leid	the sorrow
+Morgen	the morning (usually referring to early morning)
+morgen	tomorrow
+lassen	to let, to leave
+na	well, ...
+Liebe	the love (no plural)
+Leute	the people (plural only)
+Tag	the day
+genau	exact, precise
+Vater	the father
+Geld	the money
+durch	through
+wohl	well
+schön	beautiful
+Glaube	the faith, of faith (nominative and genitive; no plural)
+klar	clear
+Mutter	the mother
+Nacht	the night
+besser	better
+ohne	without
+reden	to talk
+jemand	someone
+ob	whether
+gerade	1. just, just now, currently 2. straight
+selbst	self
+dort	there
+Paar	the pair, the couple
+weiter	further
+Ordnung	the order, the organisation, the regularity
+geben	to give
+Herr	the gentleman
+Herr	Mr.
+hören	to hear
+Mädchen	the girl
+gar	1. tender (in cooking), cooked. 2. at all (emphatic marker)
+seit	since
+Welt	the world
+gleich	1. soon. 2. equal
+Freund	the male friend, the boyfriend
+Abend	the evening
+natürlich	1. natural. 2. of course, naturally
+drei	three
+Angst	the fear
+Ach	Is that so?
+Recht	the right (noun)
+recht	right
+viele	many
+finden	to find
+richtig	correct
+unter	under
+Junge	the boy
+tot	dead
+bleiben	to stay
+Haus	the house
+nehmen	to take
+essen	to eat
+helfen	to help
+sollen	should
+unser	our
+wegen	because of
+andere	1. other (pronoun). 2. other (adjective), different
+wieso	why (3)
+schnell	fast
+genug	enough
+sonst	else, otherwise
+gegen	1. against. 2. around (time)
+zusammen	together
+erst	first, not until, only
+Scheiße	the feces (no plural) (a vulgarity)
+Moment	the moment
+glauben	to believe
+bringen	to bring
+niemand	no one
+brauchen	to need
+warten	to wait
+Arbeit	the work
+fragen	to ask
+sprechen	to speak
+wann	when (time)
+jeder	each, every, everybody (three forms)
+kennen	to be familiar with
+fertig	ready, (with verbs) finished
+einmal	once
+halten	to hold, to stop, to keep
+sofort	immediately
+Sohn	the son
+bevor	before
+Kind	the child
+Uhr	the watch, the clock
+wahr	true
+Lieber	Dear (two forms)
+lieber	rather (as in, e.g., I'd rather drink tea)
+allein	alone
+Kopf	the head
+denken	to think
+Sache	the thing (abstract), the matter, the business
+Bruder	the brother
+gern	gladly
+Ende	the end (concrete and abstract)
+später	later
+fahren	to drive, to go
+vergessen	to forget
+Stadt	the town, the city
+Problem	the problem
+Dank	the thanks (no plural)
+eins	one
+Frage	the question
+egal	no matter, regardless, all the same
+Familie	the family
+weit	wide, far
+Musik	the music (plural rarely used)
+sterben	to die
+Hilfe	the help (no plural)
+beide	both
+bald	soon
+Land	the country, the state
+Glück	the luck, the happiness (no plural)
+Baby	the baby
+verrückt	crazy
+Tür	the door
+ruhig	calm, quiet
+Auto	the car (automobile)
+dies	this (uninflected form)
+Wasser	the water
+Ruhe	the peace, the quiet (no plural)
+je	1. each. 2. ever
+Krieg	the war
+stehen	1. to stand.  2. to suit
+Fall	1. the case (the abstract noun, not the concrete noun). 2. the fall
+Hand	the hand
+lang	long
+hoch	high
+eigentlich	actually
+töten	to kill
+fast	almost
+Polizei	the police
+spielen	to play
+hinter	behind
+sogar	even
+Teufel	the devil
+Name	the name
+oben	above
+spät	late
+bekommen	to receive
+bereit	ready
+Mama	the mum
+woher	wherefrom, whence
+arbeiten	to work
+verstehen	to understand
+Tod	the death
+Jahr	the year
+Wagen	the car, the carriage, the trolley
+wagen	to dare
+toll	great, fantastic
+fünf	five
+etwa	about, approximately
+Geschichte	the history
+draußen	outside of there
+treffen	to meet, to hit (a target)
+Job	the job
+nett	nice
+echt	genuine
+vier	four
+Zimmer	the room (the architectural sort)
+anders	different, otherwise, in another way
+Art	the kind, the type
+Woche	the week
+Ahnung	the idea, the inkling
+Kerl	the guy, the fellow (colloquial)
+Typ	1. the type. 2. the guy (colloquial)
+schwer	difficult, heavy
+kurz	short
+gestern	yesterday
+wenig	few
+Alter	the age
+suchen	to search, to look for
+Schwester	the sister
+bestimmt	definite
+Tochter	the daughter
+Grund	1. the ground (no plural).  2. the reason
+zeigen	to show
+Herz	the heart (accusative as same nominative)
+Bett	the bed
+überhaupt	at all, generally
+holen	to fetch
+gefallen	to please, to be liked (+ dat.)
+Seite	the page, the side
+unten	down
+Dollar	the dollar
+versuchen	to attempt
+schlecht	bad, poor, low quality
+Wort	the word (in a given lexicon)
+Wort	the word (in a given context)
+deshalb	therefore, that's why
+wohin	whither, where (to)
+trinken	to drink
+Gesicht	the face
+verlassen	to leave (verb), deserted/desolate (adj.)
+Mensch	the human being, the person
+Film	the film
+ziemlich	quite, fairly
+schlafen	to sleep
+zwischen	between
+manchmal	sometimes
+Wahrheit	the truth
+Ding	the thing (mostly referring to a tangible object)
+Fest	the festival, the party, the celebration
+fest	solid, firm
+Nummer	the number (e.g., telephone number, house number)
+während	during, while
+wiedersehen	to see again
+kriegen	to get, to take
+niemals	never (not once)
+Idee	the idea, the concept, the thought
+endlich	1. at last, finally (as in after a long time). 2. in the end, ultimately. 3. finite
+frei	free
+sondern	but rather
+setzen	to set
+Ort	the place, the location, the town
+alt	old
+euer	your (inf. pl.)
+ernst	serious
+oft	often
+einige	a few
+Schule	the school
+Feuer	1. the fire. 2. the lustre (of gemstones). 3. the fiery temperament, the passion
+entschuldigen	to excuse
+erzählen	to tell, to recount
+bloß	just, only, merely
+Pass	the passport (identity document, not necessarily a travel passport)
+Platz	the place, the city square
+Schuld	the debt, the blame
+Spaß	the fun
+Sorge	the worry
+Hund	the dog
+wichtig	important
+kaum	hardly
+falls	if
+stellen	to put (in an upright position) (e.g., to put a vase on a table)
+Rede	the speech, the talk
+glücklich	happy, felicitous
+früh	early
+Blut	the blood (no plural)
+sechs	six
+zuerst	first of all
+Teil	the part (tangible objects), the component, the piece
+Teil	the part (abstract), the section
+Stunde	the hour
+lieben	to love
+langsam	slow
+Telefon	the telephone
+zehn	ten
+Himmel	the sky, the heaven
+Waffe	the weapon
+Freundin	the female friend, the girlfriend
+lernen	to learn, to study
+Tat	the act, the action, the deed
+Luft	the air
+Menge	1. the amount, the quantity (for uncountable things). 2. the crowd
+außer	except
+überall	everywhere
+Licht	the light
+Erde	1. the Earth, 2. the soil
+voll	full
+nennen	to name, to state, to call
+König	the king
+falsch	wrong
+wahrscheinlich	probably
+Straße	the street
+dürfen	to be allowed to, may
+möglich	possible
+ziehen	to pull
+Eltern	the parents (plural only)
+heiraten	to marry
+ehrlich	honest
+Kaffee	the coffee
+Arzt	the medical doctor
+Büro	1. the office (as in a physical room/building). 2. the bureau, the agency
+groß	big, tall
+Fehler	the mistake, the error
+Stück	the piece
+krank	sick
+Stelle	1. the position. 2. the spot (place)
+danach	thereafter, accordingly
+rufen	to call, to shout
+schaffen	to create, to make
+völlig	fully
+erinnern	to remind
+laufen	to run, to walk
+direkt	direct
+Suche	the search
+still	quiet, still, silent
+Buch	the book
+Körper	the body
+schreiben	to write
+trotzdem	nevertheless
+Schiff	the ship
+Zukunft	the future
+kaufen	to buy
+sitzen	to sit
+retten	to rescue
+leider	unfortunately
+tragen	1. to carry. 2. to wear
+irgendwo	somewhere
+Onkel	the uncle
+verlieren	to lose
+Mund	the mouth
+Party	the party (2)
+leicht	light, easy
+verschwinden	to disappear
+Plan	the plan
+Schlüssel	the key
+zwar	indeed (2)
+lesen	to read
+General	the General
+kämpfen	to fight
+hart	hard, tough
+mögen	to like
+hinten	at the back
+fliegen	to fly
+Gefühl	the feeling
+Liebling	the darling, the favourite
+böse	1. evil. 2. angry (colloquial)
+vorsichtig	careful
+Stimme	the voice
+acht	eight
+froh	happy, glad
+Boden	the ground, the floor
+Mist	the manure, the dung (no plural)
+Rest	the remainder
+fort	away, gone
+damals	back then, at that time
+erklären	1. to explain (something). 2. to assert (that...)
+Geschäft	the shop, the business, the commercial transaction
+Zug	the train
+Klasse	the class
+Wohnung	the flat
+stark	strong
+stolz	proud
+Laden	the retail shop
+laden	to load
+weniger	less
+besonders	especially
+schicken	to send
+schauen	to look (at)
+aufhören	to cease, to stop doing something
+Gefängnis	the prison, the jail
+Krankenhaus	the hospital
+Traum	the dream
+Nachricht	the news, the message
+Dame	the lady
+heraus	out (from)
+Hotel	the hotel
+fallen	to fall
+Boot	the boat
+Fenster	the window
+Sinn	1. the sense. 2. the meaning
+vorstellen	1. to introduce.  2. to visualise, to imagine
+lachen	to laugh
+Mai	the May (plural rare)
+heißen	to be called
+geschehen	to happen (1)
+total	total(ly)
+ändern	to modify, to change (usually referring to active changes)
+tanzen	to dance
+folgen	to follow (+ dat.)
+solange	as long as
+nachdem	after which
+führen	to lead
+Vertrauen	the trust (no plural)
+vertrauen	to trust
+wenigstens	at least (2)
+lustig	funny, humourous
+dumm	dumb, stupid
+arm	poor
+Arm	the arm
+plötzlich	suddenly
+passieren	to happen (2)
+Bild	the picture
+wunderbar	wonderful
+sieben	seven
+Antwort	the answer
+unmöglich	impossible
+herum	around (in all directions)
+super	super
+komisch	1. funny. 2. strange
+Auge	the eye
+Bier	the beer
+vorher	before that, previously
+kalt	cold
+anrufen	to phone
+Augenblick	the instant
+verheiratet	married
+Tisch	the table
+schlimm	bad, horrible
+schießen	to shoot
+Meinung	the opinion (2)
+Rum	the rum
+Sonne	the sun
+Armee	the army
+links	on the left
+wozu	what for
+müde	tired
+liegen	to lie down, to be lying down
+Reise	the (long) journey
+Sicherheit	the security, the safety
+Team	the team (anglicism)
+sobald	as soon as
+Finger	the finger
+Brief	the letter
+zahlen	to pay (the bill)
+welcher	which (three forms)
+gewinnen	to win
+laut	1. loud (adj.). 2. according to (prep.)
+verkaufen	to sell
+fangen	to catch
+bezahlen	to pay (for)
+Anfang	the beginning
+Versuch	the attempt
+gefährlich	dangerous
+außerdem	besides, in addition
+legen	to put (in a horizontal position)
+Präsident	the president
+Person	the person
+nochmal	again, one more time
+perfekt	perfect
+Monat	the month
+behalten	to keep
+singen	to sing
+erfahren	to find out, to experience (verb), experienced (adj.)
+obwohl	although, though, notwithstanding
+rechts	on the right
+Nähe	the vicinity (no plural)
+dagegen	against it, in contrast
+Pferd	the horse
+klein	small, short
+anfangen	to begin (1)
+Minute	the minute
+nötig	necessary (1)
+schlagen	to hit, to defeat
+Mord	the murder
+Schluss	the end (abstract)
+Band	the volume (books)
+Band	the band (music)
+Band	the strap
+Meister	the master, the champion
+jedenfalls	at any rate, in any case
+neu	new
+Schwein	the pig
+hübsch	pretty
+unterwegs	under way, on the way
+Ziel	the goal (not sports), the target
+offen	open (adj.)
+jemals	ever
+Geist	the ghost, the spirit (supernatural being)
+Geist	1. the spirit (intellectual),  2. distilled alcohol
+Wette	the bet
+Beispiel	the example
+Chef	the male boss
+Nase	the nose
+sowieso	anyway (2)
+rücken	1. to move over. 2. to push along
+Rücken	the back
+reich	rich
+Flugzeug	the airplane
+Gefahr	the danger
+absolut	absolute
+bekannt	well-known
+tief	1. deep. 2. low
+regeln	to govern
+Bank	the bank (financial institution)
+Bank	the bench
+Professor	the professor
+Partner	the partner (domestic and business)
+Opfer	the victim
+Ehe	the marriage
+geboren	born
+jung	young
+Tasche	the bag, the pocket
+Lauf	the course, the run
+Haut	the skin
+Richtung	the direction
+Weise	the way, the manner
+Raum	the room, the space
+Regierung	the government
+Rolle	the role
+Frieden	the peace (no plural)
+Volk	the populace, the people (nation)
+schrecklich	terrible
+Gericht	1. the dish (food).  2. the law court
+ständig	constantly
+fernsehen	to watch TV
+Fernsehen	the television (as a phenomenon) (no plural)
+Gesetz	the law (countable noun)
+neben	next to, beside
+dahin	(to) there (1)
+Freiheit	the freedom
+Gold	the gold (no plural)
+Weihnachten	the Christmas
+Preis	1. the price.  2. the prize
+benutzen	to use (1)
+Geschenk	the gift, the present
+Achtung	the respect, the esteem (no plural)
+Achtung!	1. Attention!  2. Caution!
+heiß	hot
+pro	per
+Lage	1. the position. 2. the situation
+Schicksal	the fate
+Punkt	the dot, the period (punctuation)
+ansehen	to look at (2)
+Witz	the joke
+diesmal	this time
+ewig	forever
+Unfall	the accident
+Hunger	the hunger (no plural)
+Kamera	the camera
+Taxi	the taxi
+Tee	the tea
+See	the lake
+See	the sea (2)
+Meer	the sea (1)
+erreichen	to reach
+Hochzeit	the wedding (2)
+Geburtstag	the birthday
+Hut	the hat
+Liste	the list
+Karte	the card
+Gesellschaft	the society
+lügen	to lie, to say falsely
+Kirche	the church
+traurig	sad
+Kontrolle	the inspection
+Zeichen	the sign
+Foto	the photo
+seltsam	odd, strange
+sauber	clean
+Aussehen	the appearance (as in how something looks)
+aussehen	to look like
+Hoffnung	the hope
+Ball	the ball
+Wein	the wine
+Szene	the scene
+Vergnügen	the pleasure, the delight
+irgendwann	sometime
+stecken	to stick (smth into smth)
+neun	nine
+drehen	1. to turn (smth) 2. to shoot (a film)
+Drehbuch	the screenplay
+Tante	the aunt
+kaputt	broken
+Dorf	the village
+Glas	the glass
+nervös	nervous
+Firma	the firm
+Lust	1. the enjoyment. 2. the desire, the lust
+Blick	the glance
+süß	sweet
+öffnen	to open (2)
+gehören	to belong to (+ dat.)
+nachts	at night (2)
+Meter	the metre (unit of measurement)
+wunderschön	very beautiful
+antworten	to answer (+dat.)
+Hals	1. the neck. 2. the throat
+nämlich	namely
+Besuch	the visit
+wohnen	to live (in a place)
+lieb	nice, good, dear
+persönlich	personal
+Entscheidung	the decision
+interessant	interesting
+passen	to fit, to suit
+Wind	the wind
+Polizist	the male police officer
+Sekunde	the second
+beweisen	to prove (1)
+verraten	1. to betray. 2. to reveal
+werfen	to throw
+Fuß	the foot
+gegenüber	across (from)
+ungefähr	roughly
+übrigens	by the way
+Mut	the courage (no plural)
+sauer	sour, annoyed
+Geheimnis	the secret
+entfernt	away, distant, removed
+statt	instead of (2)
+Bein	the leg
+furchtbar	dreadful
+schuldig	guilty
+Gruppe	the group
+Amerikaner	the American person
+Loch	the hole
+besuchen	to visit
+entlang	along
+Freude	the joy
+geliebt	beloved
+Insel	the island
+Fleisch	the meat (no plural)
+Schmerz	the pain
+Zeitung	the newspaper
+erkennen	to recognise, to discern, to identify
+Gebäude	the building
+Messer	the knife
+Kontakt	the contact
+schreien	to scream, to shout
+Rat	the advice
+Haar	the hair
+teilen	1. to divide. 2. to share
+Bus	the bus
+Richter	the judge
+mitnehmen	to take along
+Lied	the song
+drinnen	inside there
+Computer	the computer
+verstecken	to hide
+Königin	the queen
+Bericht	the report
+miteinander	with one another, together
+zufrieden	satisfied
+wütend	furious
+Fisch	the fish
+vorwärts	forwards
+Vergangenheit	the past
+überleben	to survive
+Agent	the Agent
+Position	the position
+Küche	the kitchen
+Ring	the ring
+Gegend	the (geographical) area (with no well-defined boundaries)
+nah	near
+Verbindung	the connection, the link
+Kleid	the dress (generally worn by women)
+Ecke	the corner
+Radio	the radio
+Eis	the ice (no plural)
+witzig	witty, funny
+Fräulein	the miss (young lady)
+Flug	the flight
+halb	half
+England	England
+bauen	to build
+entscheiden	to decide
+erledigen	to take care of (something), to finish
+zerstören	to destroy
+Maschine	the machine
+beschäftigt	busy
+Sommer	the summer
+Respekt	the respect (no plural)
+schließlich	finally, in conclusion
+Adresse	the address
+Fahrt	the drive, the trip, the journey
+beginnen	to begin (2)
+Aufgabe	the assignment, the task
+hängen	to hang
+feiern	to celebrate
+weinen	to cry (with tears)
+betrunken	drunk, drunken
+Beziehung	the relationship
+Wald	the forest
+soweit	as far as
+stimmen	to be right (2)
+Park	the park
+danken	to thank
+schwierig	difficult
+Hälfte	the half
+besorgt	worried
+Koffer	the suitcase
+Pistole	the pistol
+Brücke	the bridge
+Knast	the jail, the slammer (colloquial)
+gesund	healthy
+Quatsch	the nonsense (2) (no plural)
+wünschen	to wish
+Unterschied	the difference
+leiden	to suffer
+leisten	to achieve
+Tor	1. the gate, 2. the goal (sport)
+Glückwunsch	the best wishes
+Soldat	the soldier
+verantwortlich	responsible, accountable
+Dach	the roof
+Lehrer	the teacher
+steigen	to climb, to rise, to ascend
+Bad	1. the bath. 2. the bathroom
+Katze	the cat
+Tier	the animal
+rennen	to run, to race
+Gehirn	the brain
+Theater	the theatre
+Erfolg	the success
+Fluss	the river
+blöd	stupid (1)
+City	the city centre, downtown (no plural)
+küssen	to kiss
+Baum	the tree
+davor	1. beforehand, before that. 2. in front of
+verdienen	to earn
+System	the system
+Lächeln	the smile (no plural)
+lächeln	to smile
+Abendessen	the dinner, the supper
+Flasche	the bottle
+schützen	to protect
+leer	empty
+schließen	to close (1)
+rauchen	to smoke
+Rauchen	the smoking (no plural)
+Vogel	the bird
+vermutlich	presumably, probably
+kosten	1. to cost. 2. to taste (something), to sample (food), to savour
+Haufen	the pile
+Wand	the wall (part of a building)
+brechen	to break (into pieces)
+Grad	the degree (a unit of measure)
+übernehmen	to assume, to take on
+zuvor	previously, before
+Natur	the nature (no plural)
+englisch	English (adj.)
+Englisch	English (language)
+Angriff	the attack
+Möglichkeit	the possibility
+lächerlich	ridiculous
+morgens	in the morning (1)
+aufpassen	to pay attention, to keep an eye (on something/someone)
+mitten	in the middle
+stören	to disturb
+Stein	the stone
+Pause	the break, the intermission
+Nachmittag	the afternoon
+Auftrag	the order (command), the mandate, the mission
+Regen	the rain
+einverstanden	agreed
+gemeinsam	collective, together
+dorthin	(to) there (2)
+bedeuten	to mean
+schwarz	black
+Lüge	the lie
+Farbe	1. the colour. 2. the paint
+fassen	to grasp (physically)
+reisen	to travel
+Spur	the track
+Frühstück	the breakfast
+offensichtlich	clear, apparent, self-evident
+mitkommen	to come along
+Runde	1. the lap (in sports). 2. the round (e.g., of drinks)
+Wochenende	the weekend
+zufällig	by chance
+Untertitel	the subtitle
+Stock	1. the stick. 2. the storey, the floor
+fern	far, distant
+geschlossen	closed
+Mond	the moon
+unternehmen	to undertake
+Hose	the pants, the trousers
+Rock	the skirt, or any kind of kilt-like attire
+Rock	the rock music (no plural)
+Pfund	1. the pound (weight). 2. the pound (currency, no plural)
+warm	warm
+Braut	the bride
+versprechen	to promise
+Reihe	the row
+fantastisch	fantastic
+Sprache	the language
+irgendwelche	any
+Gespräch	1. the conversation. 2. the interview
+Flughafen	the airport
+Wunsch	the wish
+Post	1. the post, the mail. 2. the post office (plural rare)
+Schaden	the damage
+Tanz	the dance
+Urlaub	the vacation, the leave
+dick	1. thick. 2. fat
+Gelegenheit	the opportunity
+Folge	1. the consequence. 2. the (TV) episode
+herausfinden	to find out
+Verantwortung	the responsibility
+Thema	the topic
+leise	quiet (as in low volume)
+Keller	the cellar, the basement
+Erfahrung	the experience
+dauern	to take (time)
+Schloss	1. the lock. 2. the castle
+Angebot	the offer
+umsonst	1. for nothing, in vain. 2. for free
+Anzug	the suit (clothing)
+beenden	to finish
+Strand	the beach
+Grab	the grave
+Restaurant	the restaurant
+rot	red
+Schatten	1. the shade. 2. the shadow
+Gang	1. the course. 2. the passage. 3. the corridor. 4. the gait
+Lager	the warehouse, the storage area, the camp
+aufstehen	1. to stand up. 2. to get up (from bed)
+Sieg	the victory
+nerven	to get on one's nerves
+Kugel	the ball, the scoop
+Milch	the milk (no plural)
+schwanger	pregnant
+Gewalt	1. the violence, the force (no plural). 2. the authority
+Frankreich	France
+Reich	the realm (in the sense of kingdom, empire, etc.)
+Schönheit	the beauty
+zweimal	twice
+Pflicht	the duty
+Kunst	the art
+Kuss	the kiss
+schwimmen	to swim
+Knie	the knee
+Priester	the priest
+Form	the shape, the form
+beruhigen	to calm
+blind	blind
+Kurs	1. the course. 2. the exchange rate
+Schauspieler	the actor
+Großvater	the grandfather
+entkommen	to escape, to get away
+Fahrer	the male driver
+Million	the million
+Risiko	the risk
+Test	the test (exact cognate with English)
+ähnlich	similar
+mindestens	at least (1)
+Grenze	the border
+Bühne	the (performance) stage
+Interesse	the interest (e.g. to have an interest in smth)
+Kino	the cinema
+Einheit	1. the unity, the whole. 2. the unit
+Sonntag	the Sunday
+schulden	to owe
+Stern	the star
+dunkel	dark
+scheinen	1. to shine. 2 . to appear, to seem
+Blödsinn	the nonsense (1) (no plural)
+Freitag	the Friday
+Zufall	the chance, the coincidence
+hinterlassen	to leave behind
+fair	fair
+nachdenken	to think over, to reflect
+satt	satiated, full
+hoffen	to hope
+Energie	the energy
+Oma	the grandma
+Großmutter	the grandmother
+Dieb	the male thief
+Beweis	the proof
+verbringen	to spend time
+Garten	the garden
+Mantel	the coat
+Brot	the bread
+Lösung	the solution
+Wetter	the weather (no plural)
+schätzen	1. to estimate, to value. 2. to esteem
+Ohr	the ear
+Berg	the mountain
+Rose	the rose
+Erinnerung	the memory (as in a particular memory of, e.g., an event)
+normalerweise	normally
+aufgeben	to give up (a bad habit)
+Ton	the tone, the sound, the note
+Ton	the clay
+Gebiet	1. the region. 2. the field of knowledge, the area of expertise
+Westen	the west (no plural)
+Zweifel	the doubt
+Staat	the state
+stehlen	to steal
+einander	each other, one another
+merken	1. to notice. 2. to realise. 3. to remember
+Direktor	the director, the principal
+Champagner	the champagne
+Publikum	the audience (plural rare)
+dringend	urgent
+Bulle	1. the bull.  2. the cop (colloquial)
+Stuhl	the chair
+ebenso	just as
+Schutz	the protection (plural rare)
+weshalb	why (2)
+Karriere	the career
+kochen	1. to cook. 2. to boil
+Norden	the north (no plural)
+nachher	1. afterward. 2. later
+anhalten	to stop (vehicles)
+abends	in the evening
+Hintergrund	the background
+Schüler	the pupil (primary or secondary school)
+Krankheit	the illness (2)
+Europa	Europe (n.)
+Süden	the south (no plural)
+hassen	to hate
+beinahe	nearly, almost
+klug	prudent, wise, smart
+Abteilung	the department
+träumen	to dream
+Vorstellung	1. the presentation, the show. 2. the conception
+schick	chic
+Samstag	the Saturday
+Gast	the guest
+Mitte	the middle
+Tausend	the thousand
+Kuchen	the cake
+wundervoll	marvelous
+Kohle	1. the coal. 2. the money (colloquial)
+springen	to jump
+teuer	expensive
+Medizin	1. the medicine (as in the science). 2. the medication
+Video	the video
+scharf	1. sharp.  2. spicy
+Beruf	the profession
+Hemd	the shirt
+abholen	to pick up, to collect, to retrieve
+trotz	in spite of
+langweilig	boring
+Rechnung	1. the bill, the invoice. 2. the calculation
+schwach	weak
+Winter	the winter
+entlassen	to dismiss, to fire (from a job)
+handeln	to deal, to trade, to haggle, to act
+Brust	the breast, the chest
+Größe	the height, the size
+Zigarette	the cigarette
+zählen	to count
+Handy	the cell phone
+seitdem	since which
+neulich	newly, recently
+College	the college (in the UK or the US)
+Toilette	the lavatory
+hauen	to hit, to hew
+Termin	the appointment, the date
+erlauben	to allow
+wetten	to bet
+Spiegel	the mirror
+enden	to end
+Menschheit	the mankind (no plural)
+nieder	low (1)
+selbstverständlich	obvious, of course
+Sturm	the storm
+lösen	to solve
+Motor	the motor
+reiten	to ride
+funktionieren	to function
+überprüfen	to control, to check, to verify
+unterschreiben	to sign (a signature)
+Tatsache	the fact
+freundlich	friendly
+Selbstmord	the suicide
+annehmen	1. to accept, 2. to assume
+besprechen	to discuss (1)
+Zunge	the tongue
+Treppe	the stair
+Streit	the controversy, the quarrel, the argument
+Bauch	the belly, the stomach
+eifersüchtig	jealous
+Decke	1. the blanket. 2. the ceiling
+drücken	to press
+Deutsche	the German person
+außerhalb	outside, beyond (prep., as in outside our control)
+Montag	the Monday
+peinlich	embarrassing
+schlau	crafty, clever
+blau	1. blue. 2. drunk (colloquial, obsolescent)
+wild	wild
+frisch	fresh
+Inspektor	the inspector
+mehrere	several
+aufmachen	to open (1)
+Bahn	1. the railway. 2. the track, the path
+Papier	the paper, the document
+zurückkommen	to return, to come back
+landen	to land
+vergeben	1. to forgive 2. to award
+verhaften	to arrest
+Talent	the talent
+Geschmack	the taste
+Labor	the laboratory
+zwölf	twelve
+ausgehen	1. to go outside. 2. to run out (e.g., money). 3. to burn out (e.g., a candle, fire). 4. to go out (as in to date). 5. to assume. 6. to die down.
+Griff	the grip, (mus.) the fingering
+Ei	the egg
+wählen	to choose, to vote
+Osten	the east (no plural)
+Alkohol	the alcohol
+Erklärung	the explanation
+Bürgermeister	the mayor
+reinkommen	to come in (colloquial)
+verändern	to alter, to change (usually referring to passive changes)
+behandeln	to treat
+Absicht	the intention
+Aussage	the statement
+Feld	the field
+schief	crooked, lopsided
+Mühe	the effort
+interessieren	to interest
+selten	seldom, rare
+grün	green
+Prozent	the percent
+Kuh	the cow
+Spieler	the player
+gebraucht	second hand, used
+Fernseher	the television set
+Erlaubnis	the permission, the permit
+Bedeutung	the meaning
+kontrollieren	to check, to control
+auseinander	apart, asunder
+Kalifornien	California
+Cent	the cent
+gebrauchen	to use (2)
+Schnee	the snow (no plural)
+verfolgen	to pursue
+Zahl	the number, the figure (e.g., the unemployment figure)
+jederzeit	(at) any time
+Pech	1. bad luck (no plural). 2. the residue of coal tar.
+Botschaft	1. the message. 2. the embassy
+Stoff	1. the material, the substance. 2 the fabric
+Mitternacht	the midnight
+Mexiko	Mexico
+Sendung	the broadcast, the programme (TV and radio)
+packen	to pack (2)
+Heimat	the home country, the home town
+hingehen	to go (there)
+verwirrt	confused
+Linie	the line
+französisch	French (adj.)
+Scheck	the check
+fressen	to eat (of animals)
+ausgezeichnet	excellent
+Jacke	the jacket
+hungrig	hungry
+Kleidung	the clothing
+aufgeregt	excited
+getrennt	separated, separately
+irgendein	some ... or the other
+Hütte	the hut
+enttäuscht	disappointed
+Brille	the eyeglasses
+stoppen	to stop
+Eindruck	the impression
+anziehen	1. to dress. 2. to attract
+Not	1. the emergency. 2. the need
+Stil	the style
+Schlafzimmer	the bedroom
+fein	fine
+Gras	the grass
+fehlen	to be missing
+Strom	1. the current (e.g., electricity) 2. the stream
+merkwürdig	strange, odd, curious, remarkable
+raten	1. to advise. 2. to guess
+Hof	1. the courtyard. 2. the farm
+Opa	the grandpa
+Künstler	the male artist
+begleiten	to accompany
+Kaiser	the emperor
+verpassen	to miss something scheduled
+Kauf	the purchase
+beobachten	to watch, to observe
+Projekt	the project
+weiterhin	furthermore
+trennen	to separate
+probieren	to try
+spitze	great (s-)
+Spitze	1. the lace, 2. the summit, the peak
+Schlange	1. the snake. 2. the queue
+Zucker	the sugar (no plural)
+dienen	to serve
+zuletzt	1. last (as in at the end of a series of things/events). 2. in the end, ultimately
+heutzutage	nowadays
+dahinter	behind it
+Wissenschaftler	the academic, the scholar, the scientist
+Akademiker	the university graduate
+genießen	to enjoy
+fliehen	to flee (1)
+festhalten	to seize, to adhere, cling to, hold on tight
+streng	stringent, rigourous, harsh
+Fett	the fat
+starten	to take off, to set off, to start off
+erleben	to experience
+klopfen	to knock
+Benzin	the petrol
+Deutschland	Germany
+zuhören	to listen to
+Bürger	the citizen
+Dummkopf	the dimwit
+gemein	1. mean, nasty.  2. in common (obsolescent)
+Holz	the wood
+Dienstag	the Tuesday
+gucken	to look
+Mittag	the noon
+Fabrik	the factory
+Leiter	1. the leader, the manager. 2. the electric conductor
+Leiter	the ladder
+Titel	the title
+spazieren	to stroll
+dicht	dense
+Geburt	the birth
+geheim	secret
+Universum	the universe (U-)
+Politik	the politics (plural rare)
+Müll	the rubbish (no plural)
+riskieren	to risk
+anfassen	1. to touch. 2. to grab, to catch hold of
+Staub	the dust
+Narr	the fool, the jester
+Vorschlag	the suggestion
+Klo	the loo
+Werk	the work (of art, etc.)
+Regel	the rule
+Gegenteil	the opposite
+waschen	to wash
+reparieren	to repair
+praktisch	practical
+Artikel	the article (exact cognate with English)
+wechseln	to change/exchange (tangible objects)
+überzeugen	to convince
+wachsen	1. to grow.  2. to wax
+Kilometer	the kilometer
+Freundschaft	the friendship
+China	China
+vernünftig	sensible, reasonable
+einst	at one time
+inzwischen	meanwhile
+achten	to respect, pay attention, take care
+täglich	daily
+Reifen	the tyre
+bewusst	conscious
+spüren	to sense
+Aufnahme	1. the recording 2. the photograph 3. the admittance (into, e.g., a club or a hospital)
+Feigling	the coward
+Mars	Mars
+riechen	to smell
+umgehen	to go around (literally and figuratively)
+Markt	the market
+angenehm	pleasant, enjoyable, agreeable (applies to both persons and things)
+rechtzeitig	on time
+Wirklichkeit	the reality (2)
+Ware	the merchandise
+Mitglied	the member
+derjenige	the one (who) (three forms)
+angeblich	alleged
+schneiden	to cut
+hundert	hundred
+Schrank	1. the closet. 2. the cupboard
+berühmt	famous
+Leitung	the cable, the wiring, the pipes
+irren	to err
+meistens	mostly, usually
+Start	the start, the launch, the takeoff
+Ursache	the reason, the cause
+äußerst	extremely
+Figur	1. the figure 2. the physique
+Rauch	the smoke (plural rare)
+Sand	the sand (plural rare)
+anstatt	instead of (1)
+Stellung	1. the job position. 2. the (bodily) position, the posture. 3. the rank (no plural). 4. the stance
+fürchten	to fear (2)
+geraten	1. to get (into a situation) 2. to turn out
+deutlich	distinct, distinctly
+brav	1. well-behaved (of children). 2. honest, dowdy
+aufwachen	to wake up
+Theorie	the theory
+möglicherweise	possibly (2)
+umlaufen	to circulate
+Arbeiter	the worker
+zurückkehren	to turn back
+rosa	pink
+Lärm	the noise, the noisiness (no plural)
+Mittagessen	the lunch, the noon meal
+Sitz	the seat (1)
+neugierig	curious
+verletzen	to injure
+Gesundheit	the health (no plural)
+akzeptieren	to accept
+negativ	negative
+Eile	the hurry, the rush (no plural)
+beantworten	to reply
+Sicht	1. the sight. 2. the vision. 3. the visibility
+daneben	beside it
+Unterstützung	the support (abstract, as in, e.g., financial support)
+Ratte	the rat
+gegenseitig	mutual
+Gedächtnis	the memory (as in the mental capacity to remember things)
+Auftritt	the appearance (on stage)
+Donnerstag	the Thursday
+Anteil	the share (not necessarily the financial sort), the fraction
+Unterhaltung	1. the entertainment. 2. the conversation
+zulassen	to admit, to allow
+bestehen	1. to exist. 2. to pass (e.g., an exam)
+Gepäck	the luggage (no plural)
+sicherlich	certainly (2)
+Bahnhof	the train station
+Kreuz	the cross
+umdrehen	to turn over
+gründen	to found smth.
+Text	the text
+taub	deaf
+Jugend	the youth (no plural)
+berichten	to report, to relate, to give account
+Hubschrauber	the helicopter
+Realität	the reality (1)
+Zeuge	the male witness
+innen	inside
+Verabredung	1. the appointment. 2. the agreement
+clever	clever
+Stimmung	the mood, the atmosphere
+Tasse	the cup
+Zweck	the purpose
+eng	narrow, tight
+Urteil	the judgment
+zwingen	to force, to coerce
+Manager	the manager
+per	by, per
+Stärke	the strength
+Schulter	the shoulder
+Krebs	1. the cancer (no plural). 2. the crab
+bequem	comfortable (1)
+ausziehen	1. to move out. 2. to take off (a piece of clothing)
+Einladung	the invitation
+Gerät	the device
+schenken	to give a gift
+Information	the information (2)
+Wut	the anger, the rage (no plural)
+Farm	the farm (2)
+bestellen	to order
+Jahrhundert	the century
+Virus	the virus
+Humor	the humour (no plural)
+Geräusch	the noise, the sound
+kompliziert	complicated
+Japan	Japan
+wiederholen	to repeat
+Suppe	the soup
+konzentrieren	to concentrate
+mittel	average, medium (adj.)
+Schokolade	the chocolate
+Miete	the rent
+Pizza	the pizza
+entfernen	to remove
+Gegner	the opponent, the enemy
+Feind	the enemy, the foe
+behaupten	to claim
+Basis	the basis
+Stahl	the steel
+Viertel	the quarter
+real	real
+erscheinen	to appear
+sparen	to save (e.g., money)
+Einstellung	1. the attitude. 2. the setting
+hässlich	ugly
+Verdacht	the suspicion
+elf	eleven
+Krone	the crown
+albern	silly
+Kindheit	the childhood
+Hügel	the hill
+unglücklich	1. unhappy. 2. unfortunate
+weitergehen	to go on, to continue
+Fan	the fan (as in a supporter or an aficionado)
+Museum	the museum
+prüfen	to test
+Nation	the nation
+anschauen	to look at (1)
+Einkauf	the shopping
+weich	soft
+einkaufen	to shop
+Ausweis	the identity card
+betreten	to enter, to tread
+Käse	the cheese
+rauskommen	to come out (2)
+offiziell	official
+Spanisch	Spanish (language)
+spanisch	Spanish (adj.)
+Kreis	1. the circle. 2. the county (e.g., Los Angeles county)
+überfallen	to mug, to attack
+Mauer	the (stand-alone) wall
+verabschieden	to say goodbye
+Puppe	the doll
+Universität	the university
+September	the September (plural rare)
+Schild	the sign, the signpost
+Schild	the shield (protection device)
+lecker	delicious
+steuern	to steer
+Klavier	the piano
+Belohnung	the reward
+Weihnachtsmann	Santa Claus
+warnen	to warn
+Küste	the coast
+eindeutig	clear, unambiguous
+aussteigen	to get off (a vehicle)
+Warnung	the warning
+anbieten	to offer
+Patient	the patient
+wenden	to turn
+Dusche	the shower (bathing)
+gewohnt	usual
+nass	wet
+senden	to send, to transmit
+bestätigen	to confirm
+Zugang	the access
+Schreibtisch	the desk
+Hitze	the heat (no plural)
+Kühlschrank	the refrigerator
+Hammer	the hammer
+Fieber	the fever
+Koch	the male cook
+Material	the material
+Juli	the July (plural rare)
+Behandlung	the treatment
+April	the April (plural rare)
+unheimlich	eerie, uncanny, immensely
+Unterricht	the lesson (plural rare)
+Verlust	the loss
+Regisseur	the film director
+Stress	the stress (no plural)
+Konto	the account
+zugeben	to admit, to acknowledge, to concede, to confess
+Modell	the model
+Charakter	the character
+jener	that (pronoun; usually in written/formal context) (three forms)
+Religion	the religion
+Witwe	the widow
+Stiefel	the boot
+Sport	the sports, athletics (no plural)
+hinsetzen	1. to seat (someone). 2. to set (something) down
+Apparat	the apparatus, the appliance
+weggehen	to go away
+rund	round
+Stift	the writing utensil
+Versicherung	the insurance
+unterstützen	to support (abstract, e.g., financial support, to support a political party)
+Ankunft	the arrival
+Schock	the shock (noun)
+Hafen	the harbour
+Konzert	the concert
+besitzen	to own
+Störung	the disturbance
+Gewicht	the weight
+Widerstand	1. the resistance 2. the resistor
+Russland	Russia
+August	the August (plural rare)
+Paradies	the paradise
+Turm	the tower
+leiten	1. to manage, to lead. 2. to guide, to conduct
+Trainer	the coach
+pünktlich	punctual, on time
+Pfarrer	the pastor
+Quelle	the source
+wecken	to wake up someone
+Esel	the donkey
+telefonieren	to talk on the telephone
+brennen	to burn
+Kopfschmerz	the headache (usually plural)
+Spanien	Spain
+abnehmen	1. to take (something) off 2. to drop, to decline 3. to lose weight
+verwenden	to use (3)
+sammeln	to collect
+vorbereiten	to prepare
+Roman	the novel
+Technik	1. the technique 2. the technology
+üben	to practise (e.g., a musical instrument)
+Entfernung	1. the distance (used for long distances) 2. the removal
+grausam	gruesome, cruel
+Werbung	the advertising
+Empfang	the greeting, the reception
+Führung	the guided tour
+schieben	to push
+Kunde	the male customer
+Wäsche	the laundry
+Führerschein	the driving license
+blasen	to blow
+Rad	the wheel, the bike
+Truppe	1. the combat squad 2. the troupe or (acting, dancing) company
+studieren	to study
+einzig	single, only
+schmutzig	dirty
+Einfluss	the influence
+Verdienst	the income, the earnings
+Verdienst	the merit
+Satz	the sentence
+Dutzend	the dozen
+liefern	to deliver
+Zorn	the anger (no plural)
+extrem	extreme
+Antrag	the proposal, the application
+Bau	1. the construction (physical; of, e.g., a house; no plural). 2. the structure, the organisation (e.g., of a play; no plural). 3. the build (of a body; no plural). 4. the building
+Bau	the den (of animals)
+freiwillig	voluntary
+einladen	to invite
+Bibel	the bible
+Phase	the phase
+hell	1. bright 2. light (colour)
+Wille	the will (plural rare)
+bereuen	to regret, to rue
+Netz	the net, the web
+Zentrum	the centre
+Huhn	the hen
+Ergebnis	the result
+Blume	the flower
+Uni	the university (colloquial)
+Atmosphäre	the atmosphere
+beschreiben	to describe
+Abenteuer	the adventure
+decken	to lay (a table)
+Abschied	the farewell
+Minister	the minister
+sozusagen	so to speak
+Gemeinde	1. the municipality, the township.  2. the congregation.
+abgeben	to hand in
+Verkehr	the traffic (no plural)
+Badezimmer	the bathroom, the shower room
+deutsch	German (adj.)
+Deutsch	German language
+Steuer	the steering wheel, the rudder
+Steuer	the tax
+Kanal	the channel, the canal
+Schauspielerin	the actress
+Ausdruck	the expression
+Bart	the beard
+doppelt	double
+leihen	1. to lend (physical, e.g., money; figurative, e.g., a hand). 2. to borrow
+Schmuck	the jewelry (no plural)
+Italien	Italy
+verschwenden	to waste
+einsteigen	to get on or in a vehicle
+darunter	under it
+mächtig	mighty, powerful
+Fahrrad	the bicycle
+erheben	to raise
+höchstens	at most
+leeren	to empty
+Jude	the male Jew
+trocken	dry (adj.)
+Gewinn	the gain
+Schuh	the shoe
+Teller	the plate
+Frühling	the spring (season)
+heulen	to howl, to cry
+begrüßen	to greet
+herrlich	splendid
+umziehen	to move, to change residence
+Appetit	the appetite (no plural)
+bilden	to form
+Begriff	1. the concept. 2. the term (as in a word)
+großzügig	generous
+Autor	the author
+Mittwoch	the Wednesday
+Maus	the mouse
+Fledermaus	the bat (animal)
+Jäger	the hunter
+Aussicht	the view
+vermeiden	to avoid
+gewöhnlich	usually
+Oktober	the October (plural rare)
+Kutsche	the horse carriage
+stürzen	to fall, to plunge
+Hai	the shark
+reißen	to rip, to tear
+Tagebuch	the diary
+Sekretärin	the female secretary
+derselbe	the same (three forms)
+außen	outside, external (adj.)
+klappen	1. to flap, to fold 2.to work out
+duschen	to shower
+Mitarbeiter	the staff member
+Laune	the mood
+reingehen	to go in (2)
+verbergen	to hide (something)
+informieren	to inform (+acc.)
+geradeaus	straight ahead
+Hinweis	the hint, the tip
+Gitarre	the guitar
+typisch	typical
+kehren	to sweep
+Wolle	the wool (no plural)
+Cola	the cola
+Platte	the plate, the platter, the panel
+Heirat	the wedding (1)
+Zuschauer	the viewer
+Gegenwart	the present time (no plural)
+Juni	the June (plural rare)
+Lohn	the wages, the pay, the salary
+Bär	the bear
+schämen	to shame
+Tal	the valley
+Salz	the salt
+Vorteil	the advantage
+unhöflich	impolite
+informiert	informed
+Nebel	the mist
+Psychiater	the psychiatrist
+Beginn	the beginning (no plural)
+Affe	the ape, the monkey
+Toast	the toast (heated bread)
+Scheibe	1. the disc 2. the slice
+Bibliothek	the library
+Tropfen	the drop of liquid
+schüchtern	shy
+verderben	to spoil, to pollute
+Aufzug	the lift, the elevator
+tropfen	to drip
+überraschen	to surprise
+Ozean	the ocean (1)
+Durst	the thirst (no plural)
+malen	to paint (1)
+Lampe	the lamp
+Café	the café
+Musiker	the male musician
+fischen	to fish (2)
+Ausbildung	the job training, the education
+Geschwindigkeit	the velocity, the speed
+schmecken	to taste
+Ehefrau	the wife
+Daumen	the thumb
+verlobt	engaged
+begreifen	to grasp (mentally), to understand
+Fahrzeug	the vehicle
+Ferien	the vacation (plural only) (usually school vacation)
+notwendig	necessary (2)
+anhören	to listen
+Personal	the staff, the personnel (no plural)
+Besucher	the visitor
+Motorrad	the motorcycle
+Käfig	the cage
+Generation	the generation
+besetzt	occupied (e.g., a seat)
+romantisch	romantic
+Ausgang	the exit of a building
+ankommen	to arrive
+baden	to swim, to bathe
+zwanzig	twenty
+Zaun	the fence
+Fantasie	the imagination
+Garage	the garage
+Brieftasche	the wallet (1)
+Indien	India
+sanft	gentle, soft
+Unterschrift	the signature
+Anzeige	the newspaper ad
+Abschluss	the completion, the degree (education)
+riesig	huge
+beliebt	popular, well-loved
+bedanken	to express thanks
+Partei	the political party
+Eingang	the entrance to a building
+diskutieren	to discuss (2)
+planen	1. to plan.  2. to intend (to do something)
+grob	coarse, uncouth
+Zone	the zone
+Seife	the soap
+Oper	the opera
+Service	the service (no plural)
+intelligent	intelligent
+ausmachen	1. to turn off, to extinguish 2. to come to, to constitute
+fällen	to fell
+existieren	to exist
+lehren	to teach (in all senses of the word)
+Saft	the juice
+Aktion	the action
+Teppich	the carpet, the rug
+Leine	the leash
+Umgebung	the surroundings
+Profi	the pro
+Handel	the trade (no plural)
+einfallen	to come to mind
+Fleck	the spot
+Leistung	the achievement
+glatt	smooth
+billig	cheap
+Unterwäsche	the underwear
+fabelhaft	fabulous
+aufmerksam	attentive
+Kultur	the culture
+Tradition	the tradition
+Mannschaft	the (sport) team, the crew
+Bewusstsein	the consciousness (no plural)
+auftauchen	to surface
+Rettung	the rescue
+ordentlich	orderly, proper
+Alptraum	the nightmare
+allzu	all too
+Objekt	the object
+ausrichten	1. to pass on (a message). 2. to align
+Stirn	the forehead
+Technologie	the technology (exact cognate with English)
+genial	brilliant
+Butter	the butter (no plural)
+Krawatte	the tie (1)
+Fliege	1. the fly (insect). 2. the bow tie
+Schmetterling	the butterfly
+Spinne	the spider
+Käfer	the beetle
+Marienkäfer	the ladybird beetle
+Interview	the interview
+füllen	to fill
+mitbringen	to bring along
+Parkplatz	the parking space, the parking lot
+Symbol	the symbol
+erschrecken	to scare
+Marke	the mark (of a product)
+herzlich	warm, hearty
+November	the November (plural rare)
+Tragödie	the tragedy
+Vergleich	the comparison
+ansonsten	otherwise
+Saal	the hall (big room)
+Strecke	1. the distance 2. the route
+widerlich	revolting
+angeln	to fish (1)
+Gedicht	the poem
+Krise	the crisis
+Handtuch	the towel
+Schriftsteller	the writer
+Experiment	the experiment
+Zelt	the tent
+Zettel	the piece of paper, the docket
+Verständnis	the understanding
+Experte	the male expert
+rechnen	to calculate (2)
+Kostüm	1.the costume 2. the (women's) suit
+faul	1. foul, rotten 2. lazy
+Motiv	the motif
+chinesisch	Chinese (adjective)
+unterbrechen	to interrupt
+löschen	to extinguish
+Dezember	the December (plural rare)
+Kanada	Canada
+Prüfung	the exam
+breit	wide, broad
+grüßen	to greet, to say hello
+rausgehen	to pop outside (colloquial)
+Ereignis	the event, the occurrence, the incidence
+Kater	1. the male cat 2. the hangover
+Kofferraum	the luggage trunk, the boot
+Futter	the animal feed
+Kellner	the waiter
+Verhandlung	1. the negotiation. 2. the trial
+dünn	thin
+Telefonnummer	the telephone number
+hinauf	up
+Reis	the rice (no plural)
+Brett	the board, the plank
+Internet	the internet (no plural)
+beherrschen	to control
+sichern	to secure
+März	the March (plural rare)
+Rand	the edge
+Märchen	the fairy tale
+betrügen	to deceive
+beißen	to bite
+Kabel	the cable, the wire
+Summe	the sum
+höflich	polite
+eröffnen	to open (in the sense of a grand opening), to disclose
+ausgeben	to spend (money)
+lediglich	merely
+Amt	1. the bureau, the department. 2. the office (as in "to run for office")
+Schnaps	the schnapps, the hard liquor
+Blatt	the leaf, the piece of paper
+Golf	the golf (no plural)
+Pfeife	the pipe
+Zahnarzt	the dentist
+ersetzen	to replace
+Reiter	the horseback rider
+klingeln	to ring
+Erwachsene	the female adult
+Erwachsene	the male adult
+Serie	the TV series
+Lautsprecher	the loudspeaker
+Kombination	the combination
+Verspätung	the delay
+Temperatur	the temperature
+menschlich	human (adj.)
+Forschung	the research
+Kollege	the male colleague
+rückwärts	backwards
+gemütlich	cosy
+Wettbewerb	the contest
+Enkel	the grandson, the grandchild
+nutzlos	useless
+Couch	the couch
+Sofa	the sofa
+russisch	Russian (adj.)
+Gehalt	the salary
+vertreten	1. to represent. 2. to substitute
+Mutti	the mom
+Saison	the season (as in, e.g., the football season, or the travel season)
+Wohnzimmer	the living room
+putzen	to clean
+Republik	the republic
+Eimer	the bucket
+Ufer	the bank (of a river, etc.)
+Bevölkerung	the population
+Persönlichkeit	the personality
+Schneider	the tailor
+bedienen	to serve (guests)
+Villa	the villa
+entdecken	to discover
+solcher	such (three forms)
+gelangen	to attain
+Sammlung	the collection
+Stamm	1. the (tree) trunk 2. the tribe
+Ansicht	the opinion (1)
+Tankstelle	the petrol station
+zuständig	responsible (in the sense of being part of a person's or an agency's function)
+Akt	1. the act (of an opera, etc.) 2. the nude (in art)
+Zahn	the tooth
+Brand	1. the fire. 2 . the blaze, the burning. 3. the burning material (for heating). 4. the baking (of clay and ceramic)
+zurückgehen	to go back
+Bauer	the farmer (1)
+privat	private
+Demokratie	the democracy
+Therapie	the therapy
+hinlegen	to lie down
+Rezept	the recipe
+Produktion	the production
+Landung	the landing
+Vertreter	the representative
+kotzen	to puke, to throw up
+Nachbar	the male neighbour
+vollständig	complete
+frech	cheeky
+anlegen	1. to invest. 2. to place (something on someone). 3. to put on (clothes, jewellery, etc.). 4. to lay out (e.g., a garden). 5. to aim (a weapon on someone)
+Abstand	the distance (used for short distances)
+Jury	the jury
+vorhaben	to intend (to do something)
+Welle	the wave
+Kuba	Cuba
+enttäuschen	to disappoint
+ärgern	to annoy
+Flur	the open field
+Flur	the hall, the corridor
+Ausnahme	the exception
+überfahren	to run over
+Rasen	the lawn
+Lkw	the truck (colloquial)
+Schach	the chess (no plural)
+Steak	the steak
+Nichte	the niece
+rasen	to race
+Umschlag	the cover
+vergangen	past (adj.)
+Kaninchen	the rabbit
+Versammlung	the assembly, the meeting
+geschieden	divorced
+Pfad	the path
+klagen	to moan, to complain
+Ausland	the foreign land (no plural)
+Datum	the date
+Magazin	the magazine
+Kompliment	the compliment
+Januar	the January (plural rare)
+Fähigkeit	the ability
+Spaziergang	the walk
+mitteilen	to convey (+dat.)
+Japaner	the Japanese (person)
+Gürtel	the belt
+Zigarre	the cigar
+rasch	quick
+marschieren	to march
+wegnehmen	to take away
+Salat	the salad
+Krankenschwester	the nurse
+Mode	the fashion
+Erfindung	the invention
+übernachten	to stay over night
+Trinkgeld	the tip
+Fahne	the flag
+Erzähler	the male narrator
+Schuppen	the shelter, the shed
+Münze	the coin
+Paket	the parcel
+zurückbringen	to bring back
+Diebstahl	the theft
+Wien	Vienna
+einnehmen	to take (medicine/food)
+versichert	insured
+häufig	frequently
+Donner	the thunder (no plural)
+Herbst	the fall, autumn
+Betrieb	the company, the business
+Möbel	the furniture
+Ente	the duck
+füttern	to feed pets
+Weltkrieg	the world war
+Wurm	the worm
+Mütze	the beanie, the winter cap
+befragen	to question (e.g., a suspect), to interrogate, to consult
+bremsen	to brake
+Neffe	the nephew
+hauptsächlich	mainly (1)
+Studium	the studies, the scholastics
+Produkt	the product
+Eisen	the iron (a type of metal) (no plural)
+Bude	the outdoor booth, the stall, the stand, the hut
+Halloween	the Halloween
+Anlage	the facility
+verbessern	to improve (2)
+Kasse	the till, the cash register
+Australien	Australia
+Fußball	the foot ball
+übertragen	to transmit
+Bekannte	the acquaintance
+zittern	to tremble
+Politiker	the politician
+Tüte	the bag
+Schein	1. the banknote. 2. the certificate. 3. the appearance
+Liter	the liter
+Friseur	the male hairdresser
+Diskussion	the discussion
+Anzahl	the quantity (for countable objects), the count (no plural)
+Vati	the dad
+Kissen	the pillow
+Werkstatt	the workshop
+ausdrücken	to express (1)
+besoffen	drunk, wasted (colloquial)
+Konferenz	the conference
+ohnehin	anyway (1)
+verlaufen	to proceed
+Ausflug	the excursion
+Assistent	the assistant
+meist	most
+Bargeld	the cash (no plural)
+erobern	to conquer
+Gemälde	the painting
+Gegensatz	the contrast (as in difference)
+grau	grey
+andererseits	on the other hand
+unterrichten	1. to give lessons, to instruct. 2. to inform, to brief
+Wirtschaft	the economy
+Anlass	the occasion
+rasieren	to shave (someone)
+Rang	the rank
+unbekannt	unknown
+Zentimeter	the centimeter (no plural)
+begegnen	to encounter, to meet (by chance)
+keineswegs	by no means
+überreden	to persuade
+aushalten	to endure
+Bach	the stream
+Hahn	the rooster
+Sänger	the male singer
+Verwandte	the male relative
+Rente	1. the pension (e.g., old-age, disability). 2. the annuity (finance)
+Stall	the stable
+Verwandte	the female relative
+Länge	the length
+Missverständnis	the misunderstanding
+Haltung	the attitude
+Medium	the media (singular rare)
+Frisur	the hairstyle
+Zeugin	the female witness
+Eifersucht	the jealousy (no plural)
+Honig	the honey
+empfinden	to feel (emotionally)
+Irre	the male lunatic (colloquial)
+Detektiv	the detective
+harmlos	harmless
+Kleingeld	the loose change (as in money, no plural)
+Polen	Poland
+hilfreich	helpful
+empfehlen	to recommend
+fremd	foreign, strange, unfamiliar
+Werkzeug	the tool
+zurückziehen	to withdraw
+Tabak	the tobacco
+Gestalt	1. the form, the shape. 2. the stature, the build. 3. the figure (literature)
+Kredit	the credit
+umgekehrt	reversed
+wertvoll	valuable
+bestrafen	to punish
+Schweden	Sweden
+Rollstuhl	the wheelchair
+Metall	the metal
+Geschäftsmann	the businessman
+unsicher	unsure
+verwandt	related
+Apfel	the apple
+Krach	1. the loud noise, the racket, the din (no plural) 2. the quarrel, the row
+Orange	the orange
+CD	the compact disc
+öffentlich	public
+Feuerwehr	the fire brigade
+verschieben	to postpone
+orange	orange
+überqueren	to cross a road
+Gramm	the gram (no plural)
+umarmen	to embrace
+reif	ripe
+Schublade	the drawer
+Kosmos	the cosmos
+verdanken	to owe (+ dat.)
+Kneipe	the pub
+Konzept	the concept (exact cognate with English)
+Bezug	the reference
+Schwager	the brother-in-law
+fit	fit
+Gemüse	the vegetables
+insgesamt	altogether
+Israel	Israel
+exakt	exact
+Qualität	the quality
+Hinsicht	the respect, the aspect, the regard
+Autounfall	the car accident
+binden	to tie
+vorlesen	to read aloud
+gratis	without fee (2)
+Einbrecher	the male burglar
+versorgen	to supply
+bedeckt	overcast (weather)
+verteilen	to distribute
+Fuchs	the fox
+Wolf	the wolf
+beurteilen	to assess
+parken	to park
+Gemeinschaft	the community
+dreckig	filthy, dirty
+Aufenthalt	the stop, the stay, the residence
+heilig	holy
+organisieren	to organise
+endgültig	final
+erweisen	to prove (e.g., true or false)
+Praxis	the practice (medical, etc.)
+braun	brown
+Silber	the silver, (no plural)
+weltweit	worldwide
+Topf	the pot (as in, e.g., cooking pot, flower pot)
+bemerken	to notice
+ablehnen	to refuse
+Autorität	the authority (the power or right to give orders)
+Teenager	the teenager
+Konkurrenz	the competition
+Babysitter	the babysitter
+Maler	the painter
+Dose	the can
+Fortschritt	the progress
+Lastwagen	the lorry, the truck
+kräftig	forceful, strong
+Tango	the tango
+angehen	to concern
+Löffel	the spoon
+starren	to stare
+geeignet	suitable
+Schicht	the social class
+eventuell	possibly (1)
+Burg	the castle (B-)
+Wohnwagen	the caravan
+Buchhalter	the bookkeeper
+angesichts	in view of
+gelten	to apply, to be valid, to be considered
+Februar	the February (plural rare)
+Dampf	the steam
+Euro	the euro
+lila	purple
+Garderobe	the dressing room
+Italiener	the male Italian person
+Schoß	the lap (of one's legs)
+Schweiz	the Switzerland (no plural)
+beschweren	to complain (2)
+verbreiten	to spread
+aussuchen	to pick out
+gelb	yellow
+plaudern	to chat
+stundenlang	for hours
+Schere	the scissors
+einziehen	to move in
+beeinflussen	to influence
+streichen	to paint (2)
+aufstellen	to deploy
+Sprecher	the speaker
+doof	stupid (2)
+hilflos	helpless
+steif	stiff
+Wende	the turnabout
+italienisch	Italian (adj.)
+auflegen	to hang up (the receiver)
+gratulieren	to congratulate
+hinfahren	to drive there
+Auswahl	the choice, the selection
+Mangel	the lack
+Branche	the branch
+mieten	to rent (as a renter)
+Beschreibung	the description
+brüllen	to yell
+schockiert	shocked
+Hauptstadt	the captial city
+Rekord	the record
+Verkäufer	the salesman
+eintreten	to enter, to get in
+Detail	the detail
+beeindrucken	to impress
+vorschlagen	to suggest
+Strategie	the strategy
+hoffnungslos	hopeless
+Kommission	the commission
+Zeile	the line of text
+fotografieren	to photograph
+Messe	1. the mass (catholic church service, type of musical composition) 2. the trade fair
+frühstücken	to have breakfast
+erleichtert	relieved
+gestattet	permitted
+braten	to roast
+Vorhang	the curtain
+Braten	the roast meat, the roast
+Eintritt	the admission
+wandern	to hike
+übermorgen	the day after tomorrow
+somit	consequently
+ermorden	to murder
+Torte	the layer cake
+Kreditkarte	the credit card
+neidisch	jealous (n~)
+Analyse	the analysis
+beachten	to take into account
+Student	the student
+Autobahn	the motorway
+entgehen	to escape (e.g., notice, punishment), to avoid, to evade
+Masse	the crowd
+ausführen	to carry out, implement, do
+ausschalten	to switch off
+aussprechen	to pronounce
+Farmer	the farmer (F-)
+abschließen	1. to lock up. 2. to conclude
+Adler	the eagle
+Niederlage	the defeat
+Jazz	the jazz (no plural)
+Ausrede	the excuse
+ernähren	to feed
+kühl	cool
+verschieden	various, different
+ertrinken	to drown
+bewundern	to admire
+Fähre	the ferry
+Zoll	the customs (at an airport)
+Venedig	Venice
+Stadion	the stadium
+spinnen	to be crazy (colloquial)
+Schaf	the sheep
+Alternative	the alternative
+Griechenland	greece
+leuchten	to shine, to glow
+Löwe	the lion
+Zeitschrift	the journal, the periodical, the magazine
+Hamburger	the hamburger
+Schottland	Scotland
+ober	upper
+Anschlag	1. the (terrorist) attack 2. the placard 3. the arrestor
+feucht	humid (1)
+Ober	the (head) waiter
+zeichnen	1. to draw. 2. to sign
+Tuch	the sheet of cloth, the cloth
+abhängig	dependent
+segeln	to sail
+Becher	the beaker, the cup
+arbeitslos	unemployed
+beruflich	professionally
+verursachen	to cause, to provoke, to generate
+Abschnitt	the part
+Bezahlung	the payment
+Blei	the lead (an element) (no plural)
+Lippenstift	the lipstick
+Landschaft	the landscape
+Hausmeister	the janitor, the caretaker
+messen	to measure
+Tafel	the blackboard
+kreischen	to screech
+Bewohner	the inhabitant (of, e.g., a house)
+Hobby	the hobby
+Venus	the Venus (no plural)
+Busch	the bush
+Handtasche	the handbag
+Tänzer	the dancer
+Ingenieur	the male engineer
+regelmäßig	regular
+Händler	1. the merchant. 2. the stock trader
+Union	the union
+gewaltig	1. mighty, powerful. 2. enormous
+Kamin	the chimey, the fireplace, the hearth
+Taschentuch	the handkerchief
+Kapelle	the chapel, the band
+Note	the mark, the grade, the musical note
+Feder	the feather
+Kerze	the candle
+Zeitalter	the era
+präsentieren	to present (exact cognate with English)
+sinken	to sink, to drop (e.g., prices)
+Ausländer	the foreigner
+Wolke	the cloud
+bezaubernd	enchanting
+einschlafen	to fall asleep
+Korea	Korea
+Armut	the poverty (no plural)
+flach	flat
+Lebensmittel	the groceries, the foodstuffs
+Seemann	the seaman
+bescheiden	modest
+produzieren	1. to produce (physical production, such as manufacturing). 2. to make, to generate (e.g., noises; colloquial)
+unabhängig	independent, impartial
+blond	blonde
+Klub	the club (exact cognate with English)
+Sängerin	the female singer
+Chor	the choir
+aufräumen	to clean up
+Komödie	the comedy
+gelegentlich	occasionally
+Einrichtung	1. the institution. 2. the furnishings, the fittings. 3. the facilities
+Balkon	the balcony
+Abfall	the waste
+Ausgabe	1. the expense. 2. the edition, the version
+hupen	to hoot
+gemäß	according to
+entsprechend	in accordance
+Einwohner	the inhabitant (of, e.g., a city)
+ängstlich	anxious
+elegant	elegant
+herrschen	to rule
+Fahrkarte	the ticket (for public transport)
+Kinn	the chin
+teilnehmen	to take part
+drohen	to threaten
+Freizeit	the free time
+anschließen	to connect
+dreißig	thirty
+Lehre	the apprenticeship
+Kamm	the comb
+vergleichen	to compare
+lahm	lame
+angemessen	appropriate
+international	international
+Hörer	1. the (telephone) receiver. 2. the listener (as in a person who listens)
+Verletzung	the injury
+Verband	the association
+Kommunikation	the communication
+Chemie	the chemistry (no plural)
+männlich	male (adj.)
+Abkürzung	the abbreviation (abbr.)
+Bestimmung	1. the regulation. 2. the purpose (no plural). 3. the destiny, the calling (no plural)
+ausprobieren	to try out
+Effekt	the effect (exact cognate with English)
+Wechsel	the change
+Schrift	the writing
+Kassette	the cassette
+Zins	the bank interest
+Soße	the sauce
+Pension	1. the (old-age) pension (for civil servants). 2. the boarding house, small hotel
+Beamte	the civil servant
+Kasten	the case, the box
+Geschlecht	the gender
+versichern	to insure
+Passagier	the passenger (2)
+Feuerwerk	the fireworks
+Kurve	the curve
+Journalist	the journalist
+seither	since then
+Bräutigam	the bridegroom
+Picknick	the picnic
+Klimaanlage	the air conditioning
+Börse	the stock market (B-)
+schwitzen	to sweat
+servieren	to serve (food and drink only)
+sorgfältig	with care
+Kennzeichen	the label, the distinguishing mark
+Russe	the male Russian person
+Fotograf	the photographer
+Lamm	the lamb
+gebildet	educated
+Plastik	the plastic (no plural)
+Umwelt	the envrironment
+Gewitter	the thunderstorm
+lauten	to sound
+wertlos	worthless
+Handschrift	the handwriting
+Pflanze	the plant
+Nachtisch	the dessert
+Luxus	the luxury (no plural)
+zögern	to hesitate
+fünfzig	fifty
+Orchester	the orchestra
+gekleidet	dressed
+Fach	the field of study, the subject
+fließen	to flow
+Dokument	the document
+Treffpunkt	the meeting place
+sentimental	sentimental
+Bedürfnis	the need, the necessity
+hierfür	(in exchange) for this
+anstrengend	strenuous, tiring
+kauen	to chew
+Kaiserin	the empress
+drucken	to print
+nachmittags	in the afternoon
+Apotheke	the pharmacy
+Geige	the violin
+Bildung	1. the education 2. the formation
+München	Munich
+Produzent	the producer
+golden	golden
+Erziehung	the upbringing (no plural)
+BH	the bra
+Obst	the fruit (no plural)
+Hase	the hare
+national	national
+anzeigen	1. to report (a crime). 2. to notify, to announce, to advertise. 3. to show
+behindert	handicapped, disabled
+Notruf	the emergency phone call
+Feierabend	the end of the work day
+automatisch	automatic
+Kritik	the criticism
+Senf	the mustard
+anderthalb	one and a half (1)
+wegwerfen	to throw away
+erzeugen	1. to produce (physical, as in manufacturing; abstract, as in producing a feeling). 2. to engender
+Weltraum	outer space (no plural)
+Supermarkt	the supermarket
+arrogant	arrogant
+aktivieren	to activate
+zumachen	to close (2)
+regnen	to rain
+Pille	the pill
+Nerv	the nerve
+Leder	the leather
+übersetzen	to translate
+Zusammenarbeit	the cooperation (no plural)
+online	online
+Unterkunft	the accommodation
+Vorschrift	the instruction
+Reinigung	1. the cleaning, the purification. 2. the dry cleaner's (shop)
+scheitern	to fail
+Vorname	the given name
+Mechaniker	the mechanic
+einschalten	1. to switch on. 2. to tune in (e.g., a radio program)  3. to bring in, to call in
+vorgestern	the day before yesterday
+spannend	exciting
+fortsetzen	to continue
+Rathaus	the city hall
+genügen	to suffice
+Provinz	the province
+Badewanne	the bathtub
+Formel	the formula
+Klima	the climate
+Uhrzeit	the time of day
+Literatur	the literature
+technisch	technical
+Kaviar	the caviar
+Rückseite	the backside
+Kreuzung	the crossroads, the junction
+stinken	to stink
+geistig	intellectual
+Handschuh	the glove
+Rucksack	the backpack
+erraten	to guess
+stumm	mute, silent
+Drama	the drama
+Umgang	1. the social intercourse, contact. (no plural) 2. the handling (no plural)
+ursprünglich	originally
+Vase	the vase
+Schal	the scarf
+drängen	to urge
+Käufer	the buyer
+ideal	ideal
+kündigen	to give noticed
+Betrag	the amount
+Terrorismus	the terrorism (no plural)
+gleichgültig	indifferent
+Element	the element
+Milliarde	the billion
+beschuldigen	to blame
+körperlich	physical
+Seide	the silk
+Bildschirm	the monitor, the screen
+Notaufnahme	the emergency room (hospital)
+theoretisch	theoretical
+gestalten	to shape, to design
+Strafzettel	the traffic ticket
+fünfzehn	fifteen
+murmeln	to mutter
+sichtbar	visible
+Ratschlag	the (piece of) advice
+Rechtsanwalt	the male lawyer
+gefährden	to endanger
+Kellnerin	the waitress
+kindisch	childish
+Inhalt	the content
+mitgehen	to go along
+Gewohnheit	the custom, the habit
+wesentlich	1. essential, fundamental. 2. substantial, significant
+Nachbarin	the female neighbour
+Jeans	the jeans
+arabisch	Arabian
+vermuten	to suppose
+Triumph	the triumph
+Terror	the terror (no plural)
+Schnurrbart	the moustache
+Spaghetti	the spaghetti (plural only)
+gruselig	gruesome
+Kalender	the calendar
+Patrouille	the patrol
+Quittung	the receipt
+kapieren	to get the picture, to understand (colloquial)
+Durchsage	the announcement
+befürchten	to fear (1)
+Gruß	the salutation (singular), the regards (plural)
+Jahreszeit	the season (as in spring, summer, autumn and winter)
+Mathematik	the mathematics (no plural)
+Höflichkeit	the courtesy, the politeness
+wiederum	in turn, then again, on the other hand
+Spezialität	the specialty
+untergehen	to sink, to go under (figurative)
+Alliierten	the Allies (WWII) (plural only)
+Anrufbeantworter	the answering machine
+Mitbewohner	the housemate, the roommate
+angeben	1. to state, to declare. 2. to boast (colloquial)
+Wurst	the sausage
+sofern	provided that
+Argument	the argument, the point, the case
+winzig	tiny
+Umarmung	the hug, the embrace
+niedrig	low (2)
+Bund	1. the league. 2. the federation
+Bund	the bunch (e.g., of flowers)
+durstig	thirsty
+anzünden	to light a candle, cigarette, etc.
+Streichholz	the wooden match (for lighting cigarettes, etc.)
+enorm	enormous (exact cognate with English)
+Schweiß	the sweat (no plural)
+Dauer	the duration (no plural)
+Schüssel	the bowl
+inklusive	inclusive of
+wegfahren	to drive away, to leave
+Geiger	the male violinist
+Geschwister	the sibling
+Kritiker	the male critic
+Haushalt	the household
+Nachfrage	1. the inquiry. 2. the demand (economics)
+Terrorist	the terrorist
+Notiz	the note
+Gipfel	the summit, the top
+Weltall	the universe (W-) (no plural)
+Packung	1. the package. 2. the pack (e.g., of müsli)
+Drittel	the third
+gütig	kind, gracious
+Gastgeber	the host
+ausleihen	1.to lend, to loan out. 2. to borrow
+geduldig	patient
+Unterhose	the underpants
+Mittagspause	the lunch break
+Feuerwehrmann	the fireman
+verbieten	to forbid
+Gärtner	the male gardner
+ermitteln	1. to investigate. 2. to ascertain. 3. to determine
+vermitteln	1. to mediate. 2. to intercede. 3. to broker. 4. to convey
+Galerie	the gallery
+zukommen	1. to approach. 2. to be bestowed (on). 3. to be due to
+Pfennig	the penny
+Tennis	the tennis (no plural)
+global	global
+Damm	the dam
+Abflug	the departure (airplane)
+ansprechen	to address, to consider
+Pullover	the sweater (2) (long form)
+Comic	the comics
+vermieten	to rent out (as an owner)
+Formular	the blank form
+Instrument	the instrument
+einrichten	1. to furnish (e.g., an apartment). 2. to arrange. 3. to set up, to establish
+einschlagen	1. to wrap. 2. to smash
+Brötchen	the (bread)roll
+Lama	the llama
+Lama	the lama (Tibetan buddhist monk)
+Exemplar	the copy (of a book, etc.)
+Geschirr	the dishes, the dinnerware (no plural)
+Gans	the goose
+abhängen	to depend
+Galaxie	the galaxy
+Klingel	the (door)bell
+Bluse	the blouse
+darstellen	1. to depict, to present. 2. to portray, to act (a character in, e.g., a play)
+fluchen	to swear
+Armband	the bracelet
+schleppen	to drag
+weiblich	female (adj.)
+Zahnbürste	the toothbrush
+Phänomen	the phenomenon
+Pflaster	the plaster, the adhesive tape
+bellen	to bark
+hereinkommen	to come in (proper term)
+Telefonbuch	the telephone directory
+Reihenfolge	the sequence
+Fernbedienung	the remote control
+Abfahrt	the departure (bus)
+durchmachen	to go through, to undergo
+Sessel	the armchair
+Kondom	the condom
+schütteln	to shake
+backen	to bake
+Popcorn	the popcorn (no plural)
+aufsetzen	to put on (one's head)
+Ungarn	Hungary
+Heizung	the (central) heating
+Taschenlampe	the torch, the flashlight
+Fels	the rock
+politisch	political
+Physik	the physics (no plural)
+Wecker	the alarm clock
+Biene	the bee
+Hummel	the bumblebee
+Diskette	the diskette
+Kessel	the kettle
+Outfit	the outfit
+anderswo	somewhere else
+Konflikt	the conflict
+Behörde	the authority (government agency)
+pflegen	to foster
+Sekretär	the male secretary
+Flugplatz	the airfield
+Orangensaft	the orange juice
+Mieter	the renter
+tanken	to fill up with petrol
+Ausstellung	the exhibition
+Pudding	the pudding
+Irland	Ireland
+Frost	the frost
+Klatsch	the gossip (no plural)
+günstig	favourable
+Haustür	the front door
+Erkältung	the cold
+Briefkasten	the mailbox
+teilweise	partially
+vierzig	forty
+vergiften	to poison
+passend	fitting
+dreizehn	thirteen
+kopieren	to copy
+Industrie	the industry
+Wohlstand	the affluence (no plural)
+Knoblauch	the garlic (no plural)
+Ski	the ski
+Region	the region (exact cognate with English)
+Slip	the panties, the briefs
+anmachen	to put on, to turn on
+investieren	to invest (exact cognate with English)
+Schilling	the shilling (former Austrian currency)
+Anschluss	1. the connection.  2. the hookup (for TV, internet, etc.)
+deuten	to indicate, interpret
+Herd	the stove
+bankrott	bankrupt
+Regal	the shelf
+komplex	complex
+Semester	the semester
+Depression	the depression
+Türkei	the Turkey (no plural)
+Frühjahr	the spring, the early year
+einpacken	to pack (1)
+Latein	Latin (language)
+Arbeitszimmer	the study (2)
+verstärken	to strengthen
+auslösen	to trigger, provoke
+Vetter	the male cousin
+flüchten	to flee (2)
+fleißig	hard-working
+Kindergarten	the kindergarten
+Vorwurf	the reproach
+kritisch	critical
+Erzbischof	the archbishop
+verspätet	delayed
+blockieren	to block
+Standort	the site
+ärgerlich	annoying
+Wiener	Viennese
+reduziert	reduced
+Ampel	the traffic light
+Jugendliche	the female young person
+Jugendliche	the male young person
+beklagen	to complain (1)
+nähen	to sew
+Telefonzelle	the telephone booth
+Klempner	the plumber
+verhören	to interrogate
+Kanzler	the male chancellor
+Scanner	the scanner
+Stiefmutter	the stepmother
+Investition	the investment
+modern	modern
+Maß	the measure
+Sonnenbrille	the sun glasses
+Zeichnung	the drawing
+Erkenntnis	the knowledge
+tippen	to type
+Grausamkeit	the cruelty
+Perspektive	the perspective
+klatschen	to clap
+Getränk	the beverage
+Schwägerin	the sister-in-law
+Verwendung	the usage, use, appropriation
+Tierarzt	the vet
+Brasilien	Brazil
+frieren	1. to be cold. 2. to freeze
+falten	to fold
+Nuss	the nut
+letztlich	in the end
+jüdisch	Jewish
+Architekt	the architect
+bislang	up to now
+Verein	the club, the association
+Tonne	1. the ton (unit of measurement). 2. the barrel (e.g., of crude oil)
+Einkaufszentrum	the shopping centre
+Weihnachtsgeschenk	the Christmas present
+Lumpen	the rag
+Aufsatz	the essay
+endlos	endless
+herauskommen	to come out (1)
+Mehl	the flour (no plural)
+Management	the management
+vielmehr	rather (as in, e.g., Prussia is not a country with an army, rather an army with a country)
+Kanadier	the Canadian person
+Sowjetunion	the Soviet Union (no plural)
+bevorzugen	to privilege, to prefer
+best	best
+Schildkröte	the tortoise
+zusätzlich	additional
+Debatte	the debate
+Dialog	the dialogue
+Studie	the survey
+Schreck	the fright
+Bedienung	the service in a restaurant, etc.
+Veranstaltung	the (organised) event (e.g., a public lecture)
+Forscher	the researcher
+Absatz	1. the paragraph. 2. the heel (of a shoe)
+Enkelin	the granddaughter
+Gabel	the fork
+Wachstum	the growth
+griechisch	Greek (adj.)
+Dimension	the dimension
+schlank	slim
+kleben	to glue, to stick on
+Aktentasche	the briefcase
+fügen	to add
+gelingen	to succeed
+Lehne	the rest: back rest, arm rest, etc.
+Silvester	the New Year's Eve
+Designer	the designer
+schriftlich	in writing
+Heimweg	the way home
+Fußboden	the floor
+unerhört	outrageous, unheard-of
+Verwaltung	the administration
+tätig	active
+Arbeitgeber	the employer
+Kaufhaus	the department store
+Medikament	the medication
+ausfüllen	to fill in a form
+Bremse	the brake
+gießen	to water
+veröffentlichen	to publish
+Gleis	the train track, the train line
+kostenlos	costless
+unzufrieden	dissatisfied
+äußern	to express (2)
+Hypothek	the mortgage
+Terrasse	the terrace
+Vorsitzende	the chairperson
+Dom	the cathedral
+Vulkan	the volcano
+Trompete	the trumpet
+Filmstar	the filmstar
+besetzen	to occupy
+Stiefvater	the stepfather
+polnisch	Polish (adj.)
+Einkommen	the income
+Poster	the poster
+versammeln	to gather
+wegrennen	to run away
+Konzern	the (business) concern, the business group
+wiegen	to weigh
+Wachs	the wax
+beladen	loaded
+Kopfhörer	the headphone
+Haustier	the pet
+raffiniert	refined
+Scheinwerfer	the headlight, the floodlight, the spotlight
+defekt	defective
+Pulli	the sweater (1) (colloquial)
+flirten	to flirt
+verrecken	to die, to croak (4)
+Heiligabend	the Christmas Eve
+Schreiber	the scribe
+sympathisch	pleasant, nice (persons or personal qualities)
+gestresst	stressed
+anhand	on the basis of
+hungern	to go hungry
+Künstlerin	the female artist
+äußere	outer
+saugen	to vacuum clean, to suck
+hingegen	whereas
+identisch	identical
+Jura	law (as an academic subject) (no plural)
+zitieren	to quote
+Hausarbeit	the housework
+Aufführung	the performance
+Entwurf	the design
+Klippe	the cliff
+Teleskop	the telescope
+Fax	the fax
+Software	the software
+Polizistin	the female police officer
+auswählen	to choose
+Gummi	1. the rubber, the gum. 2. the condom (colloquial). 3. the eraser (short form)
+Sekt	the sparkling wine
+Sekte	the sect
+Belgien	Belgium
+Tablett	the tray
+korrigieren	to correct
+aufwachsen	to grow up
+Einhorn	the unicorn
+Feiertag	the public holiday (1)
+Tablette	the pill, the tablet
+Parlament	the parliament
+Schiedsrichter	the referee (sport)
+trocknen	to dry
+Auskunft	the information (1)
+belasten	to burden
+katholisch	Catholic
+Arbeitsplatz	the place of work
+Ochse	the ox
+Tourist	the tourist
+erweitern	to expand
+Chefin	the female boss
+Grundschule	the primary school
+höllisch	hellish
+berechnen	to calculate (1)
+Architektur	the architecture
+Mathe	the math (no plural)
+Lenkrad	the steering wheel (1)
+Bündel	the bundle
+Ostern	the Easter (no plural)
+ausschließlich	exclusive
+Fassade	the facade
+Cousine	the female cousin
+unvorstellbar	unimaginable
+Website	the website
+Baumwolle	the cotton
+Beleuchtung	the lighting
+Dänemark	Denmark
+eigen	own
+zurückzahlen	to pay back (2)
+Abendbrot	the light evening meal (usually with bread)
+Dachboden	the attic
+Seminar	the seminar
+religiös	religious
+Punk	the punk
+mancher	some (three forms)
+auflösen	to dissolve (as in, e.g., to dissolve salt in water)
+Eigenschaft	the characteristic, the property
+Diebin	the female thief
+austauschen	to exchange (information, culture, hostages)
+erstmals	for the first time (1)
+Leser	the reader
+Malerei	the painting (as an activity) (no plural)
+Matrose	the sailor
+Mehrheit	the majority
+Hausfrau	the housewife
+beschämt	ashamed
+kritisieren	to criticise
+Lebensunterhalt	the living expenses (no plural)
+Kandidat	the candidate
+zornig	angry
+Darstellung	the depiction
+Freundlichkeit	the friendliness (no plural)
+Banane	the banana
+undankbar	ungrateful
+Nachthemd	the night-dress
+Elefant	the elephant
+Chile	Chile
+Postkarte	the postcard
+betonen	to stress, to emphasise
+Marmelade	the jam
+Karton	the carton, the box
+fördern	to promote
+Schwan	the swan
+Teilnehmer	the participant
+Schnecke	the snail
+aufgeräumt	1. tidy. 2. cheerful
+Planung	the planning
+flicken	to mend
+primitiv	primitive
+Jüdin	the female Jew
+Campus	the campus
+unterschiedlich	different
+Ellbogen	the elbow
+glänzend	shiny
+Schwiegermutter	the mother-in-law
+auspacken	to unpack
+Durchschnitt	the average
+erfassen	to seize
+Vorlesung	the lecture
+aufessen	to eat up
+Bleistift	the pencil
+Flöte	the flute
+Nordpol	the North Pole (no plural)
+Lebenslauf	the CV
+Kundin	the female customer
+reservieren	to reserve
+Biologie	the biology (no plural)
+Sensation	the sensation (in the sense of something that arouses interest and excitement)
+senken	to lower, to reduce
+Ausfahrt	the exit of a highway
+weitergeben	to pass along
+grunzen	to grunt
+Lippe	the lip
+anschnallen	to fasten (seat belt)
+züchten	to cultivate
+bedeutungslos	meaningless
+Alarmanlage	the alarm system
+bedeutend	important (b-)
+eineinhalb	one and a half (2)
+Notizbuch	the notebook (not a computer) (2)
+Institution	the institution (exact cognate with English)
+Stau	the congestion, the gridlock
+Haarschnitt	the haircut
+schnarchen	to snore
+Einfahrt	the entrance to a highway
+Schlagzeug	the percussion
+Witwer	the widower
+Walzer	the waltz
+Theaterstück	the theatrical play
+Metzger	the butcher (2)
+Vegetarier	the vegetarian
+Pakistan	Pakistan
+auffallen	to stand out
+Wörterbuch	the dictionary
+abbiegen	to bend
+Regenschirm	the umbrella
+eilen	to hurry
+Argentinien	Argentina
+anwenden	to apply (as in to use, to be relevant)
+Mineralwasser	the mineral water
+finanziell	financial
+Wiese	the meadow, the hayfield
+vierzehn	fourteen
+Geschäftspartner	the business partner, the business associate
+bessern	to improve (1)
+vergrößern	to enlarge
+Shampoo	the shampoo
+Pfeffer	the pepper (no plural)
+Waschmaschine	the washing machine
+Speisekarte	the (restaurant) menu
+Einwanderer	the immigrant (1)
+vorziehen	to prefer
+aufführen	to perform
+Mülleimer	the rubbish bin (2)
+beitragen	to contribute
+ausschließen	to exclude
+Lebensversicherung	the life insurance
+Theke	the counter, the bar
+optimistisch	optimistic
+Finanzen	the finances (plural only)
+Krug	the jug
+Besserung	the improvement
+Reißverschluss	the zipper
+Panne	the failure, the breakdown
+buchen	to book
+spülen	to rinse, to douse water over, to flush
+Kontinent	the continent
+Schwiegervater	the father-in-law
+Aktivität	the activity (exact cognate with English)
+amerikanisch	American (adj.)
+intensiv	intense
+reduzieren	to reduce
+Geburtstagsgeschenk	the birthday present
+stützen	to support (physical, as in the columns support the roof), to prop up
+Mitbürger	the fellow citizen
+Shorts	the shorts (plural only)
+Salami	the salami
+Zahnpasta	the toothpaste (no plural)
+Belastung	the burden
+Kollegin	the female colleague
+Reklame	the ad
+Hersteller	the manufacturer
+umkommen	to die (2)
+vereinbaren	to agree
+Ablauf	the procedure
+heiter	bright weather
+artig	1. well-behaved. 2. polite, gallant
+ausüben	to practise (a profession)
+Quote	1. the portion 2. the rate
+Porträt	the portrait
+Bürgersteig	the pavement, the sidewalk
+Ehepaar	the married couple
+Valentinstag	Valentine's Day
+Waage	the weigh scale
+machbar	doable
+berücksichtigen	to consider
+Schlips	the tie (2)
+Schaffner	the ticket collector (on a train)
+Lehrling	the apprentice (2)
+Alltag	the daily routine (no plural)
+türkisch	Turkish (adj.)
+kleiden	to dress
+flüchtig	elusive
+hineingehen	to go in (1)
+Millimeter	the millimetre (no plural)
+Kalb	the calf (animal)
+Getue	the fuss, carrying on about something (no plural)
+qualifiziert	qualified
+jährlich	yearly
+pflücken	to pick
+Bäcker	the baker
+dröhnen	to boom
+Reparatur	the repair
+Fremdsprache	the foreign language
+DDR	the GDR (no plural)
+Pfand	the deposit, the collateral
+definieren	to define
+Schneesturm	the snowstorm
+Definition	the definition
+ICE	InterCity Express
+Schlafanzug	the pajamas
+Gutschein	the voucher
+Serviette	the napkin
+erleichtern	to relieve
+Sauna	the sauna
+buchstabieren	to spell
+Konsulat	the consulate
+Kartoffel	the potato
+Treppenhaus	the staircase
+Hochschule	the college, the university
+Schnabel	1. the mouth (slang). 2. the beak (of a bird). 3. the spout (of a teapot)
+Toaster	the toaster
+Gymnasium	the nine-year school prior to higher education
+Taschengeld	the pocket money
+Sitte	the custom, the tradition
+Vormittag	the morning, the time before noon
+vorbeigehen	to go by, to go past, on the way
+erzielen	to obtain
+donnern	to thunder
+Kenntnisse	the knowledge/proficiency in a particular skill (plural only)
+Grabstein	the gravestone, the tombstone
+geschmacklos	tasteless
+Kamel	the camel
+krumm	crooked, bent
+Faktor	the factor
+schaufeln	to shovel
+Säge	the saw
+Drucker	the printer
+Vorgang	the process
+Landkarte	the map
+Verlag	the publishing house
+maximal	a maximum of
+anerkennen	to acknowledge, to recognise
+Diktatur	the dictatorship
+Paragraf	the paragraph (exact cognate with English)
+vergnügt	merry
+Karneval	the carnival (usually referring to Shrove Tuesday or Mardi Gras)
+Wartezeit	the waiting period
+Internat	the boarding school
+zelten	to camp (in a tent)
+Blockade	the blockade
+Ausschnitt	the excerpt (1)
+miserabel	miserable
+Bäckerei	the bakery
+Staubsauger	the vacuum cleaner
+Pfanne	the pan
+Aufbau	1. the construction (physical and abstract; no plural). 2. the structure, the organisation (e.g., of a story, of society; no plural). 3. the superstructure (as in something built on top of something else)
+Zugführer	the train conductor
+Peru	Peru
+anschließend	subsequently, afterwards
+verbittert	bitter, embittered
+kreativ	creative
+Ukraine	the Ukraine (no plural)
+rücksichtslos	careless
+Wichtigkeit	the importance (no plural)
+Abteil	the compartment
+Stammbaum	the family tree
+medizinisch	medical
+Koffein	the caffeine (no plural)
+durchsetzen	1. to enforce, to force through. 2. to intersperse
+Großeltern	the grandparents (plural only)
+Disco	the disco
+Baustelle	the building site
+Umfang	the extent
+Zwilling	the twin
+Viertelstunde	the quarter hour
+einreichen	to lodge, to file (e.g., a complaint, a lawsuit), to tender (e.g., a resignation, a bill)
+abfahren	to depart
+joggen	to jog
+Klopapier	the toilet paper (colloquial)
+Postamt	the post office
+Olive	the olive
+Reisende	the traveller
+Thermometer	the thermometer
+Zeitraum	the period of time
+wahrnehmen	to perceive
+Heft	the notebook (not a computer) (1)
+mittels	by means of
+Kommode	the dresser, the chest of drawers
+seekrank	seasick
+gegenwärtig	presently
+belegen	to attend (a course)
+erläutern	1. to exemplify. 2. to elucidate (something)
+ablaufen	to run out
+festlegen	to determine
+Nichtsnutz	the good-for-nothing (noun)
+Tätigkeit	the activity (as in, e.g., a job, the operation of an organisation, etc.)
+einführen	to bring in
+Buchhandlung	the bookshop, the bookstore
+Umfrage	the survey, the poll
+entwerfen	to draft, to design
+Lebensstil	the life style
+Hundefutter	the dog food (no plural)
+Elektriker	the electrician (1)
+Lachs	the salmon
+Skulptur	the sculpture (exact cognate with English)
+abwischen	to wipe
+Grieche	the male Greek person
+Antike	the Antiquity (era) (no plural)
+ausschlafen	to sleep in
+Portugal	Portugal
+lebhaft	lively
+Abgeordnete	the delegate, the representative
+Briefträger	the mail carrier
+Komponist	the male composer
+Urgroßvater	the great grandfather
+Acker	the (arable) field
+mittlere	middle
+Kugelschreiber	the ballpoint pen
+kaputtmachen	to break, to ruin
+Donau	the Danube (no plural name of a river)
+Norwegen	Norway
+Steward	the air steward
+poetisch	poetic
+musikalisch	musical (adj.)
+Neujahr	the New Year
+Ohrring	the earring
+Wetterbericht	the weather forecast
+Ausdauer	the endurance (no plural)
+Nachteil	the disadvantage
+Expertin	the female expert
+Mithilfe	the assistance (no plural)
+brandneu	brand new
+Diplom	the diploma
+Vorstellungsgespräch	the job interview (2)
+Großstadt	the metropolis
+eintragen	to register, to enrol, to enter (e.g., information on a questionnaire)
+Esszimmer	the dining room
+verstümmelt	mutilated
+Arbeitslosigkeit	the unemployment
+Bauernhof	the farm (1)
+obgleich	although, albeit (rare and formal)
+spalten	to split
+Polizeiwache	the police station
+Füller	the fountain pen
+Klumpen	the lump
+Lagerfeuer	the campfire
+Zimmermädchen	the maid
+Schminke	the make-up (especially the theatrical sort)
+vorlegen	to submit, to present
+ungesund	unhealthy
+Teddybär	the teddy bear
+Klassenzimmer	the classroom
+Schnupfen	the (head) cold
+Kraftwerk	the power station
+stürmisch	stormy
+gesetzlich	legal (1)
+Finnland	Finland
+Rotwein	the red wine
+Zensur	the grade
+renovieren	to renovate
+Zugabe	the encore
+Regenmantel	the raincoat
+heimkommen	to come home
+ausrasten	to go ballistic (to lose one's temper)
+Erdgeschoss	the ground floor
+Gasthaus	the inn, the (traditional) restaurant
+Tomate	the tomato
+campen	to camp
+gültig	valid
+Krampf	the cramp
+sinnvoll	meaningful
+bedecken	to cover
+GmbH	the limited liability company
+Weihnachtsbaum	the Christmas tree
+Apotheker	the pharmacist
+unverantwortlich	irresponsible
+Billard	the billiards (no plural)
+ledig	single, unmarried
+Campen	the camping (as an activity) (no plural)
+Gleichheit	the equality
+Ohrfeige	slap in the face
+nachweisen	to prove (2)
+Abitur	the Gymnasium final year exam
+vorgeben	to pretend, to profess
+Kolumbien	Colombia
+Stichwort	the key word
+Auseinandersetzung	the dispute, the conflict
+Babysitten	the babysitting (no plural)
+unehrlich	dishonest
+Toilettenpapier	the toilet paper (proper term)
+knutschen	to smooch, to snog
+schamlos	shameless
+Weißwein	the white wine
+Pudel	the poodle
+Rübe	the turnip
+herzlos	heartless
+Einführung	the introduction
+Reiseführer	the travel guide (person or book)
+Waschlappen	the washrag, the washcloth
+wegfliegen	to fly away
+Luxemburg	Luxembourg
+Hotdog	the hot dog
+Statistik	the statistic
+Fläche	1. the area, the space. 2. the surface
+Holzfäller	the lumberjack
+Festplatte	the hard disk
+elektrisch	electric
+beschränken	to restrict, to limit
+tolerieren	to tolerate
+Handwerker	the craftsperson
+Sketch	the skit
+Gitarrist	the male guitarist
+Waschbecken	the washbasin
+Schweinestall	the pigsty
+umsetzen	1. to implement. 2. to transform, to convert. 3. to relocate
+Kanne	the pot (as in, e.g., coffee pot)
+schwedisch	Swedish (adj.)
+sparsam	thrifty
+heizen	to heat
+mysteriös	mysterious
+Kapitalismus	capitalism (no plural)
+Windschutzscheibe	the windscreen
+Güter	the goods (plural only)
+rechtlich	legal (2)
+Lasagne	the lasagna
+schläfrig	sleepy
+Karotte	the carrot
+Abteilungsleiter	the department manager
+Lebensjahr	the year of one's life
+Cappuccino	the cappuccino
+Erzählung	the story
+Währung	the currency
+Buchstabe	the letter of the alphabet
+nicken	to nod
+schminken	to put on makeup
+abwaschen	to wash up (2)
+Schauer	the shower (rain, meteor, etc.)
+massiv	heavy, solid
+freilich	certainly (1)
+Epoche	the epoch
+Mülltonne	the waste container, the wheelie bin
+Waisenkind	the orphan
+Nordamerika	North America
+bunt	colourful
+Stereoanlage	the stereo (system)
+Turnhalle	the gymnasium
+ansetzen	to position
+selbstsicher	self-confident
+Dialekt	the dialect
+Klischee	the cliché
+Juwelier	the jeweler
+demokratisch	democratic
+PC	the PC
+Franken	the franc (former French currency)
+klassisch	classical
+Attraktion	the attraction
+Geburtsort	the birthplace
+bügeln	to iron
+Hochhaus	the high-rise
+Schlafsack	the sleeping bag
+beschließen	to decide (1)
+unordentlich	untidy
+Most	the cider
+Bushaltestelle	the bus stop
+Wunderkind	the child prodigy
+windig	windy
+Jockey	the jockey
+Geldstrafe	the monetary penalty
+Senior	the male senior citizen
+schneien	to snow
+umstellen	to rearrange
+Vorderseite	the front
+anbauen	to grow (crops)
+uralt	ancient
+Fotografie	the photograph
+formulieren	to formulate
+Lilie	the lily
+Vitamin	the vitamin
+Reisebüro	the travel agency
+Essig	the vinegar (no plural)
+anprobieren	to try on
+Moderator	the moderator
+ermüdend	tedious, tiring
+Halskette	the necklace
+selbständig	independent, self-employed, autonomous
+färben	to dye or colour
+einigermaßen	somewhat
+zerfallen	to disintegrate
+Athlet	the athlete
+zumal	particularly
+Synagoge	the synagogue
+Apfelkuchen	the apple pie
+Badeanzug	the bathing suit
+erwerben	to acquire
+begeistern	to inspire
+Landwirtschaft	the agriculture
+human	humane
+Nutzung	the use (N-)
+Spielraum	the leeway
+konservativ	conservative
+Europäer	the male European
+einerseits	on one hand
+Fete	the party (1)
+Zahnschmerzen	the toothache (plural only)
+lebensmüde	weary of life
+fließend	fluently
+Bahnsteig	the train station platform
+zusammenpassen	to match up, to fit together
+fromm	pious
+realisieren	to realize
+Monarchie	the monarchy
+hinausgehen	to go outside
+wöchentlich	weekly
+Gebühr	the fee
+dienstags	on Tuesdays
+Sonderangebot	the special sales offer
+sonnig	sunny
+Kassierer	the male cashier
+Pianist	the male pianist
+Videokamera	the video camera
+Armbanduhr	the wrist watch
+mäßig	moderate
+ausbilden	to train
+revolutionär	revolutionary
+Kleiderschrank	the wardrobe
+strikt	strict (exact cognate with English)
+Likör	the liquor
+mähen	to mow
+hinsichtlich	with regard to
+schmal	slim, narrow, thin face
+Türke	the male Turk
+Socke	the sock
+Giraffe	the giraffe
+ek(e)lig	nasty, disgusting
+Besteck	the silverware, cutlery (no plural)
+Ladenbesitzer	the shop owner
+kämmen	to comb
+Zwiebel	the onion
+Sonnenbrand	the sunburn
+Vorort	the suburb
+Aussprache	the pronunciation
+überholen	to overtake
+hilfsbereit	ready to help
+Rassismus	the racism (no plural)
+Rockstar	the rock star
+alarmieren	to alarm
+Horrorfilm	the horror film
+Quadratmeter	the square meter
+chemisch	chemical
+spekulieren	to speculate
+Laus	the louse
+Papierkorb	the wastepaper basket
+Krankenversicherung	the health insurance
+Schulzeit	the schooldays
+stressig	stressful
+schmücken	to decorate (with garlands)
+vormittags	in the morning (2)
+Umsatz	the turnover
+Russin	the female Russian person
+Alpen	the Alps (plural only)
+populär	popular
+Verpackung	the packaging
+Rüssel	the trunk (of an elephant)
+bewölkt	cloudy (1)
+entsorgen	to dispose of
+Nationalität	the nationality
+signieren	to give a sign
+Spinat	the spinach
+biologisch	biological
+dickköpfig	stubborn
+saftig	juicy
+knabbern	to nibble
+Pferdeschwanz	the pony tail
+Hymne	the hymn
+Olivenöl	the olive oil
+zunehmend	increasingly
+Vorspeise	the hors d'oeuvre
+Mikroskop	the microscope
+aufschließen	to unlock
+Vorwahl	1. the preliminary election. 2. the dialing code
+Vorsatz	the resolution
+Abwasch	the dirty dishes (no plural)
+Mikrowelle	the microwave
+Beschäftigte	the employee (2)
+grundlegend	basic
+digital	digital
+Programmierer	the programmer
+letzt	last
+Marktplatz	the market place
+säen	to sow, to seed
+auffordern	to request
+taktlos	tactless
+Brosche	the brooch
+exotisch	exotic
+Arbeitsamt	the job centre
+begründen	to justify
+Straßenbahn	the tram, the streetcar
+Brunch	the brunch
+Buche	the beech tree
+Kiefer	the pine tree
+Eiche	the oak tree
+Kassiererin	the female cashier
+Warze	the wart
+wirksam	effective, efficacious
+Bettwäsche	the bedlinen
+Zimt	the cinnamon
+Spalt	the gap
+Druckerei	the print shop
+aufgeschlossen	open-minded
+verwundert	astonished
+Fleischer	the butcher (1)
+BRD	the FRG (no plural)
+verpflichten	to oblige
+salzig	salty
+übersät	strewn
+Tenor	the tenor
+Knopf	the button
+Automat	the (vending) machine
+Wasserhahn	the faucet, the tap
+Zusatz	the additive, the supplement
+Sicherheitsgurt	the seatbelt
+Käsekuchen	the cheesecake
+Köln	Cologne
+Pfote	the paw
+Allee	the alley, the avenue
+Holocaust	the holocaust
+Parkett	the parquet flooring: a type of cross-woodboard pattern
+Sozialhilfe	the welfare, social assistance (no plural)
+kommend	coming
+umtauschen	to exchange (commodities, e.g., money, goods)
+tauschen	to swap
+Müsli	the muesli (cold, whole grain cereal with nuts and fruit, usually served with milk)
+Tapete	the wallpaper
+Schwierigkeit	the difficulty
+klebrig	sticky
+Strumpf	the stocking
+Weltmeisterschaft	the world championship
+Erkrankung	the illness (1)
+ungewiss	uncertain
+beleuchten	to light up
+Strumpfhose	the tights
+basteln	to do handicrafts
+Beauftragte	the commissioner, the authorised agent
+ziellos	aimless
+glitzern	to glitter
+Sommerferien	the summer vacation (plural only)
+Kontext	the context
+Trikot	the jersey
+herumsitzen	to sit around
+Eishockey	the hockey (no plural)
+Stadtzentrum	the city or town center
+Staatssicherheit	the Stasi (no plural)
+Spalte	the fissure, the crevice, the crack in the wall, (typography) the space between two columns
+selbstständig	independent
+Gasthof	the inn (usually in the country side)
+Untertasse	the saucer
+duzen	to call du (instead of Sie)
+Bewerbungsgespräch	the job interview (1)
+gesellig	sociable
+Referat	the report (as an school assignment), the paper
+Anmeldung	1. the registration. 2. the place of registration/reception (colloquial)
+Tastatur	the computer keyboard
+verbrauchen	to consume
+kombinieren	to combine
+Schornstein	the chimney
+Fahrerin	the female driver
+Sauerkraut	the sauerkraut (no plural)
+Abschleppwagen	the tow truck
+Wortschatz	the vocabulary (2)
+Gebildete	the educated person
+Rückenschmerzen	the backache (plural only)
+orientieren	to orientate
+Integration	the integration
+Rhein	the Rhine (no plural)
+Lira	the lira (former Italian currency)
+sportlich	athletic
+beschädigen	to damage
+stinkig	stinky
+Schulabschluss	the high school graduation
+Fotoapparat	the camera (photographs only)
+Seifenoper	the soap opera
+zahlreich	numerous
+gestreift	striped
+Betreuung	the care
+Hecke	the hedge
+Makkaroni	the macaroni (plural only)
+Schlosser	the toolmaker
+vorsehen	1. to plan (an event for a future time). 2. to set aside (for), to earmark (for). 3. to make provision (for)
+leblos	lifeless
+erheblich	significant
+fettig	fatty
+rutschig	slippery
+lausig	lousy
+Terminkalender	the appointment calendar
+Friseuse	the female hairdresser
+künstlerisch	artistic
+Hamster	the hamster
+Sterblichkeit	the mortality
+Stadtteil	the district, the part of the city
+Pfosten	the post (as in wooden post, etc.)
+Enzyklopädie	the encyclopedia (E-)
+Broschüre	the brochure
+prägen	to shape
+Rumänien	Romania
+gesellschaftlich	social
+Italienerin	the female Italian person
+selbstlos	selfless
+umsteigen	to change trains
+Brokkoli	the broccoli (no plural)
+haarig	hairy
+Torwart	the goalkeeper
+Schlaftablette	the sleeping pill
+monatlich	monthly
+Konditorei	the cake or sweet shop
+Schuldschein	the IOU
+Bankdirektor	the bank manager
+Teig	the batter, dough
+fade	bland, insipid
+schütten	to spill
+Einzelkind	the only child
+zunehmen	to increase, to put on weight
+Angler	the fisher
+hinterfragen	to question, to challenge
+Schlüsselbund	the keyring
+einmarschieren	to invade
+Förderung	the promotion (as in the act of supporting and/or encouraging a cause)
+erfordern	to require, to necessitate
+militärisch	military
+gurgeln	to gargle
+Namensschild	the name plate
+elektronisch	electronic
+Nudel	the noodle
+Treibhauseffekt	the greenhouse effect
+Muttersprache	the mother tongue
+Biochemie	the biochemistry (no plural)
+Kuli	the ball point pen (colloquial)
+Kilogramm	the kilogram (no plural)
+Koalition	the coalition
+überfluten	to flood (1)
+bürsten	to brush (the hair)
+tolerant	tolerant
+Popmusik	the pop music
+überwiegend	predominant
+Schlager	the pop song
+Vorschau	the preview
+betreuen	to care for
+Bohne	the bean
+folgend	following
+Jahrzehnt	the decade
+anordnen	to put in order
+Harfe	the harp
+Privatschule	the private school
+befriedigend	satisfactory
+Kantate	the cantata
+Nachttisch	the night table
+Krimi	the detective story
+Auswirkung	the consequence, the effect
+Bizeps	the biceps
+Metzgerei	the butcher shop (2)
+Schlachterei	the butcher shop (3)
+abtrocknen	to dry up
+Pflaume	the plum
+Motorboot	the motorboat
+Arbeiterklasse	the working class (no plural)
+Altstadt	the old city centre
+Gebrauchsanweisung	the instructions for use
+Fahrplan	the train or bus schedule
+zusammenhängen	to be connected
+irisch	Irish (adj.)
+hingucken	to look askance
+Wiedervereinigung	the (German) reunification (no plural)
+Bundesregierung	the federal government
+wegräumen	to clear away
+anschalten	to switch on
+Sonnencreme	the suntan lotion
+Schaukelstuhl	the rocking chair
+rasseln	to rattle
+herausgeben	to give out
+Kaffeemaschine	the coffee maker
+Kunstgalerie	the art gallery (1)
+traditionell	traditional
+impfen	to vaccinate
+Rückspiegel	the rear-view mirror
+Bußgeld	the fine (e.g., for breaching traffic or tax laws)
+Dokumentarfilm	the documentary film
+Projektor	the projector
+langfristig	long-term
+brünett	brunette
+Sozialarbeiter	the male social worker
+Stollen	the stollen (German Christmas cake)
+gähnen	to yawn
+Merkmal	the feature
+Gulden	the guilder (former Dutch currency)
+Drogerie	the drugstore
+knipsen	to click
+protzig	swanky, showy
+unvergesslich	unforgettable
+Tabelle	the chart, the table
+Weltreise	the trip around the world
+britisch	British
+Nelke	the carnation
+Einbahnstraße	the one way street
+Korkenzieher	the corkscrew
+Kiosk	the kiosk
+Redefreiheit	freedom of speech (no plural)
+ankündigen	to announce
+Dosenöffner	the can opener
+Requiem	the requiem
+Postleitzahl	the postal code
+Luftdruck	the inflation pressure, the air pressure
+einwerfen	1. to smash, to throw. 2. to post a letter
+rostig	rusty
+Leim	the glue
+Abfalleimer	the rubbish bin (1)
+Rolltreppe	the escalator
+Taschenmesser	the pocket knife
+zeitlich	temporal, chronological
+verweisen	to refer
+widerwillig	reluctant
+Volleyball	the volleyball
+kennzeichnen	1. to mark, to label. 2. to characterise
+voraussehen	to foresee, to anticipate
+zentral	central
+Klausur	the written examination
+Backofen	the baking oven
+namenlos	nameless
+Skilehrer	the ski instructor
+durchfallen	to fail (an exam)
+Maurer	the mason
+orientiert	oriented
+derartig	such
+krabbeln	to crawl
+ergänzen	to complete, to supply
+Campingplatz	the campground, the campsite
+einundzwanzig	twenty-one
+Talkshow	the talk show
+zusammenfassen	to summarize
+wegsehen	to look away
+Tannenbaum	the fir tree
+Umleitung	the diversion
+anstreben	to aim at
+Ikone	the icon
+Bescherung	the gift-giving (Christmas)
+Einkaufsliste	the shopping list
+anspringen	to start a car
+Taschenrechner	the calculator
+violett	violet
+Krippe	the crib
+christlich	Christian (adj.)
+mitsingen	to sing along
+Hagel	the hail (no plural)
+Sprechstunde	the office hour
+bedürfen	to require, to need
+weitgehend	extensive
+Surfbrett	the surfboard
+argumentieren	to argue
+schlürfen	to sip
+Anforderung	the requirement, the demand
+Schnitzel	the (pork) cutlet, the shredding
+Rundfunk	the broadcast (no plural)
+Cheddar	the cheddar (no plural)
+Empfangsdame	the female receptionist
+Sardine	the sardine
+essbar	edible
+trampen	to hitch-hike (1)
+Konsequenz	the consequence
+Kartoffelchips	the potato chips (plural only)
+hochachtungsvoll	yours truly
+Rückfahrt	the return journey
+mütterlich	motherly
+Meerschweinchen	the guinea pig
+mittelgroß	of medium height
+Wochentag	the day of the week
+kuschelig	cuddly
+Grafik	the graphic
+Modenschau	the fashion show
+Verschmutzung	the pollution
+WG	the shared housing (colloquial)
+unregelmäßig	irregular
+unterstreichen	to underline
+Briefmarke	the postage stamp
+Heimfahrt	the home jouney
+Schlussverkauf	the end of season sale
+Sweatshirt	the sweatshirt
+Flugnummer	the flight number
+Gleichberechtigung	the equal rights (no plural)
+auswandern	to emigrate (1)
+inbegriffen	included
+Idealismus	the idealism (no plural)
+Auszug	the excerpt (A-)
+möbliert	furnished
+aufweisen	exhibit point out point to
+pflügen	to plough
+Harz	the Harz Mountains (no plural)
+Stundenplan	the timetable
+Ode	the ode
+lebenswichtig	vital
+Sozialamt	the welfare office
+Einnahme	1. the income. 2. the intake (e.g., medicine)
+vorwiegend	mainly (2)
+Erfrischung	the refreshments
+Reiseziel	the destination
+Synonym	the synonym
+Turnen	the gymnastics (no plural)
+Fußgänger	the pedestrian
+beilegen	to enclose
+Hausnummer	the house number
+Scrabble	the scrabble (no plural)
+herausziehen	to pull out
+historisch	historical
+Leitungswasser	the tap water (no plural)
+Pappe	the cardboard
+Sitzplatz	the seat (2)
+abhaken	to check off
+Doppelbett	the double bed
+Büstenhalter	the brassi?re
+Tischtuch	the tablecloth
+tauchen	to dive
+eintauchen	to dip
+Geographie	the geography (2) (no plural)
+galoppieren	to gallop
+Komposition	the composition
+Igel	the hedgehog
+Schimpfwort	the profane word, the profanity
+Klarinette	the clarinet
+Büfett	the buffet
+preiswert	worth the money, good value for money
+insofern	insofar
+geschmackvoll	tasteful
+Akzeptanz	the acceptance
+drogensüchtig	drug dependent
+Litauen	Lithuania
+Hauptbahnhof	the main station
+extravagant	extravagrant
+Ferienhaus	the summer cottage
+Waschsalon	the laundromat
+Serbien	Serbia
+Zwischenspiel	the interlude
+Fernsehprogramm	the TV programme
+Osterhase	the Easter Bunny
+eisig	icy
+Hausarzt	the male family doctor
+komfortabel	comfortable (2)
+Kognak	the cognac (no plural)
+pessimistisch	pessimistic
+staatlich	state-run
+Fingernagel	the fingernail
+Aktienmarkt	the stock market (A-)
+Kaffeekanne	the coffee pot
+aufschauen	to look up
+ausspannen	to relax (1)
+Sinfonie	the symphony
+Eigentumswohnung	the condominium
+kinderlos	childless
+Import	the import
+Genetik	the genetics (no plural)
+unkontrollierbar	uncontrollable
+kindlich	childlike
+Warteraum	the waiting room
+Möbelstück	the piece of furniture
+Weinberg	the vineyard
+zensiert	1. marked, graded 2. censored
+Freundeskreis	the circle of friends
+Teelöffel	the teaspoon
+Besichtigung	the sightseeing
+stinklangweilig	deadly boring
+Muttertag	the Mother's Day
+regional	regional
+Niederschlag	the precipitation
+satteln	to saddle
+Schwarzwald	the Black Forest (no plural)
+Einkaufswagen	the shopping cart
+Illustrierte	the magazine (adjectival noun)
+jugendlich	youthful
+Radfahren	the cycling (no plural)
+Trainingsanzug	the tracksuit
+suspekt	suspicious
+unbewohnbar	uninhabitable
+Vatertag	the Father's Day
+faulenzen	to laze about
+Wohnort	the place of residence
+Wettlauf	the running race
+Lampenfieber	the stage fright
+Tennisplatz	the tennis court
+farblos	colourless
+Einwanderung	the immigration
+Geburtstagskarte	the birthday card
+durchlesen	to read through
+Leberwurst	the liver sausage
+überschwemmen	to flood (2)
+Personalausweis	the personal identity
+Bügeleisen	the iron (for clothes)
+spezifisch	unique
+dumpf	dull
+Kleidungsstück	the article of clothing
+einschränken	to restrict
+integrieren	to integrate
+Geldschein	the banknote (2)
+lauwarm	lukewarm
+Zehe	the toe
+Föhn	the blow dryer
+schwül	humid (2)
+Lebensmittelgeschäft	the grocery store
+absehen	1. to foresee. 2. to disregard (something). 3. to desist (from something)
+hörbar	audible
+Bundeskanzler	the Federal Chancellor
+Thermosflasche	the thermos
+Eisbahn	the ice rink
+Schwerpunkt	the main emphasis
+verschmutzen	to pollute
+Dudelsack	the (set of) bagpipes
+Türkin	the female Turk
+kulturell	cultural
+Wohnhaus	the residential building
+tipptopp	tiptop
+nachfüllen	to refill
+Kochbuch	the cookbook
+Tourismus	tourism (no plural)
+versalzen	oversalted
+europäisch	European (adj.)
+Keyboard	the musical keyboard
+Nordsee	the North Sea (no plural)
+Knödel	the dumpling
+Wohnblock	the block of flats
+Scheckheft	the cheque book
+Kontaktlinse	the contact lense
+herfahren	to come here, to drive here
+Flugbegleiterin	the female flight attendant
+Volksmusik	the folk music
+Mietshaus	the apartment building
+mütterlicherseits	maternal
+Automechaniker	the car mechanic (1)
+Sparkasse	the savings bank
+Aktiengesellschaft	the corporation
+Bücherregal	the bookcase
+Botanik	the botany (no plural)
+Gemüsehändler	the greengrocer
+Relativitätstheorie	the theory of relativity (no plural)
+Pressefreiheit	the freedom of the press (no plural)
+Prospekt	the leaflet
+schleimig	slimy
+Raststätte	the rest area
+Kroatien	Croatia
+bürgerlich	middle-class, bourgeois
+Barometer	the barometer
+Kunststoff	the plastic
+ausländisch	foreign (in the sense of from another country)
+Oberschicht	upper-class
+Kochin	the female cook
+Aula	the school auditorium, the assembly hall
+Hauptgericht	the main course
+Skandinavien	Scandinavia
+Verhütung	the contraception
+Klavierkonzert	the piano concerto
+Waschpulver	the laundry detergent
+Gasherd	the gas oven
+ausrüsten	to equip
+Methodist	the Methodist person
+Rundfahrt	the round trip
+Gaststätte	the restaurant (1)
+Furche	the furrow
+holländisch	Dutch (adj.)
+Reklametafel	the billboard
+Ministerpräsident	the prime minister
+Skilaufen	the skiing (as an activity) (no plural)
+Pianistin	the female pianist
+Hausaufgabe	the homework assignment
+Rechtskurve	the right curve
+Touristenattraktion	the tourist attraction
+Moskito	the mosquito
+Rowdy	the hooligan
+Bundesstraße	the interstate road
+Rasierapparat	the razor, the shaver
+sooft	as often as
+Steuerrad	the steering wheel (2)
+Ostersonntag	the Easter Sunday
+schlaflos	sleepless
+Farbfernseher	the colour TV
+Mozzarella	the mozzerella (no plural)
+silbern	silver (adj.)
+Wellensittich	the parakeet
+Papagei	the parrot
+Kanarienvogel	the canary (bird)
+Chronik	the chronicle
+Tulpe	the tulip
+Lehrplan	the curriculum
+Audi	the Audi
+individuell	individual
+Verkehrsmittel	the public transport
+Halsschmerzen	the sore throat (plural only)
+Sprudel	the fizzy water
+Ansichtskarte	the picture postcard
+Zebrastreifen	the zebra crossing, the crosswalk
+Festtag	the public holiday (2)
+vegetarisch	vegetarian (adj.)
+Personalchef	the personnel manager
+Briefumschlag	the envelope
+mündlich	oral
+Philharmonie	the Philharmonic Orchestra
+Fotomodell	the photographic model
+Etui	the pencil case
+gottlos	godless
+Diele	1. the floorboard. 2. the hallway
+Fremdenführer	the tour guide (person; somewhat outdated term)
+Tausendfüßler	the millipede
+jahrein	year in, year out
+Sozialfall	the welfare case
+Kork	the cork
+Walkman	the walkman
+Aufheiterung	the bright period
+Sozialkunde	the social studies (plural only)
+rosarot	pink-red
+herunterfallen	to fall down (1)
+Sparkonto	the savings account
+uneben	uneven
+euphorisch	euphoric
+Brezel	the pretzel
+Staatskasse	the state treasury
+Taschenbuch	the paperback
+seidig	silky
+Stadtplan	the map of the city or town
+würzig	spicy
+Richtigkeit	the correctness
+modisch	fashionable
+Kinderlähmung	the polio (no plural)
+begrenzen	to limit
+Mehrzahl	the majority (no plural)
+Blaskapelle	the brass band
+magersüchtig	anorexic
+büffeln	to bone up on
+Spülbecken	the sink
+Schopf	the tuft of hair, the top, the crest
+Musikerin	the female musician
+Computerspiel	the computer game
+Bildhauerei	the sculpture (as in the art form, not the art works)
+Henkel	the handle
+Tschechien	Czech Republic
+fieberhaft	feverishly
+Blindenhund	the guide dog
+Vorfahr	the ancestor
+Mandarine	the mandarin orange
+lockig	curly
+Kinderabteilung	the children's department
+Teekanne	the teapot
+Gesellschafter	the business partner, the shareholder
+schmatzen	to munch
+Austauschschüler	the exchange student
+Wochenendhaus	the cottage, holiday house
+Zoologie	the zoology (no plural)
+Bahnübergang	the railroad crossing
+Weihnachtsgans	the Christmas goose
+Vanilleeis	the vanilla ice cream (no plural)
+lieblos	loveless
+Zwischenprüfung	the exam after two years of university
+Gourmet	the gourmet
+verschwenderisch	wasteful
+ökonomisch	economic
+Fahrgeld	the fare
+Telefongespräch	the telephone conversation
+Mountainbike	the mountain bike
+Utopie	the utopia
+Schuhmacher	the shoemaker
+Niederlande	the Netherlands (plural only)
+Mensa	the university cafeteria
+mangelhaft	lacking
+pflegeleicht	easy to care for
+aufstoßen	to belch
+Kriterium	the criterion
+Slowakei	the Slovakia (no plural)
+Hausmann	the househusband
+musizieren	to make music
+Heizkörper	the radiator
+Jogginganzug	the jogging suit
+privatisieren	to privatise
+Chorprobe	the choir practice
+auflisten	to list
+abspülen	to wash up (1)
+Ballettänzer	the ballet dancer
+Urgroßmutter	the great grandmother
+Schulbeginn	the beginning of school (no plural)
+Wintermantel	the winter coat
+Reifenpanne	the flat tyre
+wechselhaft	variable
+analog	analog
+Einkaufstasche	the shopping bag
+Bierbauch	the beer belly
+Tennisschläger	the tennis racket
+Tiefkühltruhe	the freezer
+Sciencefiction	the science fiction (no plural)
+zusammenrufen	to call together
+Dauerwelle	the perm
+Ostsee	the Baltic Sea (no plural)
+Kochkurs	the cooking course
+Berufsschule	the vocational school
+Beschränkung	the restrictions
+Menschenrecht	the human right
+Radfahrer	the cyclist
+begießen	to douse, to shower
+Banknote	the banknote (1)
+hineinfahren	to drive in
+Anrichte	the sideboard
+einheitlich	common, uniform, consistent
+Grundgesetz	the constitution, the basic law
+Gardine	the net curtain
+Karikatur	the caricature
+Glatteis	the sheet ice, black ice, smooth black hair (no plural)
+Süßigkeit	the candy
+knallrot	beet red, bright red
+Schlafraum	the dormitory room
+nebelig	foggy
+Naturwissenschaft	the natural science
+Wintergarten	the conservatory
+Videorecorder	the video recorder
+trinkbar	drinkable
+Vorfahrt	the priority, the right of way
+Berufsberatung	the career advice
+Tomatensoße	the tomato sauce
+Innovation	the innovation (1)
+Blumenhändler	the male florist
+Knackwurst	the knackwurst
+Gärtnerin	the female gardener
+Anbieter	the supplier
+Seniorenheim	the senior citisens' home
+Friseurin	the female hair stylist
+Nähmaschine	the sewing machine
+Sozialarbeiterin	the female social worker
+Stadtrundfahrt	the town or city tour
+Brieffreund	the pen pal
+Lebkuchen	the gingerbread
+Schweinebraten	the pork roast
+schneeweiß	snow-white
+Backstein	the brick
+Einbrecherin	the female burglar
+Karfreitag	the Good Friday
+Kritikerin	the female critic
+Opernsänger	the opera singer
+Substantiv	the noun (2)
+Reisebegleiter	the travel companion (person)
+räumlich	three-dimensional
+Oktoberfest	the Octoberfest
+Arbeitnehmer	the employee (1)
+kariert	chequered, plaid
+Sandale	the sandals
+Notebook	the notebook (computer)
+Reisebus	the tour bus
+Gastronomie	the catering (no plural)
+Pfingsten	the Pentecost
+recyceln	to recycle (1)
+Haarbürste	the hairbrush
+Kännchen	the little pot
+Grenzübergang	the border crossing, the checkpoint
+Bodensee	Lake Constance
+Eselsbrücke	the mnemonic device
+väterlicherseits	paternal
+dänisch	Danish (adj.)
+Bockwurst	the smoked sausage
+australisch	Australian (adj.)
+charakterisieren	to characterise (exact cognate with English)
+Turnschuh	the gym shoe, the sneaker
+Buchenwald	the beech forest
+Fußweg	the footpath
+windstill	windless, calm
+Mofa	the moped
+enterben	to disinherit
+Mitbringsel	the small gift (for a host)
+Waschküche	the laundry room
+Auszubildende	the apprentice (1)
+Biergarten	the beer garden
+erklärbar	explicable
+Rentenversicherung	the pension plan
+Präsens	the present tense
+Teppichboden	the carpeted floor
+Haarsträhne	the stand of hair
+Kuckucksuhr	the cuckoo clock
+Ferienzeit	the holiday time
+Ferienjob	the summer job
+Tagesmenü	the special of the day
+Konzertsaal	the concert hall
+Zweisitzer	the two-seater
+zahnlos	toothless
+Pistazie	the pistachio
+Universitätsabschluss	the university degree (2)
+Höcker	the hump (of a camel)
+exportieren	to export
+Hörsaal	the lecture hall
+prominent	prominent
+überregional	national, nationwide
+Arbeitskollege	the colleague from work
+lispeln	to lisp
+nächst	next
+Erzählerin	the female narrator
+Erdkunde	the geography (1) (no plural)
+Hundehaufen	the dog feces
+Neuerung	the innovation (2)
+Arbeitsraum	the study (1)
+Zeichentrickfilm	the cartoon, the animated film
+Spülmittel	the dishwashing liquid
+zusammenbinden	to tie together
+Informatiker	the computer scientist
+Stofftier	the stuffed animal
+Modegeschäft	the clothes shop
+Radiergummi	the eraser
+Geschwindigkeitsbegrenzung	the speed limit
+Luftschutzkeller	the air-raid shelter
+Auswanderer	the emigrant (1)
+Eisenbahnlinie	the railway line
+Griechin	the female Greek person
+Weinglas	the wine glass
+Alltagsleben	the everyday life
+Sandburg	the sandcastle
+Estland	Estonia
+Schnellimbiss	the fast food stand
+Reihenhaus	the terraced house
+Jogginghose	the jogging pants
+Spülmaschine	the dishwasher (2)
+Ungleichheit	the inequality
+Hauptschule	the junior high school
+Immigrant	the immigrant (2)
+Verwandtschaft	the relatives (as a group), the kinship
+Weihnachtsferien	the Christmas vacation (plural only)
+Jugendherberge	the youth hostel
+gesamt	whole
+Kommilitone	the fellow student (at university) (1)
+Döner	the kebab
+Schaufensterbummel	the window-shopping
+Tagesschau	Germany's oldest news broadcast on Das Erste  (no plural)
+empirisch	empirical
+Rechtsanwältin	the female lawyer
+intolerant	intolerant
+Teekessel	the tea kettle
+formlos	shapeless
+Schuhgeschäft	the shoe store
+voraussetzen	to presuppose
+Lettland	Latvia
+mollig	plump
+Filzstift	the felt tip pen
+schwarzfahren	to evade fare
+Weihnachtsfeiertag	the Christmas Day
+Dampflokomotive	the steam engine
+veränderlich	changeable
+Pflichtfach	the compulsory subject
+Schwarzbrot	the rye bread
+Studentenausweis	the student ID
+vielfältig	Diverse
+Regenwetter	the rainy weather (no plural)
+kommunistisch	communist (adj.)
+Sozialwohnung	the council flat, the subsidized apartment
+touristisch	touristic
+Komponistin	the female composer
+Hockeyschläger	the hockey stick
+Märchenstadt	the fairy-tale city
+Gastarbeiter	the immigrant worker
+Bundesrepublik	the Federal Republic (no plural)
+Klassenarbeit	the classwork
+Zopf	the braid
+jobben	to work (part-time)
+hageln	to hail
+Fensterladen	the shutter
+Schaubild	the diagram, the graph
+Klapptisch	the folding table
+Knäckebrot	the crispbread
+Umland	the surrounding area (no plural)
+Damenabteilung	the women's department
+Informatik	the I.T., the computer science (no plural)
+Freizeitbeschäftigung	the leisure activity
+Kreisverkehr	the traffic cirlce (no plural)
+Rotzlümmel	the snotty-nosed brat
+regnerisch	rainy
+wegschwimmen	to swim away
+dual	dual
+Wasserkocher	the electric kettle
+entwerten	to cancel or stamp a ticket
+Etagenbett	the bunk bed
+Ohrenschmerzen	the earache (plural only)
+Wühltisch	the bargain table
+wolkenlos	cloudless
+Bruttosozialprodukt	the Gross National Product
+abbestellen	to cancel an order
+Geldtasche	the wallet (2)
+Ingenieurin	the female engineer
+Buslinie	the bus route
+österreichisch	Austrian (adj.)
+Liechtenstein	Liechtenstein
+Studentenheim	the dormitory or student residence
+geographisch	geographic
+Hundewetter	the rotten weather (1) (no plural)
+Ornament	the ornament
+Einzelbett	the single bed
+Gulaschsuppe	the goulash soup
+Traumberuf	the job of one's dreams
+väterlich	fatherly
+Semesterferien	the (university) semester break (plural only)
+Steppdecke	the comforter, the quilt
+Couchtisch	the coffee table
+Vanillesoße	the vanilla sauce
+Kassenzettel	the sales slip
+Pilz	the mushroom
+heraufziehen	to pull up
+Käsebrötchen	the cheese roll
+Präzisionsinstrument	the precision instrument
+Mikrobiologie	the microbiology (no plural)
+Rotkohl	the red cabbage (no plural)
+Nomen	the noun (1)
+geometrisch	geometric
+Privathaus	the private home
+ADAC	Allgemeiner Deutscher Automobilclub
+Gesamtschule	the comprehensive school
+implodieren	to implode
+Pendler	the commuter
+schweizerisch	Swiss (adj.)
+Kopfsalat	the head of lettuce
+Staatsbürgerkunde	the civics (no plural)
+Morgentoilette	the morning rituals
+Feinkostgeschäft	the fine foods store
+glatzköpfig	bald
+Radtour	the bicycle trip
+Märchenwelt	the fairy-tale world
+zurückbezahlen	to pay back (1)
+Personenwagen	the private car
+schlüpfrig	lewd, slippery
+Rhabarber	the rhubarb (no plural)
+wolkig	cloudy (2)
+Illustration	the illustration
+Emigrant	the emigrant (2)
+Fabel	the fable
+Schulzeugnis	the school report card, school grades card
+Mikrowellenherd	the microwave oven
+Camembert	the Camembert (cheese) (no plural)
+Altpapier	the recycled paper
+Zugvogel	the migratory bird
+Seniorin	the female senior citisen
+Staatschef	the head of state
+proklamieren	to proclaim
+Junkfood	the junk food (no plural)
+undefinierbar	indefinable
+Azubi	the (abbr. of Auszubildende)
+zusammenwohnen	to live together
+überschnappen	to go bonkers, to snap (colloquial)
+Platzkarte	the ticket (for a seat)
+Sauwetter	the rotten weather (2) (no plural)
+Wochenmarkt	the open air market
+ehemalig	erstwhile, former
+beträufeln	to drizzle (cooking term, e.g., to drizzle lemon juice on a schnitzel)
+multikulturell	multicultural
+aufrunden	to round up
+Gesamtbevölkerung	the total population
+haarlos	hairless
+Europäerin	the female European
+kanadisch	Canadian (adj.)
+Kocherei	the cooking (generally used in a negative sense) (no plural)
+Erziehungsurlaub	the child-rearing leave
+osteuropäisch	Eastern European (adj.)
+bayerisch	Bavarian
+Doppelhaus	the duplex
+Bundesministerium	the federal ministry
+beeindruckt	impressed
+Tagesjob	the job for a day
+Hochschulabschluss	the university degree (1)
+Quizsendung	the quiz show
+Partnerstadt	the twin city
+herunterladen	to download
+Farbfoto	the colour photo
+Hauptschulabschluss	the junior high school diploma
+geschlitzt	slit (adj.)
+Wohngemeinschaft	the shared housing (long form)
+Hauptverkehrszeit	the rush hour
+Deutschstunde	the German class
+Sommerschlussverkauf	the end of summer sale
+Nachttischlampe	the bedside lamp
+wäss(e)rig	watery
+Wetterkarte	the weather map
+Verkehrszeichen	the road sign
+gebührenfrei	without fee (1)
+sehenswert	worth seeing
+Zahnklinik	the dental clinic
+rauswachsen	to grow out
+Elektroherd	the electric stove
+Küchenbenutzung	the kitchen privileges (no plural)
+bedingen	to cause, to determine
+Sauerbraten	the marinated roast beef
+Beistelltisch	the end table
+Bundestag	the German parliament (no plural)
+Weinkenner	the wine connoisseur
+Esslöffel	the tablespoon
+Hauswirtschaftslehre	the home economics
+Universitätsstadt	the university town
+Vollpension	the full board (no plural)
+mitlesen	to read along
+Currywurst	the curry sausage
+feig	cowardly
+Ossi	the East German
+Wessi	the West German
+Blumenhändlerin	the female florist
+preisgünstig	inexpensive
+Fußgängerüberweg	the crosswalk (1)
+Querflöte	the transverse flute
+Sportprogramm	the sports program
+Fleischerei	the butcher shop (1)
+hügelig	hilly
+belgisch	Belgian (adj.)
+Kleidergeschäft	the clothing store
+Blockflöte	the recorder (musical instrument)
+sandig	sandy
+Delikatessengeschäft	the delicatessen
+Verkehrsamt	the tourist office
+klassenlos	classless
+Federball	the badminton (no plural)
+buschig	bushy
+passioniert	passionate
+Fotogeschäft	the photo store
+Doppelstunde	the double period
+israelisch	Israeli (adj.)
+Bauchschmerz	the stomachache
+mutterlos	motherless
+fleischlos	meatless
+vaterlos	fatherless
+Spielwarengeschäft	the toy store
+Ortsname	the place name
+Dreiergruppe	the group of three
+Peseta	the peseta (former Spanish currency)
+einschmieren	to rub in
+Kassettenrecorder	the cassette recorder
+emigrieren	to emigrate (2)
+nieseln	to drizzle (as in a light rain)
+Winterschlussverkauf	the winter sale
+Softeis	the soft ice cream (no plural)
+Bausparvertrag	the home savings plan
+Jugendklub	the youth club
+Glückwunschkarte	the congratulatory card
+Herrenabteilung	the men's department
+interkulturell	intercultural
+schunkeln	to sway to the music
+Sportabteilung	the sporting goods department
+Autobahnkreuz	the motorway junction
+Informationszeitalter	the Information Age (no plural)
+zweisprachig	bilingual
+Studienfach	the field of study
+Pinakothek	the art gallery (2)
+Joghurt	the yogurt
+rezeptfrei	prescription-free
+Heimtrainer	the exercise bike
+Kulturschock	the culture shock (no plural)
+unkultiviert	uncultivated
+imaginär	imaginary
+Blumengeschäft	the flower shop
+Goldschmied	the goldsmith
+Klappstuhl	the folding chair
+verwendbar	usable
+Drachme	the drachma (former Greek currency)
+Stoffbär	the stuffed toy bear
+Schrebergarten	the garden plot
+Superlativ	the superlativ
+Baustil	the building style
+Flötenstunde	the flute lesson
+Theaterkarte	the theatre ticket
+Tennisschuh	the tennis shoe
+Tschüss!	Cheerio!
+Überlegung	the thought
+Wochenzeitung	the weekly newspaper
+Geranie	the geranium
+Verflixt!	Darn it!
+Hausschuh	the slipper
+Rockgruppe	the rock group
+Gießkanne	the watering can
+Familienname	the surname
+Öl	the oil
+Mittelklassewagen	the mid-sized car
+Märchenkönig	the fairy-tale king
+hoffentlich	hopefully
+Chanukka	Hanukkah
+Parfum	the perfume
+Toner	the toner
+zurückschmeißen	to throw back
+Rheintal	the Rhine valley (no plural)
+Lebkuchenherz	the gingerbread heart
+zweieinhalb	two and a half
+Individualist	the individualist
+Pfefferminztee	the peppermint tea (no plural)
+Stoppel	the stubble
+deutschsprachig	German-speaking
+Bürohilfe	the office help (no plural)
+Pfui!	Yuck!
+Beisel	the pub (Austrian term)
+Vorsicht!	Be careful!
+EDV-Kenntnisse	the computer experience (plural only)
+Baby-Öl	the baby oil
+sämtlich	all, altogether
+Südpol	the South Pole (no plural)
+neuseeländisch	New Zealand (adj.)
+Lieferwagen	the delivery van
+Weißwurst	the veal sausage
+Südseeinsel	the South Sea island
+Faschingsdienstag	the Shrove Tuesday, Mardi Gras (term used in southern Germany and Austria)
+marktwirtschaftlich	free enterprise (adj.)
+Zimmerpflanze	the houseplant
+Gesundheit!	Bless you!
+Ostermontag	the Easter Monday
+Übergang	1. the transition 2. the crossing
+Studentenleben	the student life
+rezeptpflichtig	prescription (drug) (adj.)
+Gitarristin	the female guitarist
+wurmig	wormy
+Platzreservierung	the seat reservation
+vorn(e)	at the front
+hinüberspringen	to jump across (away from speaker)
+hinunterfallen	to fall down (2)
+Bankkaufmann	the bank clerk
+Toll!	Great! Cool! (2)
+Fahrradverleih	the bike rental
+UV-Strahlen	the UV-rays (plural only)
+DVD-Laufwerk	the DVD drive
+Großherzogtum	the grand duchy
+nützlich	useful
+stimmt.	That's right.
+Bermudashorts	the Bermuda shorts (plural only)
+Jobliste	the list of jobs
+Ermässigung	the discount
+Vollkaskoversicherung	the comprehensive auto insurance
+Zusammenschau	the summary
+Känguru	the kangaroo
+Öffentlichkeit	the public
+Softdrink	the soft drink
+Sportreportage	the sports report
+Weltmeer	the ocean (2)
+Klavierlehrer	the piano teacher
+Servus!	Hi! Bye! (Austrian, Bavarian)
+E-Mail	the email
+Sportcoupé	the sport coupe
+Geigerin	the female violinist
+kontakt-orientiert	contact-oriented
+EDV-Fachmann	the data processing specialist
+Spielwaren	the toyware (plural only)
+Österreicher	the Austrian person
+Mensch!	Man!
+schwören	to vow
+Grußformel	the (manner of) greeting
+Luftbrücke	the airlift
+Gebirge	the mountain range
+Prost!	Cheers!
+O-Saft	orange juice (colloquial)
+Wirtschaftswunder	the economic miracle
+Denkste.	That's what you think. (colloquial)
+Kleinbahn	the narrow-gauge railway
+Kfz-Mechaniker	the car mechanic (2)
+zahllos	countless
+Besatzungszone	the occupation zone
+Teilzeitarbeit	the part time work
+Bademöglichkeit	the swimming facility
+weitermachen	to continue, to carry on
+Elektroinstallateur	the electrician (2)
+Ehemann	the husband
+Zweitwagen	the second car
+Altersgruppe	the age group
+Familienbrunch	the family brunch
+Aufenthaltsdauer	the length of stay
+sprachlich	linguistic
+Börsenbericht	the stock market report
+dreisprachig	trilingual
+Lastkraftwagen	the truck (full term rare)
+Softwareentwickler	the software developer
+Rollenbeschreibung	the role description
+Rotkäppchen	the Little Red Riding Hood (no plural)
+unübersetzbar	untranslatable
+Ähnlichkeit	the similarity
+Spielwarenfabrik	the toy factory
+Ostalgie	nostalgia for the GDR (no plural)
+Reformhaus	the health food store
+Verzeihung!	Sorry!
+Weltfirma	the worldwide company
+Studentenchor	the student choir
+Willkommen.	Welcome.
+Fahrkartenschalter	the booking office, the ticket office
+Unterrichtsbuch	the textbook
+Quatsch!	Nonsense!
+Abwanderung	the migration
+Bahnfahrt	the train trip
+Motorenkonstrukteur	the engine designer
+Flugbegleiter	the male flight attendant
+Bundesland	the federal state (especially in Germany and Austria)
+Radwanderführer	the cycling tour guidebook
+Fahrradweg	the bicycle path
+zuschlagen	to slam shut
+Präteritum	the simple past tense
+neb(e)lig	foggy (colloquial)
+Herbergsvater	the male youth hostel warden
+E-Mail-Adresse	the email address
+Radwanderkarte	the cycling tour map
+industrialisiert	industrialised
+Violinist	the violinist (2)
+Winterjacke	the winter jacket
+Fachhochschule	the technical college
+waschbar	washable
+Hausärztin	the female family doctor
+Grüezi!	Hello! (Swiss dialect)
+bodenlos	bottomless
+Fräulein!	Waitress! (outdated expression)
+Überfahrt	the sea crossing
+Übernachtung	the overnight stay
+hinunterschauen	to look down
+wiederverwerten	to recycle (2)
+Erbtante	the rich aunt who has no direct heirs
+Bergwelt	the mountain region
+Todesstreifen	the no man's land
+handgestrickt	hand-knit
+Überbleibsel	the remnant
+anfunkeln	to glare at
+Fahrradhelm	the bicycle helmet
+Lexikon	the encyclopedia, the dictionary, the thesaurus
+damalig	at that time
+Fitnessfreak	the fitness freak
+T-Shirt	the T-shirt
+Realschule	the college track, the secondary technical school
+Vokabel	the vocabulary (1)
+Reichspräsident	the German president (before WWII)
+Fundbüro	the lost property office
+Danke.	Thank you.
+blitzartig	with lightning speed
+Insekt	the insect
+mittellang	of medium length
+Übung	the exercise, the tutorial
+Studentenwerk	the student union
+Österreich	Austria
+Mitstudent	the fellow student (at university) (2)
+Fahrgast	the passenger (1)
+Quadratfuß	the square foot (no plural)
+Übersetzer	the translator
+chemiefrei	chemical-free
+übergeschnappt	bonkers, crazy (colloquial)
+Neuseeland	New Zealand
+knalllaut	very loud
+Plastiktasche	the plastic bag
+Mist!	Damn!
+Fußballspiel	the football game
+Pipimädchen	the stupid little girl
+Portemonnaie	the money purse
+altmodisch	old-fashioned
+Geschirrspülmaschine	the dishwasher (1)
+Dreivierteljahr	the three-quarter year, nine months
+Wohnzimmergarnitur	the living room set
+Änderung	the alteration, the modification, the change
+CD-ROM-Laufwerk	the CD-ROM drive
+Fußgängerzone	the pedestrian zone (not crosswalk)
+Auslandsamt	the foreign students office
+Nebensatz	the dependent clause
+Klatschzeitung	the tabloid
+zahnmedizinisch	dental
+Lieblings-	favourite-
+irgendetwas	something or other
+Essen	the meal, food
+herüberspringen	to jump across (toward the speaker)
+Ganztagsstelle	the full time position
+kennenlernen	to get to know
+schattig	shady
+Herein!	Come in!
+Großbuchstabe	the capital letter
+Schade!	Too bad!
+Äquivalent	the equivalent
+Bratkartoffeln	the sauté potatoes (plural only)
+einwandern	to immigrate
+Begleittext	the accompanying text
+Parkhaus	the multi-storey car parking
+Erwartung	the expectation
+Zusatzkrankenversicherung	the supplementary medical insurance (no plural)
+Schinkenwurst	the ham sausage
+inhaltlich	in terms of content
+Massenprodukt	the mass-produced product
+beizen	to stain wood (technical term)
+baumlos	treeless
+D-Zug	the express train (outdated term; equivalent to a present-day Regional Express)
+Spülküche	the scullery
+Fitnesscenter	the gym
+Nikolaus	1. Saint Nicholas, 2. Saint Nicholas' Day  (no plural)
+Buchdruck	the book printing
+Bedienungsgeld	the service charge
+Entschuldigung!	Excuse me!
+Ärger	the annoyance, trouble (no plural)
+Einkaufsgewohnheit	the shopping habit
+Hallo!	Hello!
+Vermieter	the landlord
+Betriebspraktikum	the internship, the industrial placement
+kaputtfahren	to drive into the ground
+eislaufen	to ice skate
+Adventskalender	the Advent calendar
+Einfamilienhaus	the single-family house, a 'monoplex'
+Glückwunschanzeige	the congratulatory ad
+Überraschung	the surprise
+Studiengang	the course of study
+danklos	thankless
+Arbeitserfahrung	the work experience
+Klar!	Sure!
+Frauenbeauftragte	the (female) women's advocate
+Wahlfach	the optional subject (education)
+süddeutsch	southern German (adj.)
+S-Bahn	the city or suburban railway
+sogenannt	so-called
+auspfeifen	to boo, to hiss
+geblümt	flowered
+bestreuen	to sprinkle, to strew
+Maschinenbaumechaniker	the machinist
+Rockfest	the rock festival
+U-Bahn	the underground tube, the metro
+Gartenterrasse	the patio
+Alltagszene	the everyday scene
+Klassenkamerad	the classmate (at primary and secondary school)
+Schwyzerdütsch	the Swiss German (no plural)
+Autofähre	the car ferry
+sonstig	other, miscellaneous
+Weltkulturerbe	the world cultural heritage (no plural)
+Reisescheck	the traveller's cheque
+Aktie	the share (financial only)
+Internetcafé	the internetcafé
+Bierglas	the beer glass
+ausverkaufen	to sell out
+Prima!	Great! Cool! (1)
+Altenheim	the old people's home
+Stehlampe	the floor lamp
+Übersetzung	the translation
+Kanzlerin	the female chancellor
+Badewetter	the swimming weather (no plural)
+fensterlos	windowless
+CD-Spieler	the CD-player
+Bürokaufmann	the office clerk
+restlich	residual, remaining
+Betriebswirtschaft	the business studies (education)
+bisherig	previous
+Ärmel	the sleeve
+Niederdeutsch	Lower German (North Germany) (no plural)
+Landschaftsbild	the scenery (not theatre)
+Elternzeit	the parental leave
+Einbauküche	the built-in kitchen

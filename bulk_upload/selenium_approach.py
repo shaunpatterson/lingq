@@ -38,7 +38,7 @@ def login(fox, username, password):
     
 def createLesson(fox, lang, collectionId, lessonName, lessonText):
     fox.get("http://www.lingq.com/learn/%s/import/contents/?add=&collection=%s" % (lang, collectionId))
-    fox.find_element_by_id('id_title').send_keys(lessonName)
+    fox.find_element_by_id('id_title').send_keys(lessonName.decode('utf-8', 'replace'))
 
     fox.switch_to_frame('id_text_ifr')
     body = fox.find_element_by_tag_name('body')
@@ -149,6 +149,10 @@ def main():
     else:
         print "Usage"
         return
+    
+    #for lessonName, lessonText in lessons.iteritems():
+        #print lessonName
+        #print lessonText
     
     profile = webdriver.FirefoxProfile()
     fox = webdriver.Firefox(profile)
