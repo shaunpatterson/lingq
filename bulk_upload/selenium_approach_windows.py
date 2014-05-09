@@ -157,10 +157,12 @@ def main():
     for lessonName, lessonText in lessons.iteritems():
         profile = webdriver.FirefoxProfile()
         fox = webdriver.Firefox(profile)
-        createLesson(fox, lang, collectionId, lessonName, lessonText);
-    
+        
         print "Logging in"
         login(fox, username, password)
+
+        createLesson(fox, lang, collectionId, lessonName, lessonText);
+    
         fox.quit()
 
 if __name__ == "__main__":
