@@ -2,7 +2,7 @@
 #
 # Authors:
 #  Shaun Patterson
-#  Colin Johnson
+#  Colin Johnstone
 #
 #
 # To run headless:
@@ -26,26 +26,33 @@ import shutil
 import traceback
 from collections import OrderedDict
 
-def createLesson(fox, lessonName, lessonText, tags):
-    fox.get('http://localhost/lwt/long_text_import.php')
+def login(fox, username, password):
+    fox.get('https://www.lingq.com/accounts/login/')
+    fox.find_element_by_id('id_username').send_keys(username)
+    fox.find_element_by_id('id_password').send_keys(password)
+    fox.find_element_by_id('submit-button').click()
+    
+    # Terrible.  But terribly effective for lazy people
+    # Really need to find a way to make sure the page is fully loaded...
+    time.sleep(10)
+    
+def createLesson(fox, lang, collectionId, lessonName, lessonText):
+    fox.get("http://www.lingq.com/learn/%s/import/contents/?add=&collection=%s" % (lang, collectionId))
+    fox.find_element_by_id('id_title').send_keys(lessonName.decode('utf-8', 'replace'))
 
-    titleField = fox.find_element_by_css_selector('.tab3 > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > input:nth-child(1)')
-    titleField.send_keys(lessonName)
+    fox.switch_to_frame('id_text_ifr')
+    body = fox.find_element_by_tag_name('body')
+    fox.execute_script("arguments[0].innerHTML = '<p>{}</p>'".format(lessonText.strip()), body)
 
-    textField = fox.find_element_by_css_selector('.tab3 > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(2) > textarea:nth-child(9)')
-    fox.execute_script("arguments[0].value = '{}'".format(lessonText.strip()), textField)
+    # Back to the original frame
+    fox.switch_to_default_content()
 
-    fox.find_element_by_css_selector('.posintnumber').send_keys('999')
-    fox.find_element_by_css_selector('html body form.validate table.tab3 tbody tr td.td1 ul#texttags.tagit li.tagit-new input.ui-widget-content').send_keys(tags)
+    saveButton = fox.find_element_by_class_name('save-button')
+    saveButton.click()
 
-    # Click next button
-    fox.find_element_by_css_selector('.tab3 > tbody:nth-child(1) > tr:nth-child(8) > td:nth-child(1) > input:nth-child(2)').click()
-    time.sleep(3)
+    # Cry me a river
+    time.sleep(10)
 
-    # Click "Create X text button"
-    fox.find_element_by_css_selector('.tab3 > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) > input:nth-child(3)').click()
-
-    time.sleep(3)
  
 def loadFromZip(zipFileName):
     # Extract the zip into a tmp directory in the current path
@@ -69,7 +76,7 @@ def loadFromZip(zipFileName):
 
         with open(path) as f:
             lessonTextList = f.readlines()
-            lessonText = "\\n".join([ x.strip() for x in lessonTextList ])
+            lessonText = '<br/>'.join([ x.strip() for x in lessonTextList ])
             lessonText = lessonText.replace("'", r"\'")
             lessonName = os.path.splitext(lessonFilename)[0]
             lessons[lessonName] = lessonText
@@ -90,7 +97,7 @@ def loadFromZip(zipFileName):
 def loadFromFileAndHeader(bookFileName, headerFileName):
     with open(bookFileName) as f:
         lessonTextList = f.readlines()
-        lessonText = '\\n'.join([ x.strip() for x in lessonTextList ])
+        lessonText = '<br/>'.join([ x.strip() for x in lessonTextList ])
         lessonText = lessonText.replace("'", r"\'")
         lessonTexts = lessonText.split("NEW_CHAPTER")
      
@@ -103,24 +110,25 @@ def loadFromFileAndHeader(bookFileName, headerFileName):
     for lessonText in lessonTexts:
         lessonWords = lessonText.split()
         lessonTitle = lessonTitleList[counter].strip()
-         
-        if any("BREAK_CHAPTER" in s for s in lessonWords):     
-            # Chapter is broken up into smaller chapters
-            lessonTexts2 = lessonText.split("BREAK_CHAPTER")
-             
-            counter2 = 1
-            for lessonText2 in lessonTexts2:
-                lessonTitle2 = "%s_%s" % (lessonTitle, counter2)
-                lessons[lessonTitle2] = lessonText2
-                counter2+=1
-                 
-                lessonWords = lessonText2.split()
-                print "Make lesson %s with nwords %d" % (lessonTitle2, len(lessonWords))
-
-        else:
-            # Full chapter 
-            lessons[lessonTitle] = lessonText
-            print "Make lesson %s with nwords %d" % (lessonTitle, len(lessonWords))
+        
+        if lessonTitle[0] != '-':
+			if any("BREAK_CHAPTER" in s for s in lessonWords):
+				# Chapter is broken up into smaller chapters
+				lessonTexts2 = lessonText.split("BREAK_CHAPTER")
+							 
+				counter2 = 1
+				for lessonText2 in lessonTexts2:
+					lessonTitle2 = "%s_%s" % (lessonTitle, counter2)
+					lessons[lessonTitle2] = lessonText2
+					counter2+=1
+					 
+					lessonWords = lessonText2.split()
+					print "Make lesson %s with nwords %d" % (lessonTitle2, len(lessonWords))
+					
+			else:
+				# Full chapter
+				lessons[lessonTitle] = lessonText
+				print "Make lesson %s with nwords %d" % (lessonTitle, len(lessonWords))
  
         counter+=1
 
@@ -129,26 +137,31 @@ def loadFromFileAndHeader(bookFileName, headerFileName):
 
 
 def main():
-    if len(sys.argv) == 3:
+    (blank, username, password, lang, collectionId) = sys.argv[:5]
+
+    if len(sys.argv) == 6:
         # zip file name
-        zipFileName = sys.argv[1]
-        tag = sys.argv[2]
+        zipFileName = sys.argv[5]
         lessons = loadFromZip(zipFileName)
-    elif len(sys.argv) == 4:
-        (bookFileName, headerFileName, tag) = (sys.argv[1:])
+    elif len(sys.argv) == 7:
+        (bookFileName, headerFileName) = (sys.argv[5:])
         lessons = loadFromFileAndHeader(bookFileName, headerFileName)
     else:
         print "Usage"
         return
     
-    profile = webdriver.FirefoxProfile()
-    fox = webdriver.Firefox(profile)
     
-    print "Creating lessons"
-    for lessonName, lessonText in lessons.iteritems():
-        createLesson(fox, lessonName, lessonText, tag)
 
-    fox.quit()
+    print "Creating lessons"
+    
+    for lessonName, lessonText in lessons.iteritems():
+        profile = webdriver.FirefoxProfile()
+        fox = webdriver.Firefox(profile)
+        createLesson(fox, lang, collectionId, lessonName, lessonText);
+    
+        print "Logging in"
+        login(fox, username, password)
+        fox.quit()
 
 if __name__ == "__main__":
     main()
