@@ -8,7 +8,7 @@
 # To run headless:
 #
 # Xvfb :10 -ac
-# export DISPLAY=:10
+# export DISPLAY=headers = {'content-type': 'application/json'}:10
 #
 # then run as normal
 
@@ -25,27 +25,62 @@ import datetime
 import shutil
 import traceback
 from collections import OrderedDict
+import argparse
 
-def createLesson(fox, lessonName, lessonText, tags):
-    fox.get('http://localhost/lwt/long_text_import.php')
+import requests
 
-    titleField = fox.find_element_by_css_selector('.tab3 > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > input:nth-child(1)')
-    titleField.send_keys(lessonName)
+def createLesson(lessonName, lessonText, tag):
+    url = 'http://localhost/lwt/edit_texts.php'
 
-    textField = fox.find_element_by_css_selector('.tab3 > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(2) > textarea:nth-child(9)')
-    fox.execute_script("arguments[0].value = '{}'".format(lessonText.strip()), textField)
+    data = {}
+    data['op'] = "Save"
+    data['TxLgID'] = "1"
+    data['TxTitle'] = lessonName
+    data['TxText'] = lessonText
+    data['TxSourceURI'] = ''
+    data['TextTags[TagList][]'] = tag
+    data['TxAudioURI'] = ''
 
-    fox.find_element_by_css_selector('.posintnumber').send_keys('999')
-    fox.find_element_by_css_selector('html body form.validate table.tab3 tbody tr td.td1 ul#texttags.tagit li.tagit-new input.ui-widget-content').send_keys(tags)
+    headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+    r = requests.post(url, data=data, headers=headers)
+    #r = requests.post('http://httpbin.org/post', data=data, headers=headers)
+    #print r.text
 
-    # Click next button
-    fox.find_element_by_css_selector('.tab3 > tbody:nth-child(1) > tr:nth-child(8) > td:nth-child(1) > input:nth-child(2)').click()
-    time.sleep(3)
 
-    # Click "Create X text button"
-    fox.find_element_by_css_selector('.tab3 > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) > input:nth-child(3)').click()
+def loadFromFile(fileName, lessonName):
+    # LessonName(filename) -> Lesson Text
+    lessons = OrderedDict()
+    with open(fileName) as f:
+        lessonTextList = f.readlines()
+        lessonText = "\n".join([ x.strip() for x in lessonTextList ])
+        lessonText = lessonText.replace("'", r"\'")
+        lessons[lessonName] = lessonText
+    
+    return lessons
+    
 
-    time.sleep(3)
+
+def loadFromDir(dirName):
+    lessonFilenames = sorted(os.listdir(dirName))
+    
+    # Not the best way... but it's the way I'm doing it
+    # You should be able to just read the files out of the zip without extracting to
+    #  a temp directory.  Maybe in version 2...
+    # LessonName(filename) -> Lesson Text
+    lessons = OrderedDict()
+    for lessonFilename in lessonFilenames:
+        path = os.path.join(dirName, lessonFilename)
+        if not os.path.isfile(path):
+            continue
+
+        with open(path) as f:
+            lessonTextList = f.readlines()
+            lessonText = "\n".join([ x.strip() for x in lessonTextList ])
+            lessonText = lessonText.replace("'", r"\'")
+            lessonName = os.path.splitext(lessonFilename)[0]
+            lessons[lessonName] = lessonText
+
+    return lessons
  
 def loadFromZip(zipFileName):
     # Extract the zip into a tmp directory in the current path
@@ -55,26 +90,8 @@ def loadFromZip(zipFileName):
     with zipfile.ZipFile(zipFileName) as zf:
         zf.extractall(folderName)
     
-    lessonFilenames = sorted(os.listdir(folderName))
-    
-    # Not the best way... but it's the way I'm doing it
-    # You should be able to just read the files out of the zip without extracting to
-    #  a temp directory.  Maybe in version 2...
-    # LessonName(filename) -> Lesson Text
-    lessons = OrderedDict()
-    for lessonFilename in lessonFilenames:
-        path = os.path.join(folderName, lessonFilename)
-        if not os.path.isfile(path):
-            continue
+    lessons = loadFromDir(folderName)
 
-        with open(path) as f:
-            lessonTextList = f.readlines()
-            lessonText = "\\n".join([ x.strip() for x in lessonTextList ])
-            lessonText = lessonText.replace("'", r"\'")
-            lessonName = os.path.splitext(lessonFilename)[0]
-            lessons[lessonName] = lessonText
-
-    #print lessons
     # Clean up the zip
     shutil.rmtree(folderName)
     return lessons
@@ -90,7 +107,7 @@ def loadFromZip(zipFileName):
 def loadFromFileAndHeader(bookFileName, headerFileName):
     with open(bookFileName) as f:
         lessonTextList = f.readlines()
-        lessonText = '\\n'.join([ x.strip() for x in lessonTextList ])
+        lessonText = '\n'.join([ x.strip() for x in lessonTextList ])
         lessonText = lessonText.replace("'", r"\'")
         lessonTexts = lessonText.split("NEW_CHAPTER")
      
@@ -129,26 +146,42 @@ def loadFromFileAndHeader(bookFileName, headerFileName):
 
 
 def main():
-    if len(sys.argv) == 3:
-        # zip file name
-        zipFileName = sys.argv[1]
-        tag = sys.argv[2]
-        lessons = loadFromZip(zipFileName)
-    elif len(sys.argv) == 4:
-        (bookFileName, headerFileName, tag) = (sys.argv[1:])
+    parser = argparse.ArgumentParser()
+    inputGroup = parser.add_mutually_exclusive_group()
+    inputGroup.add_argument('-z', '--zip', type=str)
+    inputGroup.add_argument('-d', '--dir', type=str)
+    inputGroup.add_argument('-b', '--book', type=str, action='store', nargs='*')
+    inputGroup.add_argument('-f', '--file', type=str, action='store', nargs='*')
+    outputGroup = parser.add_mutually_exclusive_group()
+    outputGroup.add_argument('--test', action='store_true')    # Trial run. No upload
+    parser.add_argument('-t', '--tag', type=str)
+    args = parser.parse_args()
+    
+    if args.zip:
+        print args.zip
+        lessons = loadFromZip(args.zip)
+    elif args.dir:
+        print args.dir
+        lessons = loadFromDir(args.dir)
+    elif args.book:
+        bookFileName = args.book[0]
+        headerFileName = args.book[1]
         lessons = loadFromFileAndHeader(bookFileName, headerFileName)
+    elif args.file:
+        fileName = args.file[0]
+        lessonName = args.file[1]
+        lessons = loadFromFile(fileName, lessonName)
     else:
-        print "Usage"
         return
-    
-    profile = webdriver.FirefoxProfile()
-    fox = webdriver.Firefox(profile)
-    
+   
+
     print "Creating lessons"
     for lessonName, lessonText in lessons.iteritems():
-        createLesson(fox, lessonName, lessonText, tag)
+        if args.test:
+            print lessonName
+        else:
+            createLesson(lessonName, lessonText, args.tag)
 
-    fox.quit()
 
 if __name__ == "__main__":
     main()
