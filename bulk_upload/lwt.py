@@ -43,7 +43,6 @@ def loadFromFile(fileName, lessonName):
     with open(fileName) as f:
         lessonTextList = f.readlines()
         lessonText = "\n".join([ x.strip() for x in lessonTextList ])
-        lessonText = lessonText.replace("'", r"\'")
         lessons[lessonName] = lessonText
     
     return lessons
@@ -75,7 +74,6 @@ def loadFromDir(dirName):
 def loadFromZip(zipFileName):
     # Extract the zip into a tmp directory in the current path
     folderName = str(uuid.uuid1())
-    print folderName
 
     with zipfile.ZipFile(zipFileName) as zf:
         zf.extractall(folderName)
@@ -98,7 +96,6 @@ def loadFromFileAndHeader(bookFileName, headerFileName):
     with open(bookFileName) as f:
         lessonTextList = f.readlines()
         lessonText = '\n'.join([ x.strip() for x in lessonTextList ])
-        lessonText = lessonText.replace("'", r"\'")
         lessonTexts = lessonText.split("NEW_CHAPTER")
      
     with open(headerFileName) as f:
@@ -148,16 +145,18 @@ def main():
     args = parser.parse_args()
     
     if args.zip:
-        print args.zip
+        # --zip ZipFileName
         lessons = loadFromZip(args.zip)
     elif args.dir:
-        print args.dir
+        # --dir DirFileName
         lessons = loadFromDir(args.dir)
     elif args.book:
+        # --book BookFileName HeaderFileName
         bookFileName = args.book[0]
         headerFileName = args.book[1]
         lessons = loadFromFileAndHeader(bookFileName, headerFileName)
     elif args.file:
+        # --file FileName LessonName
         fileName = args.file[0]
         lessonName = args.file[1]
         lessons = loadFromFile(fileName, lessonName)
