@@ -4,21 +4,11 @@
 #  Shaun Patterson
 #  Colin Johnson
 #
-#
-# To run headless:
-#
-# Xvfb :10 -ac
-# export DISPLAY=headers = {'content-type': 'application/json'}:10
-#
-# then run as normal
 
 import os
 import uuid
 import zipfile
 import glob
-from selenium import webdriver
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.keys import Keys
 import sys, time
 from datetime import date, timedelta
 import datetime
